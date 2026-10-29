@@ -1,0 +1,56 @@
+{
+  "flexDirection": { "type": "enum", "css": "flex-direction", "options": ["column", "row", "column-reverse", "row-reverse"] },
+  "flexWrap": { "type": "enum", "css": "flex-wrap", "options": ["nowrap", "wrap"] },
+  "justifyContent": { "type": "enum", "css": "justify-content", "options": ["flex-start", "center", "flex-end", "space-between", "space-around", "space-evenly"] },
+  "alignItems": { "type": "enum", "css": "align-items", "options": ["stretch", "flex-start", "center", "flex-end", "baseline"] },
+  "gap": { "type": "size", "css": "gap", "units": ["px", "em", "rem", "%"], "min": 0, "max": 500 },
+  "boxedWidth": { "type": "size", "css": "max-width", "units": ["px", "%", "vw"], "min": 0, "max": 5000 },
+
+  "width": { "type": "size", "css": "width", "units": ["px", "%", "vw", "em", "rem"], "min": 0, "max": 5000 },
+  "maxWidth": { "type": "size", "css": "max-width", "units": ["px", "%", "vw", "em", "rem"], "min": 0, "max": 5000 },
+  "minHeight": { "type": "size", "css": "min-height", "units": ["px", "vh", "em", "rem"], "min": 0, "max": 5000 },
+  "height": { "type": "size", "css": "height", "units": ["px", "vh", "%", "em", "rem"], "min": 0, "max": 5000 },
+  "alignSelf": { "type": "enum", "css": "align-self", "options": ["auto", "flex-start", "center", "flex-end", "stretch"] },
+  "flexGrow": { "type": "number", "css": "flex-grow", "min": 0, "max": 100 },
+
+  "margin": { "type": "box", "css": "margin", "units": ["px", "%", "em", "rem"], "min": -1000, "max": 1000 },
+  "padding": { "type": "box", "css": "padding", "units": ["px", "%", "em", "rem"], "min": 0, "max": 1000 },
+
+  "globalFont": { "type": "globalFont", "css": "" },
+  "fontFamily": { "type": "fontFamily", "css": "font-family" },
+  "fontSize": { "type": "size", "css": "font-size", "units": ["px", "em", "rem", "vw"], "min": 0, "max": 400 },
+  "fontWeight": { "type": "enum", "css": "font-weight", "options": ["100", "200", "300", "400", "500", "600", "700", "800", "900"] },
+  "lineHeight": { "type": "number", "css": "line-height", "min": 0, "max": 10 },
+  "letterSpacing": { "type": "size", "css": "letter-spacing", "units": ["px", "em"], "min": -20, "max": 100 },
+  "textTransform": { "type": "enum", "css": "text-transform", "options": ["none", "uppercase", "lowercase", "capitalize"] },
+  "fontStyle": { "type": "enum", "css": "font-style", "options": ["normal", "italic"] },
+  "textDecoration": { "type": "enum", "css": "text-decoration", "options": ["none", "underline", "line-through", "overline"] },
+  "textAlign": { "type": "enum", "css": "text-align", "options": ["left", "center", "right", "justify"] },
+  "color": { "type": "color", "css": "color" },
+  "linkColor": { "type": "color", "css": "color" },
+
+  "objectFit": { "type": "enum", "css": "object-fit", "options": ["fill", "contain", "cover", "none", "scale-down"] },
+  "aspectRatio": { "type": "enum", "css": "aspect-ratio", "options": ["16 / 9", "4 / 3", "3 / 2", "1 / 1", "21 / 9", "9 / 16"] },
+
+  "iconSize": { "type": "size", "css": ["width", "height"], "units": ["px", "em", "rem"], "min": 0, "max": 1000 },
+
+  "dividerStyle": { "type": "enum", "css": "border-top-style", "options": ["solid", "dashed", "dotted", "double"] },
+  "dividerWeight": { "type": "size", "css": "border-top-width", "units": ["px"], "min": 0, "max": 100 },
+  "dividerColor": { "type": "color", "css": "border-top-color" },
+
+  "background": { "type": "background", "css": "background" },
+  "border": { "type": "border", "css": "border" },
+  "borderRadius": { "type": "box", "css": "border-radius", "corners": true, "units": ["px", "%", "em"], "min": 0, "max": 2000 },
+  "boxShadow": { "type": "shadow", "css": "box-shadow" },
+  "opacity": { "type": "number", "css": "opacity", "min": 0, "max": 1 },
+  "zIndex": { "type": "number", "css": "z-index", "min": -9999, "max": 9999, "integer": true },
+
+  "hoverColor": { "type": "color", "css": "color", "state": "hover" },
+  "hoverBackgroundColor": { "type": "color", "css": "background-color", "state": "hover" },
+  "hoverBorderColor": { "type": "color", "css": "border-color", "state": "hover" },
+
+  "fieldBackgroundColor": { "type": "color", "css": "background-color" },
+  "fieldBorderColor": { "type": "color", "css": "border-color" },
+  "buttonBackgroundColor": { "type": "color", "css": "background-color" },
+  "buttonTextColor": { "type": "color", "css": "color" }
+}

@@ -1,0 +1,202 @@
+{
+  "schemaVersion": 1,
+  "rootIds": [
+    "contg001"
+  ],
+  "nodes": {
+    "contg001": {
+      "id": "contg001",
+      "type": "container",
+      "props": {
+        "contentWidth": "boxed",
+        "tag": "section"
+      },
+      "style": {
+        "background": {
+          "desktop": {
+            "type": "gradient",
+            "gradientFrom": "global:primary",
+            "gradientTo": "#ffffff",
+            "gradientAngle": 90
+          },
+          "mobile": {
+            "type": "color",
+            "color": "global:gone"
+          }
+        },
+        "boxShadow": {
+          "desktop": {
+            "x": 0,
+            "y": 2,
+            "blur": 8,
+            "spread": 0,
+            "color": "global:text",
+            "inset": false
+          },
+          "tablet": {
+            "x": 0,
+            "y": 1,
+            "blur": 2,
+            "spread": 0,
+            "color": "global:gone",
+            "inset": false
+          }
+        },
+        "border": {
+          "desktop": {
+            "style": "solid",
+            "width": 1,
+            "color": "global:accent"
+          },
+          "mobile": {
+            "style": "dashed",
+            "color": "global:gone"
+          }
+        }
+      },
+      "advanced": {
+        "cssId": "",
+        "cssClasses": "",
+        "hideOn": []
+      },
+      "children": [
+        "headg001",
+        "headg002",
+        "textg001",
+        "buttg001"
+      ]
+    },
+    "headg001": {
+      "id": "headg001",
+      "type": "heading",
+      "props": {
+        "text": "Global heading",
+        "tag": "h1",
+        "link": {
+          "url": "",
+          "newTab": false,
+          "nofollow": false
+        }
+      },
+      "style": {
+        "globalFont": {
+          "desktop": "display"
+        },
+        "color": {
+          "desktop": "global:primary",
+          "mobile": "#000"
+        },
+        "fontSize": {
+          "tablet": {
+            "value": 40,
+            "unit": "px"
+          }
+        }
+      },
+      "advanced": {
+        "cssId": "",
+        "cssClasses": "",
+        "hideOn": []
+      },
+      "children": []
+    },
+    "headg002": {
+      "id": "headg002",
+      "type": "heading",
+      "props": {
+        "text": "Dangling",
+        "tag": "h2",
+        "link": {
+          "url": "",
+          "newTab": false,
+          "nofollow": false
+        }
+      },
+      "style": {
+        "globalFont": {
+          "desktop": "nope"
+        },
+        "color": {
+          "desktop": "global:missing"
+        },
+        "fontWeight": {
+          "desktop": "300"
+        }
+      },
+      "advanced": {
+        "cssId": "",
+        "cssClasses": "",
+        "hideOn": []
+      },
+      "children": []
+    },
+    "textg001": {
+      "id": "textg001",
+      "type": "text",
+      "props": {
+        "html": "<p>Body <a href=\"/x\">link</a></p>"
+      },
+      "style": {
+        "globalFont": {
+          "desktop": "body",
+          "mobile": "display"
+        },
+        "linkColor": {
+          "desktop": "global:accent"
+        }
+      },
+      "advanced": {
+        "cssId": "",
+        "cssClasses": "",
+        "hideOn": []
+      },
+      "children": []
+    },
+    "buttg001": {
+      "id": "buttg001",
+      "type": "button",
+      "props": {
+        "text": "Go",
+        "link": {
+          "url": "/go",
+          "newTab": false,
+          "nofollow": false
+        },
+        "size": "md"
+      },
+      "style": {
+        "background": {
+          "desktop": {
+            "type": "color",
+            "color": "global:primary"
+          }
+        },
+        "hoverBackgroundColor": {
+          "desktop": "global:accent"
+        },
+        "hoverColor": {
+          "desktop": "global:gone"
+        },
+        "globalFont": {
+          "desktop": "display"
+        },
+        "fontFamily": {
+          "mobile": "mono"
+        }
+      },
+      "advanced": {
+        "cssId": "",
+        "cssClasses": "",
+        "hideOn": []
+      },
+      "children": []
+    }
+  },
+  "settings": {
+    "metaDescription": "",
+    "contentWidth": 1140,
+    "backgroundColor": "global:gone",
+    "textColor": "global:text",
+    "fontFamily": null
+  }
+}

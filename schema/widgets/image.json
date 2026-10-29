@@ -1,0 +1,59 @@
+{
+  "type": "image",
+  "title": "Image",
+  "category": "media",
+  "icon": "image",
+  "keywords": ["photo", "picture", "img", "media"],
+  "acceptsChildren": false,
+  "props": {
+    "image": { "type": "image", "default": { "url": "", "width": null, "height": null, "id": null } },
+    "alt": { "type": "text", "maxLength": 300, "default": "" },
+    "caption": { "type": "text", "maxLength": 500, "default": "" },
+    "link": { "type": "link", "default": { "url": "", "newTab": false, "nofollow": false } }
+  },
+  "styleTargets": {
+    "width": " img",
+    "maxWidth": " img",
+    "height": " img",
+    "objectFit": " img",
+    "opacity": " img",
+    "border": " img",
+    "borderRadius": " img",
+    "boxShadow": " img"
+  },
+  "defaultStyle": {},
+  "controls": {
+    "content": [
+      {
+        "section": "Image",
+        "controls": [
+          { "prop": "image", "label": "Choose Image" },
+          { "prop": "alt", "label": "Alternative Text" },
+          { "prop": "caption", "label": "Caption" },
+          { "prop": "link", "label": "Link" }
+        ]
+      }
+    ],
+    "style": [
+      {
+        "section": "Image",
+        "controls": [
+          { "style": "textAlign", "label": "Alignment", "control": "choose" },
+          { "style": "width", "label": "Width" },
+          { "style": "maxWidth", "label": "Max Width" },
+          { "style": "height", "label": "Height" },
+          { "style": "objectFit", "label": "Object Fit" },
+          { "style": "opacity", "label": "Opacity", "responsive": false }
+        ]
+      },
+      {
+        "section": "Border",
+        "controls": [
+          { "style": "border", "label": "Border" },
+          { "style": "borderRadius", "label": "Border Radius" },
+          { "style": "boxShadow", "label": "Box Shadow" }
+        ]
+      }
+    ]
+  }
+}

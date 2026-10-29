@@ -1,0 +1,7230 @@
+[
+  {
+    "name": "base document",
+    "valid": true,
+    "document": {
+      "schemaVersion": 1,
+      "rootIds": [
+        "cont0001"
+      ],
+      "nodes": {
+        "cont0001": {
+          "id": "cont0001",
+          "type": "container",
+          "props": {
+            "contentWidth": "boxed",
+            "tag": "section"
+          },
+          "style": {},
+          "advanced": {
+            "cssId": "",
+            "cssClasses": "",
+            "hideOn": []
+          },
+          "children": [
+            "head0001",
+            "vid00001"
+          ]
+        },
+        "head0001": {
+          "id": "head0001",
+          "type": "heading",
+          "props": {
+            "text": "Hello",
+            "tag": "h2",
+            "link": {
+              "url": "",
+              "newTab": false,
+              "nofollow": false
+            }
+          },
+          "style": {},
+          "advanced": {
+            "cssId": "",
+            "cssClasses": "",
+            "hideOn": []
+          },
+          "children": []
+        },
+        "vid00001": {
+          "id": "vid00001",
+          "type": "video",
+          "props": {
+            "url": "",
+            "title": "Video",
+            "autoplay": false,
+            "muted": false,
+            "loop": false,
+            "controls": true
+          },
+          "style": {},
+          "advanced": {
+            "cssId": "",
+            "cssClasses": "",
+            "hideOn": []
+          },
+          "children": []
+        }
+      },
+      "settings": {
+        "metaDescription": "",
+        "contentWidth": 1140,
+        "backgroundColor": null,
+        "textColor": null,
+        "fontFamily": null
+      }
+    }
+  },
+  {
+    "name": "empty document",
+    "valid": true,
+    "document": {
+      "schemaVersion": 1,
+      "rootIds": [],
+      "nodes": {},
+      "settings": {
+        "metaDescription": "",
+        "contentWidth": 1140,
+        "backgroundColor": null,
+        "textColor": null,
+        "fontFamily": null
+      }
+    }
+  },
+  {
+    "name": "null device value is unset",
+    "valid": true,
+    "document": {
+      "schemaVersion": 1,
+      "rootIds": [
+        "cont0001"
+      ],
+      "nodes": {
+        "cont0001": {
+          "id": "cont0001",
+          "type": "container",
+          "props": {
+            "contentWidth": "boxed",
+            "tag": "section"
+          },
+          "style": {},
+          "advanced": {
+            "cssId": "",
+            "cssClasses": "",
+            "hideOn": []
+          },
+          "children": [
+            "head0001",
+            "vid00001"
+          ]
+        },
+        "head0001": {
+          "id": "head0001",
+          "type": "heading",
+          "props": {
+            "text": "Hello",
+            "tag": "h2",
+            "link": {
+              "url": "",
+              "newTab": false,
+              "nofollow": false
+            }
+          },
+          "style": {
+            "color": {
+              "desktop": "#fff",
+              "tablet": null
+            }
+          },
+          "advanced": {
+            "cssId": "",
+            "cssClasses": "",
+            "hideOn": []
+          },
+          "children": []
+        },
+        "vid00001": {
+          "id": "vid00001",
+          "type": "video",
+          "props": {
+            "url": "",
+            "title": "Video",
+            "autoplay": false,
+            "muted": false,
+            "loop": false,
+            "controls": true
+          },
+          "style": {},
+          "advanced": {
+            "cssId": "",
+            "cssClasses": "",
+            "hideOn": []
+          },
+          "children": []
+        }
+      },
+      "settings": {
+        "metaDescription": "",
+        "contentWidth": 1140,
+        "backgroundColor": null,
+        "textColor": null,
+        "fontFamily": null
+      }
+    }
+  },
+  {
+    "name": "responsive size on all devices",
+    "valid": true,
+    "document": {
+      "schemaVersion": 1,
+      "rootIds": [
+        "cont0001"
+      ],
+      "nodes": {
+        "cont0001": {
+          "id": "cont0001",
+          "type": "container",
+          "props": {
+            "contentWidth": "boxed",
+            "tag": "section"
+          },
+          "style": {},
+          "advanced": {
+            "cssId": "",
+            "cssClasses": "",
+            "hideOn": []
+          },
+          "children": [
+            "head0001",
+            "vid00001"
+          ]
+        },
+        "head0001": {
+          "id": "head0001",
+          "type": "heading",
+          "props": {
+            "text": "Hello",
+            "tag": "h2",
+            "link": {
+              "url": "",
+              "newTab": false,
+              "nofollow": false
+            }
+          },
+          "style": {
+            "fontSize": {
+              "desktop": {
+                "value": 40,
+                "unit": "px"
+              },
+              "tablet": {
+                "value": 2.125,
+                "unit": "rem"
+              },
+              "mobile": {
+                "value": 7.5,
+                "unit": "vw"
+              }
+            }
+          },
+          "advanced": {
+            "cssId": "",
+            "cssClasses": "",
+            "hideOn": []
+          },
+          "children": []
+        },
+        "vid00001": {
+          "id": "vid00001",
+          "type": "video",
+          "props": {
+            "url": "",
+            "title": "Video",
+            "autoplay": false,
+            "muted": false,
+            "loop": false,
+            "controls": true
+          },
+          "style": {},
+          "advanced": {
+            "cssId": "",
+            "cssClasses": "",
+            "hideOn": []
+          },
+          "children": []
+        }
+      },
+      "settings": {
+        "metaDescription": "",
+        "contentWidth": 1140,
+        "backgroundColor": null,
+        "textColor": null,
+        "fontFamily": null
+      }
+    }
+  },
+  {
+    "name": "common advanced style keys allowed on any widget",
+    "valid": true,
+    "document": {
+      "schemaVersion": 1,
+      "rootIds": [
+        "cont0001"
+      ],
+      "nodes": {
+        "cont0001": {
+          "id": "cont0001",
+          "type": "container",
+          "props": {
+            "contentWidth": "boxed",
+            "tag": "section"
+          },
+          "style": {},
+          "advanced": {
+            "cssId": "",
+            "cssClasses": "",
+            "hideOn": []
+          },
+          "children": [
+            "head0001",
+            "vid00001"
+          ]
+        },
+        "head0001": {
+          "id": "head0001",
+          "type": "heading",
+          "props": {
+            "text": "Hello",
+            "tag": "h2",
+            "link": {
+              "url": "",
+              "newTab": false,
+              "nofollow": false
+            }
+          },
+          "style": {
+            "margin": {
+              "desktop": {
+                "top": -10,
+                "unit": "px"
+              }
+            },
+            "zIndex": {
+              "desktop": 3
+            }
+          },
+          "advanced": {
+            "cssId": "",
+            "cssClasses": "",
+            "hideOn": []
+          },
+          "children": []
+        },
+        "vid00001": {
+          "id": "vid00001",
+          "type": "video",
+          "props": {
+            "url": "",
+            "title": "Video",
+            "autoplay": false,
+            "muted": false,
+            "loop": false,
+            "controls": true
+          },
+          "style": {},
+          "advanced": {
+            "cssId": "",
+            "cssClasses": "",
+            "hideOn": []
+          },
+          "children": []
+        }
+      },
+      "settings": {
+        "metaDescription": "",
+        "contentWidth": 1140,
+        "backgroundColor": null,
+        "textColor": null,
+        "fontFamily": null
+      }
+    }
+  },
+  {
+    "name": "advanced attributes",
+    "valid": true,
+    "document": {
+      "schemaVersion": 1,
+      "rootIds": [
+        "cont0001"
+      ],
+      "nodes": {
+        "cont0001": {
+          "id": "cont0001",
+          "type": "container",
+          "props": {
+            "contentWidth": "boxed",
+            "tag": "section"
+          },
+          "style": {},
+          "advanced": {
+            "cssId": "",
+            "cssClasses": "",
+            "hideOn": []
+          },
+          "children": [
+            "head0001",
+            "vid00001"
+          ]
+        },
+        "head0001": {
+          "id": "head0001",
+          "type": "heading",
+          "props": {
+            "text": "Hello",
+            "tag": "h2",
+            "link": {
+              "url": "",
+              "newTab": false,
+              "nofollow": false
+            }
+          },
+          "style": {},
+          "advanced": {
+            "cssId": "intro-title",
+            "cssClasses": "big accent_2",
+            "hideOn": [
+              "mobile",
+              "tablet"
+            ]
+          },
+          "children": []
+        },
+        "vid00001": {
+          "id": "vid00001",
+          "type": "video",
+          "props": {
+            "url": "",
+            "title": "Video",
+            "autoplay": false,
+            "muted": false,
+            "loop": false,
+            "controls": true
+          },
+          "style": {},
+          "advanced": {
+            "cssId": "",
+            "cssClasses": "",
+            "hideOn": []
+          },
+          "children": []
+        }
+      },
+      "settings": {
+        "metaDescription": "",
+        "contentWidth": 1140,
+        "backgroundColor": null,
+        "textColor": null,
+        "fontFamily": null
+      }
+    }
+  },
+  {
+    "name": "missing props fall back to defaults",
+    "valid": true,
+    "document": {
+      "schemaVersion": 1,
+      "rootIds": [
+        "cont0001"
+      ],
+      "nodes": {
+        "cont0001": {
+          "id": "cont0001",
+          "type": "container",
+          "props": {
+            "contentWidth": "boxed",
+            "tag": "section"
+          },
+          "style": {},
+          "advanced": {
+            "cssId": "",
+            "cssClasses": "",
+            "hideOn": []
+          },
+          "children": [
+            "head0001",
+            "vid00001"
+          ]
+        },
+        "head0001": {
+          "id": "head0001",
+          "type": "heading",
+          "props": {},
+          "style": {},
+          "advanced": {
+            "cssId": "",
+            "cssClasses": "",
+            "hideOn": []
+          },
+          "children": []
+        },
+        "vid00001": {
+          "id": "vid00001",
+          "type": "video",
+          "props": {
+            "url": "",
+            "title": "Video",
+            "autoplay": false,
+            "muted": false,
+            "loop": false,
+            "controls": true
+          },
+          "style": {},
+          "advanced": {
+            "cssId": "",
+            "cssClasses": "",
+            "hideOn": []
+          },
+          "children": []
+        }
+      },
+      "settings": {
+        "metaDescription": "",
+        "contentWidth": 1140,
+        "backgroundColor": null,
+        "textColor": null,
+        "fontFamily": null
+      }
+    }
+  },
+  {
+    "name": "settings with every key set",
+    "valid": true,
+    "document": {
+      "schemaVersion": 1,
+      "rootIds": [
+        "cont0001"
+      ],
+      "nodes": {
+        "cont0001": {
+          "id": "cont0001",
+          "type": "container",
+          "props": {
+            "contentWidth": "boxed",
+            "tag": "section"
+          },
+          "style": {},
+          "advanced": {
+            "cssId": "",
+            "cssClasses": "",
+            "hideOn": []
+          },
+          "children": [
+            "head0001",
+            "vid00001"
+          ]
+        },
+        "head0001": {
+          "id": "head0001",
+          "type": "heading",
+          "props": {
+            "text": "Hello",
+            "tag": "h2",
+            "link": {
+              "url": "",
+              "newTab": false,
+              "nofollow": false
+            }
+          },
+          "style": {},
+          "advanced": {
+            "cssId": "",
+            "cssClasses": "",
+            "hideOn": []
+          },
+          "children": []
+        },
+        "vid00001": {
+          "id": "vid00001",
+          "type": "video",
+          "props": {
+            "url": "",
+            "title": "Video",
+            "autoplay": false,
+            "muted": false,
+            "loop": false,
+            "controls": true
+          },
+          "style": {},
+          "advanced": {
+            "cssId": "",
+            "cssClasses": "",
+            "hideOn": []
+          },
+          "children": []
+        }
+      },
+      "settings": {
+        "metaDescription": "Hi",
+        "contentWidth": 960,
+        "backgroundColor": "#ffffff",
+        "textColor": "#111",
+        "fontFamily": "serif"
+      }
+    }
+  },
+  {
+    "name": "wrong schema version",
+    "valid": false,
+    "errorPath": "schemaVersion",
+    "document": {
+      "schemaVersion": 2,
+      "rootIds": [
+        "cont0001"
+      ],
+      "nodes": {
+        "cont0001": {
+          "id": "cont0001",
+          "type": "container",
+          "props": {
+            "contentWidth": "boxed",
+            "tag": "section"
+          },
+          "style": {},
+          "advanced": {
+            "cssId": "",
+            "cssClasses": "",
+            "hideOn": []
+          },
+          "children": [
+            "head0001",
+            "vid00001"
+          ]
+        },
+        "head0001": {
+          "id": "head0001",
+          "type": "heading",
+          "props": {
+            "text": "Hello",
+            "tag": "h2",
+            "link": {
+              "url": "",
+              "newTab": false,
+              "nofollow": false
+            }
+          },
+          "style": {},
+          "advanced": {
+            "cssId": "",
+            "cssClasses": "",
+            "hideOn": []
+          },
+          "children": []
+        },
+        "vid00001": {
+          "id": "vid00001",
+          "type": "video",
+          "props": {
+            "url": "",
+            "title": "Video",
+            "autoplay": false,
+            "muted": false,
+            "loop": false,
+            "controls": true
+          },
+          "style": {},
+          "advanced": {
+            "cssId": "",
+            "cssClasses": "",
+            "hideOn": []
+          },
+          "children": []
+        }
+      },
+      "settings": {
+        "metaDescription": "",
+        "contentWidth": 1140,
+        "backgroundColor": null,
+        "textColor": null,
+        "fontFamily": null
+      }
+    }
+  },
+  {
+    "name": "unknown top-level key",
+    "valid": false,
+    "errorPath": "extra",
+    "document": {
+      "schemaVersion": 1,
+      "rootIds": [
+        "cont0001"
+      ],
+      "nodes": {
+        "cont0001": {
+          "id": "cont0001",
+          "type": "container",
+          "props": {
+            "contentWidth": "boxed",
+            "tag": "section"
+          },
+          "style": {},
+          "advanced": {
+            "cssId": "",
+            "cssClasses": "",
+            "hideOn": []
+          },
+          "children": [
+            "head0001",
+            "vid00001"
+          ]
+        },
+        "head0001": {
+          "id": "head0001",
+          "type": "heading",
+          "props": {
+            "text": "Hello",
+            "tag": "h2",
+            "link": {
+              "url": "",
+              "newTab": false,
+              "nofollow": false
+            }
+          },
+          "style": {},
+          "advanced": {
+            "cssId": "",
+            "cssClasses": "",
+            "hideOn": []
+          },
+          "children": []
+        },
+        "vid00001": {
+          "id": "vid00001",
+          "type": "video",
+          "props": {
+            "url": "",
+            "title": "Video",
+            "autoplay": false,
+            "muted": false,
+            "loop": false,
+            "controls": true
+          },
+          "style": {},
+          "advanced": {
+            "cssId": "",
+            "cssClasses": "",
+            "hideOn": []
+          },
+          "children": []
+        }
+      },
+      "settings": {
+        "metaDescription": "",
+        "contentWidth": 1140,
+        "backgroundColor": null,
+        "textColor": null,
+        "fontFamily": null
+      },
+      "extra": true
+    }
+  },
+  {
+    "name": "rootIds references missing node",
+    "valid": false,
+    "errorPath": "rootIds",
+    "document": {
+      "schemaVersion": 1,
+      "rootIds": [
+        "cont0001",
+        "miss0001"
+      ],
+      "nodes": {
+        "cont0001": {
+          "id": "cont0001",
+          "type": "container",
+          "props": {
+            "contentWidth": "boxed",
+            "tag": "section"
+          },
+          "style": {},
+          "advanced": {
+            "cssId": "",
+            "cssClasses": "",
+            "hideOn": []
+          },
+          "children": [
+            "head0001",
+            "vid00001"
+          ]
+        },
+        "head0001": {
+          "id": "head0001",
+          "type": "heading",
+          "props": {
+            "text": "Hello",
+            "tag": "h2",
+            "link": {
+              "url": "",
+              "newTab": false,
+              "nofollow": false
+            }
+          },
+          "style": {},
+          "advanced": {
+            "cssId": "",
+            "cssClasses": "",
+            "hideOn": []
+          },
+          "children": []
+        },
+        "vid00001": {
+          "id": "vid00001",
+          "type": "video",
+          "props": {
+            "url": "",
+            "title": "Video",
+            "autoplay": false,
+            "muted": false,
+            "loop": false,
+            "controls": true
+          },
+          "style": {},
+          "advanced": {
+            "cssId": "",
+            "cssClasses": "",
+            "hideOn": []
+          },
+          "children": []
+        }
+      },
+      "settings": {
+        "metaDescription": "",
+        "contentWidth": 1140,
+        "backgroundColor": null,
+        "textColor": null,
+        "fontFamily": null
+      }
+    }
+  },
+  {
+    "name": "orphan node",
+    "valid": false,
+    "errorPath": "nodes.orph0001",
+    "document": {
+      "schemaVersion": 1,
+      "rootIds": [
+        "cont0001"
+      ],
+      "nodes": {
+        "cont0001": {
+          "id": "cont0001",
+          "type": "container",
+          "props": {
+            "contentWidth": "boxed",
+            "tag": "section"
+          },
+          "style": {},
+          "advanced": {
+            "cssId": "",
+            "cssClasses": "",
+            "hideOn": []
+          },
+          "children": [
+            "head0001",
+            "vid00001"
+          ]
+        },
+        "head0001": {
+          "id": "head0001",
+          "type": "heading",
+          "props": {
+            "text": "Hello",
+            "tag": "h2",
+            "link": {
+              "url": "",
+              "newTab": false,
+              "nofollow": false
+            }
+          },
+          "style": {},
+          "advanced": {
+            "cssId": "",
+            "cssClasses": "",
+            "hideOn": []
+          },
+          "children": []
+        },
+        "vid00001": {
+          "id": "vid00001",
+          "type": "video",
+          "props": {
+            "url": "",
+            "title": "Video",
+            "autoplay": false,
+            "muted": false,
+            "loop": false,
+            "controls": true
+          },
+          "style": {},
+          "advanced": {
+            "cssId": "",
+            "cssClasses": "",
+            "hideOn": []
+          },
+          "children": []
+        },
+        "orph0001": {
+          "id": "orph0001",
+          "type": "spacer",
+          "props": {},
+          "style": {},
+          "advanced": {
+            "cssId": "",
+            "cssClasses": "",
+            "hideOn": []
+          },
+          "children": []
+        }
+      },
+      "settings": {
+        "metaDescription": "",
+        "contentWidth": 1140,
+        "backgroundColor": null,
+        "textColor": null,
+        "fontFamily": null
+      }
+    }
+  },
+  {
+    "name": "node reachable twice",
+    "valid": false,
+    "errorPath": "nodes.head0001",
+    "document": {
+      "schemaVersion": 1,
+      "rootIds": [
+        "cont0001",
+        "head0001"
+      ],
+      "nodes": {
+        "cont0001": {
+          "id": "cont0001",
+          "type": "container",
+          "props": {
+            "contentWidth": "boxed",
+            "tag": "section"
+          },
+          "style": {},
+          "advanced": {
+            "cssId": "",
+            "cssClasses": "",
+            "hideOn": []
+          },
+          "children": [
+            "head0001",
+            "vid00001"
+          ]
+        },
+        "head0001": {
+          "id": "head0001",
+          "type": "heading",
+          "props": {
+            "text": "Hello",
+            "tag": "h2",
+            "link": {
+              "url": "",
+              "newTab": false,
+              "nofollow": false
+            }
+          },
+          "style": {},
+          "advanced": {
+            "cssId": "",
+            "cssClasses": "",
+            "hideOn": []
+          },
+          "children": []
+        },
+        "vid00001": {
+          "id": "vid00001",
+          "type": "video",
+          "props": {
+            "url": "",
+            "title": "Video",
+            "autoplay": false,
+            "muted": false,
+            "loop": false,
+            "controls": true
+          },
+          "style": {},
+          "advanced": {
+            "cssId": "",
+            "cssClasses": "",
+            "hideOn": []
+          },
+          "children": []
+        }
+      },
+      "settings": {
+        "metaDescription": "",
+        "contentWidth": 1140,
+        "backgroundColor": null,
+        "textColor": null,
+        "fontFamily": null
+      }
+    }
+  },
+  {
+    "name": "cycle",
+    "valid": false,
+    "errorPath": "nodes.cont0001",
+    "document": {
+      "schemaVersion": 1,
+      "rootIds": [
+        "cont0001"
+      ],
+      "nodes": {
+        "cont0001": {
+          "id": "cont0001",
+          "type": "container",
+          "props": {
+            "contentWidth": "boxed",
+            "tag": "section"
+          },
+          "style": {},
+          "advanced": {
+            "cssId": "",
+            "cssClasses": "",
+            "hideOn": []
+          },
+          "children": [
+            "head0001",
+            "vid00001",
+            "cont0001"
+          ]
+        },
+        "head0001": {
+          "id": "head0001",
+          "type": "heading",
+          "props": {
+            "text": "Hello",
+            "tag": "h2",
+            "link": {
+              "url": "",
+              "newTab": false,
+              "nofollow": false
+            }
+          },
+          "style": {},
+          "advanced": {
+            "cssId": "",
+            "cssClasses": "",
+            "hideOn": []
+          },
+          "children": []
+        },
+        "vid00001": {
+          "id": "vid00001",
+          "type": "video",
+          "props": {
+            "url": "",
+            "title": "Video",
+            "autoplay": false,
+            "muted": false,
+            "loop": false,
+            "controls": true
+          },
+          "style": {},
+          "advanced": {
+            "cssId": "",
+            "cssClasses": "",
+            "hideOn": []
+          },
+          "children": []
+        }
+      },
+      "settings": {
+        "metaDescription": "",
+        "contentWidth": 1140,
+        "backgroundColor": null,
+        "textColor": null,
+        "fontFamily": null
+      }
+    }
+  },
+  {
+    "name": "id does not match key",
+    "valid": false,
+    "errorPath": "nodes.head0001.id",
+    "document": {
+      "schemaVersion": 1,
+      "rootIds": [
+        "cont0001"
+      ],
+      "nodes": {
+        "cont0001": {
+          "id": "cont0001",
+          "type": "container",
+          "props": {
+            "contentWidth": "boxed",
+            "tag": "section"
+          },
+          "style": {},
+          "advanced": {
+            "cssId": "",
+            "cssClasses": "",
+            "hideOn": []
+          },
+          "children": [
+            "head0001",
+            "vid00001"
+          ]
+        },
+        "head0001": {
+          "id": "head0002",
+          "type": "heading",
+          "props": {
+            "text": "Hello",
+            "tag": "h2",
+            "link": {
+              "url": "",
+              "newTab": false,
+              "nofollow": false
+            }
+          },
+          "style": {},
+          "advanced": {
+            "cssId": "",
+            "cssClasses": "",
+            "hideOn": []
+          },
+          "children": []
+        },
+        "vid00001": {
+          "id": "vid00001",
+          "type": "video",
+          "props": {
+            "url": "",
+            "title": "Video",
+            "autoplay": false,
+            "muted": false,
+            "loop": false,
+            "controls": true
+          },
+          "style": {},
+          "advanced": {
+            "cssId": "",
+            "cssClasses": "",
+            "hideOn": []
+          },
+          "children": []
+        }
+      },
+      "settings": {
+        "metaDescription": "",
+        "contentWidth": 1140,
+        "backgroundColor": null,
+        "textColor": null,
+        "fontFamily": null
+      }
+    }
+  },
+  {
+    "name": "bad node id pattern",
+    "valid": false,
+    "errorPath": "nodes.BAD-ID01",
+    "document": {
+      "schemaVersion": 1,
+      "rootIds": [
+        "cont0001"
+      ],
+      "nodes": {
+        "cont0001": {
+          "id": "cont0001",
+          "type": "container",
+          "props": {
+            "contentWidth": "boxed",
+            "tag": "section"
+          },
+          "style": {},
+          "advanced": {
+            "cssId": "",
+            "cssClasses": "",
+            "hideOn": []
+          },
+          "children": [
+            "head0001",
+            "vid00001",
+            "BAD-ID01"
+          ]
+        },
+        "head0001": {
+          "id": "head0001",
+          "type": "heading",
+          "props": {
+            "text": "Hello",
+            "tag": "h2",
+            "link": {
+              "url": "",
+              "newTab": false,
+              "nofollow": false
+            }
+          },
+          "style": {},
+          "advanced": {
+            "cssId": "",
+            "cssClasses": "",
+            "hideOn": []
+          },
+          "children": []
+        },
+        "vid00001": {
+          "id": "vid00001",
+          "type": "video",
+          "props": {
+            "url": "",
+            "title": "Video",
+            "autoplay": false,
+            "muted": false,
+            "loop": false,
+            "controls": true
+          },
+          "style": {},
+          "advanced": {
+            "cssId": "",
+            "cssClasses": "",
+            "hideOn": []
+          },
+          "children": []
+        },
+        "BAD-ID01": {
+          "id": "BAD-ID01",
+          "type": "spacer",
+          "props": {},
+          "style": {},
+          "advanced": {
+            "cssId": "",
+            "cssClasses": "",
+            "hideOn": []
+          },
+          "children": []
+        }
+      },
+      "settings": {
+        "metaDescription": "",
+        "contentWidth": 1140,
+        "backgroundColor": null,
+        "textColor": null,
+        "fontFamily": null
+      }
+    }
+  },
+  {
+    "name": "missing node key",
+    "valid": false,
+    "errorPath": "nodes.head0001.advanced",
+    "document": {
+      "schemaVersion": 1,
+      "rootIds": [
+        "cont0001"
+      ],
+      "nodes": {
+        "cont0001": {
+          "id": "cont0001",
+          "type": "container",
+          "props": {
+            "contentWidth": "boxed",
+            "tag": "section"
+          },
+          "style": {},
+          "advanced": {
+            "cssId": "",
+            "cssClasses": "",
+            "hideOn": []
+          },
+          "children": [
+            "head0001",
+            "vid00001"
+          ]
+        },
+        "head0001": {
+          "id": "head0001",
+          "type": "heading",
+          "props": {
+            "text": "Hello",
+            "tag": "h2",
+            "link": {
+              "url": "",
+              "newTab": false,
+              "nofollow": false
+            }
+          },
+          "style": {},
+          "children": []
+        },
+        "vid00001": {
+          "id": "vid00001",
+          "type": "video",
+          "props": {
+            "url": "",
+            "title": "Video",
+            "autoplay": false,
+            "muted": false,
+            "loop": false,
+            "controls": true
+          },
+          "style": {},
+          "advanced": {
+            "cssId": "",
+            "cssClasses": "",
+            "hideOn": []
+          },
+          "children": []
+        }
+      },
+      "settings": {
+        "metaDescription": "",
+        "contentWidth": 1140,
+        "backgroundColor": null,
+        "textColor": null,
+        "fontFamily": null
+      }
+    }
+  },
+  {
+    "name": "unknown node key",
+    "valid": false,
+    "errorPath": "nodes.head0001.extra",
+    "document": {
+      "schemaVersion": 1,
+      "rootIds": [
+        "cont0001"
+      ],
+      "nodes": {
+        "cont0001": {
+          "id": "cont0001",
+          "type": "container",
+          "props": {
+            "contentWidth": "boxed",
+            "tag": "section"
+          },
+          "style": {},
+          "advanced": {
+            "cssId": "",
+            "cssClasses": "",
+            "hideOn": []
+          },
+          "children": [
+            "head0001",
+            "vid00001"
+          ]
+        },
+        "head0001": {
+          "id": "head0001",
+          "type": "heading",
+          "props": {
+            "text": "Hello",
+            "tag": "h2",
+            "link": {
+              "url": "",
+              "newTab": false,
+              "nofollow": false
+            }
+          },
+          "style": {},
+          "advanced": {
+            "cssId": "",
+            "cssClasses": "",
+            "hideOn": []
+          },
+          "children": [],
+          "extra": 1
+        },
+        "vid00001": {
+          "id": "vid00001",
+          "type": "video",
+          "props": {
+            "url": "",
+            "title": "Video",
+            "autoplay": false,
+            "muted": false,
+            "loop": false,
+            "controls": true
+          },
+          "style": {},
+          "advanced": {
+            "cssId": "",
+            "cssClasses": "",
+            "hideOn": []
+          },
+          "children": []
+        }
+      },
+      "settings": {
+        "metaDescription": "",
+        "contentWidth": 1140,
+        "backgroundColor": null,
+        "textColor": null,
+        "fontFamily": null
+      }
+    }
+  },
+  {
+    "name": "unknown widget type",
+    "valid": false,
+    "errorPath": "nodes.head0001.type",
+    "document": {
+      "schemaVersion": 1,
+      "rootIds": [
+        "cont0001"
+      ],
+      "nodes": {
+        "cont0001": {
+          "id": "cont0001",
+          "type": "container",
+          "props": {
+            "contentWidth": "boxed",
+            "tag": "section"
+          },
+          "style": {},
+          "advanced": {
+            "cssId": "",
+            "cssClasses": "",
+            "hideOn": []
+          },
+          "children": [
+            "head0001",
+            "vid00001"
+          ]
+        },
+        "head0001": {
+          "id": "head0001",
+          "type": "carousel",
+          "props": {
+            "text": "Hello",
+            "tag": "h2",
+            "link": {
+              "url": "",
+              "newTab": false,
+              "nofollow": false
+            }
+          },
+          "style": {},
+          "advanced": {
+            "cssId": "",
+            "cssClasses": "",
+            "hideOn": []
+          },
+          "children": []
+        },
+        "vid00001": {
+          "id": "vid00001",
+          "type": "video",
+          "props": {
+            "url": "",
+            "title": "Video",
+            "autoplay": false,
+            "muted": false,
+            "loop": false,
+            "controls": true
+          },
+          "style": {},
+          "advanced": {
+            "cssId": "",
+            "cssClasses": "",
+            "hideOn": []
+          },
+          "children": []
+        }
+      },
+      "settings": {
+        "metaDescription": "",
+        "contentWidth": 1140,
+        "backgroundColor": null,
+        "textColor": null,
+        "fontFamily": null
+      }
+    }
+  },
+  {
+    "name": "leaf with children",
+    "valid": false,
+    "errorPath": "nodes.head0001.children",
+    "document": {
+      "schemaVersion": 1,
+      "rootIds": [
+        "cont0001"
+      ],
+      "nodes": {
+        "cont0001": {
+          "id": "cont0001",
+          "type": "container",
+          "props": {
+            "contentWidth": "boxed",
+            "tag": "section"
+          },
+          "style": {},
+          "advanced": {
+            "cssId": "",
+            "cssClasses": "",
+            "hideOn": []
+          },
+          "children": [
+            "head0001",
+            "vid00001"
+          ]
+        },
+        "head0001": {
+          "id": "head0001",
+          "type": "heading",
+          "props": {
+            "text": "Hello",
+            "tag": "h2",
+            "link": {
+              "url": "",
+              "newTab": false,
+              "nofollow": false
+            }
+          },
+          "style": {},
+          "advanced": {
+            "cssId": "",
+            "cssClasses": "",
+            "hideOn": []
+          },
+          "children": [
+            "spac0001"
+          ]
+        },
+        "vid00001": {
+          "id": "vid00001",
+          "type": "video",
+          "props": {
+            "url": "",
+            "title": "Video",
+            "autoplay": false,
+            "muted": false,
+            "loop": false,
+            "controls": true
+          },
+          "style": {},
+          "advanced": {
+            "cssId": "",
+            "cssClasses": "",
+            "hideOn": []
+          },
+          "children": []
+        },
+        "spac0001": {
+          "id": "spac0001",
+          "type": "spacer",
+          "props": {},
+          "style": {},
+          "advanced": {
+            "cssId": "",
+            "cssClasses": "",
+            "hideOn": []
+          },
+          "children": []
+        }
+      },
+      "settings": {
+        "metaDescription": "",
+        "contentWidth": 1140,
+        "backgroundColor": null,
+        "textColor": null,
+        "fontFamily": null
+      }
+    }
+  },
+  {
+    "name": "children references missing node",
+    "valid": false,
+    "errorPath": "nodes.cont0001.children",
+    "document": {
+      "schemaVersion": 1,
+      "rootIds": [
+        "cont0001"
+      ],
+      "nodes": {
+        "cont0001": {
+          "id": "cont0001",
+          "type": "container",
+          "props": {
+            "contentWidth": "boxed",
+            "tag": "section"
+          },
+          "style": {},
+          "advanced": {
+            "cssId": "",
+            "cssClasses": "",
+            "hideOn": []
+          },
+          "children": [
+            "head0001",
+            "vid00001",
+            "miss0002"
+          ]
+        },
+        "head0001": {
+          "id": "head0001",
+          "type": "heading",
+          "props": {
+            "text": "Hello",
+            "tag": "h2",
+            "link": {
+              "url": "",
+              "newTab": false,
+              "nofollow": false
+            }
+          },
+          "style": {},
+          "advanced": {
+            "cssId": "",
+            "cssClasses": "",
+            "hideOn": []
+          },
+          "children": []
+        },
+        "vid00001": {
+          "id": "vid00001",
+          "type": "video",
+          "props": {
+            "url": "",
+            "title": "Video",
+            "autoplay": false,
+            "muted": false,
+            "loop": false,
+            "controls": true
+          },
+          "style": {},
+          "advanced": {
+            "cssId": "",
+            "cssClasses": "",
+            "hideOn": []
+          },
+          "children": []
+        }
+      },
+      "settings": {
+        "metaDescription": "",
+        "contentWidth": 1140,
+        "backgroundColor": null,
+        "textColor": null,
+        "fontFamily": null
+      }
+    }
+  },
+  {
+    "name": "too deep",
+    "valid": false,
+    "errorPath": "nodes.deep0012",
+    "document": {
+      "schemaVersion": 1,
+      "rootIds": [
+        "cont0001"
+      ],
+      "nodes": {
+        "cont0001": {
+          "id": "cont0001",
+          "type": "container",
+          "props": {
+            "contentWidth": "boxed",
+            "tag": "section"
+          },
+          "style": {},
+          "advanced": {
+            "cssId": "",
+            "cssClasses": "",
+            "hideOn": []
+          },
+          "children": [
+            "head0001",
+            "vid00001",
+            "deep0001"
+          ]
+        },
+        "head0001": {
+          "id": "head0001",
+          "type": "heading",
+          "props": {
+            "text": "Hello",
+            "tag": "h2",
+            "link": {
+              "url": "",
+              "newTab": false,
+              "nofollow": false
+            }
+          },
+          "style": {},
+          "advanced": {
+            "cssId": "",
+            "cssClasses": "",
+            "hideOn": []
+          },
+          "children": []
+        },
+        "vid00001": {
+          "id": "vid00001",
+          "type": "video",
+          "props": {
+            "url": "",
+            "title": "Video",
+            "autoplay": false,
+            "muted": false,
+            "loop": false,
+            "controls": true
+          },
+          "style": {},
+          "advanced": {
+            "cssId": "",
+            "cssClasses": "",
+            "hideOn": []
+          },
+          "children": []
+        },
+        "deep0001": {
+          "id": "deep0001",
+          "type": "container",
+          "props": {
+            "contentWidth": "full",
+            "tag": "div"
+          },
+          "style": {},
+          "advanced": {
+            "cssId": "",
+            "cssClasses": "",
+            "hideOn": []
+          },
+          "children": [
+            "deep0002"
+          ]
+        },
+        "deep0002": {
+          "id": "deep0002",
+          "type": "container",
+          "props": {
+            "contentWidth": "full",
+            "tag": "div"
+          },
+          "style": {},
+          "advanced": {
+            "cssId": "",
+            "cssClasses": "",
+            "hideOn": []
+          },
+          "children": [
+            "deep0003"
+          ]
+        },
+        "deep0003": {
+          "id": "deep0003",
+          "type": "container",
+          "props": {
+            "contentWidth": "full",
+            "tag": "div"
+          },
+          "style": {},
+          "advanced": {
+            "cssId": "",
+            "cssClasses": "",
+            "hideOn": []
+          },
+          "children": [
+            "deep0004"
+          ]
+        },
+        "deep0004": {
+          "id": "deep0004",
+          "type": "container",
+          "props": {
+            "contentWidth": "full",
+            "tag": "div"
+          },
+          "style": {},
+          "advanced": {
+            "cssId": "",
+            "cssClasses": "",
+            "hideOn": []
+          },
+          "children": [
+            "deep0005"
+          ]
+        },
+        "deep0005": {
+          "id": "deep0005",
+          "type": "container",
+          "props": {
+            "contentWidth": "full",
+            "tag": "div"
+          },
+          "style": {},
+          "advanced": {
+            "cssId": "",
+            "cssClasses": "",
+            "hideOn": []
+          },
+          "children": [
+            "deep0006"
+          ]
+        },
+        "deep0006": {
+          "id": "deep0006",
+          "type": "container",
+          "props": {
+            "contentWidth": "full",
+            "tag": "div"
+          },
+          "style": {},
+          "advanced": {
+            "cssId": "",
+            "cssClasses": "",
+            "hideOn": []
+          },
+          "children": [
+            "deep0007"
+          ]
+        },
+        "deep0007": {
+          "id": "deep0007",
+          "type": "container",
+          "props": {
+            "contentWidth": "full",
+            "tag": "div"
+          },
+          "style": {},
+          "advanced": {
+            "cssId": "",
+            "cssClasses": "",
+            "hideOn": []
+          },
+          "children": [
+            "deep0008"
+          ]
+        },
+        "deep0008": {
+          "id": "deep0008",
+          "type": "container",
+          "props": {
+            "contentWidth": "full",
+            "tag": "div"
+          },
+          "style": {},
+          "advanced": {
+            "cssId": "",
+            "cssClasses": "",
+            "hideOn": []
+          },
+          "children": [
+            "deep0009"
+          ]
+        },
+        "deep0009": {
+          "id": "deep0009",
+          "type": "container",
+          "props": {
+            "contentWidth": "full",
+            "tag": "div"
+          },
+          "style": {},
+          "advanced": {
+            "cssId": "",
+            "cssClasses": "",
+            "hideOn": []
+          },
+          "children": [
+            "deep0010"
+          ]
+        },
+        "deep0010": {
+          "id": "deep0010",
+          "type": "container",
+          "props": {
+            "contentWidth": "full",
+            "tag": "div"
+          },
+          "style": {},
+          "advanced": {
+            "cssId": "",
+            "cssClasses": "",
+            "hideOn": []
+          },
+          "children": [
+            "deep0011"
+          ]
+        },
+        "deep0011": {
+          "id": "deep0011",
+          "type": "container",
+          "props": {
+            "contentWidth": "full",
+            "tag": "div"
+          },
+          "style": {},
+          "advanced": {
+            "cssId": "",
+            "cssClasses": "",
+            "hideOn": []
+          },
+          "children": [
+            "deep0012"
+          ]
+        },
+        "deep0012": {
+          "id": "deep0012",
+          "type": "container",
+          "props": {
+            "contentWidth": "full",
+            "tag": "div"
+          },
+          "style": {},
+          "advanced": {
+            "cssId": "",
+            "cssClasses": "",
+            "hideOn": []
+          },
+          "children": []
+        }
+      },
+      "settings": {
+        "metaDescription": "",
+        "contentWidth": 1140,
+        "backgroundColor": null,
+        "textColor": null,
+        "fontFamily": null
+      }
+    }
+  },
+  {
+    "name": "unknown prop",
+    "valid": false,
+    "errorPath": "nodes.head0001.props.color",
+    "document": {
+      "schemaVersion": 1,
+      "rootIds": [
+        "cont0001"
+      ],
+      "nodes": {
+        "cont0001": {
+          "id": "cont0001",
+          "type": "container",
+          "props": {
+            "contentWidth": "boxed",
+            "tag": "section"
+          },
+          "style": {},
+          "advanced": {
+            "cssId": "",
+            "cssClasses": "",
+            "hideOn": []
+          },
+          "children": [
+            "head0001",
+            "vid00001"
+          ]
+        },
+        "head0001": {
+          "id": "head0001",
+          "type": "heading",
+          "props": {
+            "text": "Hello",
+            "tag": "h2",
+            "link": {
+              "url": "",
+              "newTab": false,
+              "nofollow": false
+            },
+            "color": "red"
+          },
+          "style": {},
+          "advanced": {
+            "cssId": "",
+            "cssClasses": "",
+            "hideOn": []
+          },
+          "children": []
+        },
+        "vid00001": {
+          "id": "vid00001",
+          "type": "video",
+          "props": {
+            "url": "",
+            "title": "Video",
+            "autoplay": false,
+            "muted": false,
+            "loop": false,
+            "controls": true
+          },
+          "style": {},
+          "advanced": {
+            "cssId": "",
+            "cssClasses": "",
+            "hideOn": []
+          },
+          "children": []
+        }
+      },
+      "settings": {
+        "metaDescription": "",
+        "contentWidth": 1140,
+        "backgroundColor": null,
+        "textColor": null,
+        "fontFamily": null
+      }
+    }
+  },
+  {
+    "name": "text too long",
+    "valid": false,
+    "errorPath": "nodes.head0001.props.text",
+    "document": {
+      "schemaVersion": 1,
+      "rootIds": [
+        "cont0001"
+      ],
+      "nodes": {
+        "cont0001": {
+          "id": "cont0001",
+          "type": "container",
+          "props": {
+            "contentWidth": "boxed",
+            "tag": "section"
+          },
+          "style": {},
+          "advanced": {
+            "cssId": "",
+            "cssClasses": "",
+            "hideOn": []
+          },
+          "children": [
+            "head0001",
+            "vid00001"
+          ]
+        },
+        "head0001": {
+          "id": "head0001",
+          "type": "heading",
+          "props": {
+            "text": "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+            "tag": "h2",
+            "link": {
+              "url": "",
+              "newTab": false,
+              "nofollow": false
+            }
+          },
+          "style": {},
+          "advanced": {
+            "cssId": "",
+            "cssClasses": "",
+            "hideOn": []
+          },
+          "children": []
+        },
+        "vid00001": {
+          "id": "vid00001",
+          "type": "video",
+          "props": {
+            "url": "",
+            "title": "Video",
+            "autoplay": false,
+            "muted": false,
+            "loop": false,
+            "controls": true
+          },
+          "style": {},
+          "advanced": {
+            "cssId": "",
+            "cssClasses": "",
+            "hideOn": []
+          },
+          "children": []
+        }
+      },
+      "settings": {
+        "metaDescription": "",
+        "contentWidth": 1140,
+        "backgroundColor": null,
+        "textColor": null,
+        "fontFamily": null
+      }
+    }
+  },
+  {
+    "name": "enum out of range",
+    "valid": false,
+    "errorPath": "nodes.head0001.props.tag",
+    "document": {
+      "schemaVersion": 1,
+      "rootIds": [
+        "cont0001"
+      ],
+      "nodes": {
+        "cont0001": {
+          "id": "cont0001",
+          "type": "container",
+          "props": {
+            "contentWidth": "boxed",
+            "tag": "section"
+          },
+          "style": {},
+          "advanced": {
+            "cssId": "",
+            "cssClasses": "",
+            "hideOn": []
+          },
+          "children": [
+            "head0001",
+            "vid00001"
+          ]
+        },
+        "head0001": {
+          "id": "head0001",
+          "type": "heading",
+          "props": {
+            "text": "Hello",
+            "tag": "script",
+            "link": {
+              "url": "",
+              "newTab": false,
+              "nofollow": false
+            }
+          },
+          "style": {},
+          "advanced": {
+            "cssId": "",
+            "cssClasses": "",
+            "hideOn": []
+          },
+          "children": []
+        },
+        "vid00001": {
+          "id": "vid00001",
+          "type": "video",
+          "props": {
+            "url": "",
+            "title": "Video",
+            "autoplay": false,
+            "muted": false,
+            "loop": false,
+            "controls": true
+          },
+          "style": {},
+          "advanced": {
+            "cssId": "",
+            "cssClasses": "",
+            "hideOn": []
+          },
+          "children": []
+        }
+      },
+      "settings": {
+        "metaDescription": "",
+        "contentWidth": 1140,
+        "backgroundColor": null,
+        "textColor": null,
+        "fontFamily": null
+      }
+    }
+  },
+  {
+    "name": "javascript link",
+    "valid": false,
+    "errorPath": "nodes.head0001.props.link",
+    "document": {
+      "schemaVersion": 1,
+      "rootIds": [
+        "cont0001"
+      ],
+      "nodes": {
+        "cont0001": {
+          "id": "cont0001",
+          "type": "container",
+          "props": {
+            "contentWidth": "boxed",
+            "tag": "section"
+          },
+          "style": {},
+          "advanced": {
+            "cssId": "",
+            "cssClasses": "",
+            "hideOn": []
+          },
+          "children": [
+            "head0001",
+            "vid00001"
+          ]
+        },
+        "head0001": {
+          "id": "head0001",
+          "type": "heading",
+          "props": {
+            "text": "Hello",
+            "tag": "h2",
+            "link": {
+              "url": "javascript:alert(1)",
+              "newTab": false,
+              "nofollow": false
+            }
+          },
+          "style": {},
+          "advanced": {
+            "cssId": "",
+            "cssClasses": "",
+            "hideOn": []
+          },
+          "children": []
+        },
+        "vid00001": {
+          "id": "vid00001",
+          "type": "video",
+          "props": {
+            "url": "",
+            "title": "Video",
+            "autoplay": false,
+            "muted": false,
+            "loop": false,
+            "controls": true
+          },
+          "style": {},
+          "advanced": {
+            "cssId": "",
+            "cssClasses": "",
+            "hideOn": []
+          },
+          "children": []
+        }
+      },
+      "settings": {
+        "metaDescription": "",
+        "contentWidth": 1140,
+        "backgroundColor": null,
+        "textColor": null,
+        "fontFamily": null
+      }
+    }
+  },
+  {
+    "name": "protocol-relative link",
+    "valid": false,
+    "errorPath": "nodes.head0001.props.link",
+    "document": {
+      "schemaVersion": 1,
+      "rootIds": [
+        "cont0001"
+      ],
+      "nodes": {
+        "cont0001": {
+          "id": "cont0001",
+          "type": "container",
+          "props": {
+            "contentWidth": "boxed",
+            "tag": "section"
+          },
+          "style": {},
+          "advanced": {
+            "cssId": "",
+            "cssClasses": "",
+            "hideOn": []
+          },
+          "children": [
+            "head0001",
+            "vid00001"
+          ]
+        },
+        "head0001": {
+          "id": "head0001",
+          "type": "heading",
+          "props": {
+            "text": "Hello",
+            "tag": "h2",
+            "link": {
+              "url": "//evil.example",
+              "newTab": false,
+              "nofollow": false
+            }
+          },
+          "style": {},
+          "advanced": {
+            "cssId": "",
+            "cssClasses": "",
+            "hideOn": []
+          },
+          "children": []
+        },
+        "vid00001": {
+          "id": "vid00001",
+          "type": "video",
+          "props": {
+            "url": "",
+            "title": "Video",
+            "autoplay": false,
+            "muted": false,
+            "loop": false,
+            "controls": true
+          },
+          "style": {},
+          "advanced": {
+            "cssId": "",
+            "cssClasses": "",
+            "hideOn": []
+          },
+          "children": []
+        }
+      },
+      "settings": {
+        "metaDescription": "",
+        "contentWidth": 1140,
+        "backgroundColor": null,
+        "textColor": null,
+        "fontFamily": null
+      }
+    }
+  },
+  {
+    "name": "link with unknown key",
+    "valid": false,
+    "errorPath": "nodes.head0001.props.link",
+    "document": {
+      "schemaVersion": 1,
+      "rootIds": [
+        "cont0001"
+      ],
+      "nodes": {
+        "cont0001": {
+          "id": "cont0001",
+          "type": "container",
+          "props": {
+            "contentWidth": "boxed",
+            "tag": "section"
+          },
+          "style": {},
+          "advanced": {
+            "cssId": "",
+            "cssClasses": "",
+            "hideOn": []
+          },
+          "children": [
+            "head0001",
+            "vid00001"
+          ]
+        },
+        "head0001": {
+          "id": "head0001",
+          "type": "heading",
+          "props": {
+            "text": "Hello",
+            "tag": "h2",
+            "link": {
+              "url": "",
+              "onclick": "x"
+            }
+          },
+          "style": {},
+          "advanced": {
+            "cssId": "",
+            "cssClasses": "",
+            "hideOn": []
+          },
+          "children": []
+        },
+        "vid00001": {
+          "id": "vid00001",
+          "type": "video",
+          "props": {
+            "url": "",
+            "title": "Video",
+            "autoplay": false,
+            "muted": false,
+            "loop": false,
+            "controls": true
+          },
+          "style": {},
+          "advanced": {
+            "cssId": "",
+            "cssClasses": "",
+            "hideOn": []
+          },
+          "children": []
+        }
+      },
+      "settings": {
+        "metaDescription": "",
+        "contentWidth": 1140,
+        "backgroundColor": null,
+        "textColor": null,
+        "fontFamily": null
+      }
+    }
+  },
+  {
+    "name": "bool prop not boolean",
+    "valid": false,
+    "errorPath": "nodes.vid00001.props.autoplay",
+    "document": {
+      "schemaVersion": 1,
+      "rootIds": [
+        "cont0001"
+      ],
+      "nodes": {
+        "cont0001": {
+          "id": "cont0001",
+          "type": "container",
+          "props": {
+            "contentWidth": "boxed",
+            "tag": "section"
+          },
+          "style": {},
+          "advanced": {
+            "cssId": "",
+            "cssClasses": "",
+            "hideOn": []
+          },
+          "children": [
+            "head0001",
+            "vid00001"
+          ]
+        },
+        "head0001": {
+          "id": "head0001",
+          "type": "heading",
+          "props": {
+            "text": "Hello",
+            "tag": "h2",
+            "link": {
+              "url": "",
+              "newTab": false,
+              "nofollow": false
+            }
+          },
+          "style": {},
+          "advanced": {
+            "cssId": "",
+            "cssClasses": "",
+            "hideOn": []
+          },
+          "children": []
+        },
+        "vid00001": {
+          "id": "vid00001",
+          "type": "video",
+          "props": {
+            "url": "",
+            "title": "Video",
+            "autoplay": "yes",
+            "muted": false,
+            "loop": false,
+            "controls": true
+          },
+          "style": {},
+          "advanced": {
+            "cssId": "",
+            "cssClasses": "",
+            "hideOn": []
+          },
+          "children": []
+        }
+      },
+      "settings": {
+        "metaDescription": "",
+        "contentWidth": 1140,
+        "backgroundColor": null,
+        "textColor": null,
+        "fontFamily": null
+      }
+    }
+  },
+  {
+    "name": "video url not http",
+    "valid": false,
+    "errorPath": "nodes.vid00001.props.url",
+    "document": {
+      "schemaVersion": 1,
+      "rootIds": [
+        "cont0001"
+      ],
+      "nodes": {
+        "cont0001": {
+          "id": "cont0001",
+          "type": "container",
+          "props": {
+            "contentWidth": "boxed",
+            "tag": "section"
+          },
+          "style": {},
+          "advanced": {
+            "cssId": "",
+            "cssClasses": "",
+            "hideOn": []
+          },
+          "children": [
+            "head0001",
+            "vid00001"
+          ]
+        },
+        "head0001": {
+          "id": "head0001",
+          "type": "heading",
+          "props": {
+            "text": "Hello",
+            "tag": "h2",
+            "link": {
+              "url": "",
+              "newTab": false,
+              "nofollow": false
+            }
+          },
+          "style": {},
+          "advanced": {
+            "cssId": "",
+            "cssClasses": "",
+            "hideOn": []
+          },
+          "children": []
+        },
+        "vid00001": {
+          "id": "vid00001",
+          "type": "video",
+          "props": {
+            "url": "ftp://example.com/a.mp4",
+            "title": "Video",
+            "autoplay": false,
+            "muted": false,
+            "loop": false,
+            "controls": true
+          },
+          "style": {},
+          "advanced": {
+            "cssId": "",
+            "cssClasses": "",
+            "hideOn": []
+          },
+          "children": []
+        }
+      },
+      "settings": {
+        "metaDescription": "",
+        "contentWidth": 1140,
+        "backgroundColor": null,
+        "textColor": null,
+        "fontFamily": null
+      }
+    }
+  },
+  {
+    "name": "image url with quote",
+    "valid": false,
+    "errorPath": "nodes.imag0001.props.image",
+    "document": {
+      "schemaVersion": 1,
+      "rootIds": [
+        "cont0001"
+      ],
+      "nodes": {
+        "cont0001": {
+          "id": "cont0001",
+          "type": "container",
+          "props": {
+            "contentWidth": "boxed",
+            "tag": "section"
+          },
+          "style": {},
+          "advanced": {
+            "cssId": "",
+            "cssClasses": "",
+            "hideOn": []
+          },
+          "children": [
+            "head0001",
+            "vid00001",
+            "imag0001"
+          ]
+        },
+        "head0001": {
+          "id": "head0001",
+          "type": "heading",
+          "props": {
+            "text": "Hello",
+            "tag": "h2",
+            "link": {
+              "url": "",
+              "newTab": false,
+              "nofollow": false
+            }
+          },
+          "style": {},
+          "advanced": {
+            "cssId": "",
+            "cssClasses": "",
+            "hideOn": []
+          },
+          "children": []
+        },
+        "vid00001": {
+          "id": "vid00001",
+          "type": "video",
+          "props": {
+            "url": "",
+            "title": "Video",
+            "autoplay": false,
+            "muted": false,
+            "loop": false,
+            "controls": true
+          },
+          "style": {},
+          "advanced": {
+            "cssId": "",
+            "cssClasses": "",
+            "hideOn": []
+          },
+          "children": []
+        },
+        "imag0001": {
+          "id": "imag0001",
+          "type": "image",
+          "props": {
+            "image": {
+              "url": "https://x.example/a\".png",
+              "width": null,
+              "height": null,
+              "id": null
+            }
+          },
+          "style": {},
+          "advanced": {
+            "cssId": "",
+            "cssClasses": "",
+            "hideOn": []
+          },
+          "children": []
+        }
+      },
+      "settings": {
+        "metaDescription": "",
+        "contentWidth": 1140,
+        "backgroundColor": null,
+        "textColor": null,
+        "fontFamily": null
+      }
+    }
+  },
+  {
+    "name": "richtext not string",
+    "valid": false,
+    "errorPath": "nodes.text0001.props.html",
+    "document": {
+      "schemaVersion": 1,
+      "rootIds": [
+        "cont0001"
+      ],
+      "nodes": {
+        "cont0001": {
+          "id": "cont0001",
+          "type": "container",
+          "props": {
+            "contentWidth": "boxed",
+            "tag": "section"
+          },
+          "style": {},
+          "advanced": {
+            "cssId": "",
+            "cssClasses": "",
+            "hideOn": []
+          },
+          "children": [
+            "head0001",
+            "vid00001",
+            "text0001"
+          ]
+        },
+        "head0001": {
+          "id": "head0001",
+          "type": "heading",
+          "props": {
+            "text": "Hello",
+            "tag": "h2",
+            "link": {
+              "url": "",
+              "newTab": false,
+              "nofollow": false
+            }
+          },
+          "style": {},
+          "advanced": {
+            "cssId": "",
+            "cssClasses": "",
+            "hideOn": []
+          },
+          "children": []
+        },
+        "vid00001": {
+          "id": "vid00001",
+          "type": "video",
+          "props": {
+            "url": "",
+            "title": "Video",
+            "autoplay": false,
+            "muted": false,
+            "loop": false,
+            "controls": true
+          },
+          "style": {},
+          "advanced": {
+            "cssId": "",
+            "cssClasses": "",
+            "hideOn": []
+          },
+          "children": []
+        },
+        "text0001": {
+          "id": "text0001",
+          "type": "text",
+          "props": {
+            "html": [
+              "<p>x</p>"
+            ]
+          },
+          "style": {},
+          "advanced": {
+            "cssId": "",
+            "cssClasses": "",
+            "hideOn": []
+          },
+          "children": []
+        }
+      },
+      "settings": {
+        "metaDescription": "",
+        "contentWidth": 1140,
+        "backgroundColor": null,
+        "textColor": null,
+        "fontFamily": null
+      }
+    }
+  },
+  {
+    "name": "unknown icon",
+    "valid": false,
+    "errorPath": "nodes.icon0001.props.icon",
+    "document": {
+      "schemaVersion": 1,
+      "rootIds": [
+        "cont0001"
+      ],
+      "nodes": {
+        "cont0001": {
+          "id": "cont0001",
+          "type": "container",
+          "props": {
+            "contentWidth": "boxed",
+            "tag": "section"
+          },
+          "style": {},
+          "advanced": {
+            "cssId": "",
+            "cssClasses": "",
+            "hideOn": []
+          },
+          "children": [
+            "head0001",
+            "vid00001",
+            "icon0001"
+          ]
+        },
+        "head0001": {
+          "id": "head0001",
+          "type": "heading",
+          "props": {
+            "text": "Hello",
+            "tag": "h2",
+            "link": {
+              "url": "",
+              "newTab": false,
+              "nofollow": false
+            }
+          },
+          "style": {},
+          "advanced": {
+            "cssId": "",
+            "cssClasses": "",
+            "hideOn": []
+          },
+          "children": []
+        },
+        "vid00001": {
+          "id": "vid00001",
+          "type": "video",
+          "props": {
+            "url": "",
+            "title": "Video",
+            "autoplay": false,
+            "muted": false,
+            "loop": false,
+            "controls": true
+          },
+          "style": {},
+          "advanced": {
+            "cssId": "",
+            "cssClasses": "",
+            "hideOn": []
+          },
+          "children": []
+        },
+        "icon0001": {
+          "id": "icon0001",
+          "type": "icon",
+          "props": {
+            "icon": "rocket"
+          },
+          "style": {},
+          "advanced": {
+            "cssId": "",
+            "cssClasses": "",
+            "hideOn": []
+          },
+          "children": []
+        }
+      },
+      "settings": {
+        "metaDescription": "",
+        "contentWidth": 1140,
+        "backgroundColor": null,
+        "textColor": null,
+        "fontFamily": null
+      }
+    }
+  },
+  {
+    "name": "style key not allowed for widget",
+    "valid": false,
+    "errorPath": "nodes.head0001.style.hoverBackgroundColor",
+    "document": {
+      "schemaVersion": 1,
+      "rootIds": [
+        "cont0001"
+      ],
+      "nodes": {
+        "cont0001": {
+          "id": "cont0001",
+          "type": "container",
+          "props": {
+            "contentWidth": "boxed",
+            "tag": "section"
+          },
+          "style": {},
+          "advanced": {
+            "cssId": "",
+            "cssClasses": "",
+            "hideOn": []
+          },
+          "children": [
+            "head0001",
+            "vid00001"
+          ]
+        },
+        "head0001": {
+          "id": "head0001",
+          "type": "heading",
+          "props": {
+            "text": "Hello",
+            "tag": "h2",
+            "link": {
+              "url": "",
+              "newTab": false,
+              "nofollow": false
+            }
+          },
+          "style": {
+            "hoverBackgroundColor": {
+              "desktop": "#000"
+            }
+          },
+          "advanced": {
+            "cssId": "",
+            "cssClasses": "",
+            "hideOn": []
+          },
+          "children": []
+        },
+        "vid00001": {
+          "id": "vid00001",
+          "type": "video",
+          "props": {
+            "url": "",
+            "title": "Video",
+            "autoplay": false,
+            "muted": false,
+            "loop": false,
+            "controls": true
+          },
+          "style": {},
+          "advanced": {
+            "cssId": "",
+            "cssClasses": "",
+            "hideOn": []
+          },
+          "children": []
+        }
+      },
+      "settings": {
+        "metaDescription": "",
+        "contentWidth": 1140,
+        "backgroundColor": null,
+        "textColor": null,
+        "fontFamily": null
+      }
+    }
+  },
+  {
+    "name": "unknown style key",
+    "valid": false,
+    "errorPath": "nodes.head0001.style.float",
+    "document": {
+      "schemaVersion": 1,
+      "rootIds": [
+        "cont0001"
+      ],
+      "nodes": {
+        "cont0001": {
+          "id": "cont0001",
+          "type": "container",
+          "props": {
+            "contentWidth": "boxed",
+            "tag": "section"
+          },
+          "style": {},
+          "advanced": {
+            "cssId": "",
+            "cssClasses": "",
+            "hideOn": []
+          },
+          "children": [
+            "head0001",
+            "vid00001"
+          ]
+        },
+        "head0001": {
+          "id": "head0001",
+          "type": "heading",
+          "props": {
+            "text": "Hello",
+            "tag": "h2",
+            "link": {
+              "url": "",
+              "newTab": false,
+              "nofollow": false
+            }
+          },
+          "style": {
+            "float": {
+              "desktop": "left"
+            }
+          },
+          "advanced": {
+            "cssId": "",
+            "cssClasses": "",
+            "hideOn": []
+          },
+          "children": []
+        },
+        "vid00001": {
+          "id": "vid00001",
+          "type": "video",
+          "props": {
+            "url": "",
+            "title": "Video",
+            "autoplay": false,
+            "muted": false,
+            "loop": false,
+            "controls": true
+          },
+          "style": {},
+          "advanced": {
+            "cssId": "",
+            "cssClasses": "",
+            "hideOn": []
+          },
+          "children": []
+        }
+      },
+      "settings": {
+        "metaDescription": "",
+        "contentWidth": 1140,
+        "backgroundColor": null,
+        "textColor": null,
+        "fontFamily": null
+      }
+    }
+  },
+  {
+    "name": "unknown device",
+    "valid": false,
+    "errorPath": "nodes.head0001.style.color",
+    "document": {
+      "schemaVersion": 1,
+      "rootIds": [
+        "cont0001"
+      ],
+      "nodes": {
+        "cont0001": {
+          "id": "cont0001",
+          "type": "container",
+          "props": {
+            "contentWidth": "boxed",
+            "tag": "section"
+          },
+          "style": {},
+          "advanced": {
+            "cssId": "",
+            "cssClasses": "",
+            "hideOn": []
+          },
+          "children": [
+            "head0001",
+            "vid00001"
+          ]
+        },
+        "head0001": {
+          "id": "head0001",
+          "type": "heading",
+          "props": {
+            "text": "Hello",
+            "tag": "h2",
+            "link": {
+              "url": "",
+              "newTab": false,
+              "nofollow": false
+            }
+          },
+          "style": {
+            "color": {
+              "watch": "#000"
+            }
+          },
+          "advanced": {
+            "cssId": "",
+            "cssClasses": "",
+            "hideOn": []
+          },
+          "children": []
+        },
+        "vid00001": {
+          "id": "vid00001",
+          "type": "video",
+          "props": {
+            "url": "",
+            "title": "Video",
+            "autoplay": false,
+            "muted": false,
+            "loop": false,
+            "controls": true
+          },
+          "style": {},
+          "advanced": {
+            "cssId": "",
+            "cssClasses": "",
+            "hideOn": []
+          },
+          "children": []
+        }
+      },
+      "settings": {
+        "metaDescription": "",
+        "contentWidth": 1140,
+        "backgroundColor": null,
+        "textColor": null,
+        "fontFamily": null
+      }
+    }
+  },
+  {
+    "name": "named color rejected",
+    "valid": false,
+    "errorPath": "nodes.head0001.style.color.desktop",
+    "document": {
+      "schemaVersion": 1,
+      "rootIds": [
+        "cont0001"
+      ],
+      "nodes": {
+        "cont0001": {
+          "id": "cont0001",
+          "type": "container",
+          "props": {
+            "contentWidth": "boxed",
+            "tag": "section"
+          },
+          "style": {},
+          "advanced": {
+            "cssId": "",
+            "cssClasses": "",
+            "hideOn": []
+          },
+          "children": [
+            "head0001",
+            "vid00001"
+          ]
+        },
+        "head0001": {
+          "id": "head0001",
+          "type": "heading",
+          "props": {
+            "text": "Hello",
+            "tag": "h2",
+            "link": {
+              "url": "",
+              "newTab": false,
+              "nofollow": false
+            }
+          },
+          "style": {
+            "color": {
+              "desktop": "red"
+            }
+          },
+          "advanced": {
+            "cssId": "",
+            "cssClasses": "",
+            "hideOn": []
+          },
+          "children": []
+        },
+        "vid00001": {
+          "id": "vid00001",
+          "type": "video",
+          "props": {
+            "url": "",
+            "title": "Video",
+            "autoplay": false,
+            "muted": false,
+            "loop": false,
+            "controls": true
+          },
+          "style": {},
+          "advanced": {
+            "cssId": "",
+            "cssClasses": "",
+            "hideOn": []
+          },
+          "children": []
+        }
+      },
+      "settings": {
+        "metaDescription": "",
+        "contentWidth": 1140,
+        "backgroundColor": null,
+        "textColor": null,
+        "fontFamily": null
+      }
+    }
+  },
+  {
+    "name": "size unit not allowed",
+    "valid": false,
+    "errorPath": "nodes.head0001.style.fontSize.desktop",
+    "document": {
+      "schemaVersion": 1,
+      "rootIds": [
+        "cont0001"
+      ],
+      "nodes": {
+        "cont0001": {
+          "id": "cont0001",
+          "type": "container",
+          "props": {
+            "contentWidth": "boxed",
+            "tag": "section"
+          },
+          "style": {},
+          "advanced": {
+            "cssId": "",
+            "cssClasses": "",
+            "hideOn": []
+          },
+          "children": [
+            "head0001",
+            "vid00001"
+          ]
+        },
+        "head0001": {
+          "id": "head0001",
+          "type": "heading",
+          "props": {
+            "text": "Hello",
+            "tag": "h2",
+            "link": {
+              "url": "",
+              "newTab": false,
+              "nofollow": false
+            }
+          },
+          "style": {
+            "fontSize": {
+              "desktop": {
+                "value": 12,
+                "unit": "pt"
+              }
+            }
+          },
+          "advanced": {
+            "cssId": "",
+            "cssClasses": "",
+            "hideOn": []
+          },
+          "children": []
+        },
+        "vid00001": {
+          "id": "vid00001",
+          "type": "video",
+          "props": {
+            "url": "",
+            "title": "Video",
+            "autoplay": false,
+            "muted": false,
+            "loop": false,
+            "controls": true
+          },
+          "style": {},
+          "advanced": {
+            "cssId": "",
+            "cssClasses": "",
+            "hideOn": []
+          },
+          "children": []
+        }
+      },
+      "settings": {
+        "metaDescription": "",
+        "contentWidth": 1140,
+        "backgroundColor": null,
+        "textColor": null,
+        "fontFamily": null
+      }
+    }
+  },
+  {
+    "name": "size out of range",
+    "valid": false,
+    "errorPath": "nodes.head0001.style.fontSize.tablet",
+    "document": {
+      "schemaVersion": 1,
+      "rootIds": [
+        "cont0001"
+      ],
+      "nodes": {
+        "cont0001": {
+          "id": "cont0001",
+          "type": "container",
+          "props": {
+            "contentWidth": "boxed",
+            "tag": "section"
+          },
+          "style": {},
+          "advanced": {
+            "cssId": "",
+            "cssClasses": "",
+            "hideOn": []
+          },
+          "children": [
+            "head0001",
+            "vid00001"
+          ]
+        },
+        "head0001": {
+          "id": "head0001",
+          "type": "heading",
+          "props": {
+            "text": "Hello",
+            "tag": "h2",
+            "link": {
+              "url": "",
+              "newTab": false,
+              "nofollow": false
+            }
+          },
+          "style": {
+            "fontSize": {
+              "tablet": {
+                "value": 401,
+                "unit": "px"
+              }
+            }
+          },
+          "advanced": {
+            "cssId": "",
+            "cssClasses": "",
+            "hideOn": []
+          },
+          "children": []
+        },
+        "vid00001": {
+          "id": "vid00001",
+          "type": "video",
+          "props": {
+            "url": "",
+            "title": "Video",
+            "autoplay": false,
+            "muted": false,
+            "loop": false,
+            "controls": true
+          },
+          "style": {},
+          "advanced": {
+            "cssId": "",
+            "cssClasses": "",
+            "hideOn": []
+          },
+          "children": []
+        }
+      },
+      "settings": {
+        "metaDescription": "",
+        "contentWidth": 1140,
+        "backgroundColor": null,
+        "textColor": null,
+        "fontFamily": null
+      }
+    }
+  },
+  {
+    "name": "too many decimals",
+    "valid": false,
+    "errorPath": "nodes.head0001.style.lineHeight.desktop",
+    "document": {
+      "schemaVersion": 1,
+      "rootIds": [
+        "cont0001"
+      ],
+      "nodes": {
+        "cont0001": {
+          "id": "cont0001",
+          "type": "container",
+          "props": {
+            "contentWidth": "boxed",
+            "tag": "section"
+          },
+          "style": {},
+          "advanced": {
+            "cssId": "",
+            "cssClasses": "",
+            "hideOn": []
+          },
+          "children": [
+            "head0001",
+            "vid00001"
+          ]
+        },
+        "head0001": {
+          "id": "head0001",
+          "type": "heading",
+          "props": {
+            "text": "Hello",
+            "tag": "h2",
+            "link": {
+              "url": "",
+              "newTab": false,
+              "nofollow": false
+            }
+          },
+          "style": {
+            "lineHeight": {
+              "desktop": 1.2345
+            }
+          },
+          "advanced": {
+            "cssId": "",
+            "cssClasses": "",
+            "hideOn": []
+          },
+          "children": []
+        },
+        "vid00001": {
+          "id": "vid00001",
+          "type": "video",
+          "props": {
+            "url": "",
+            "title": "Video",
+            "autoplay": false,
+            "muted": false,
+            "loop": false,
+            "controls": true
+          },
+          "style": {},
+          "advanced": {
+            "cssId": "",
+            "cssClasses": "",
+            "hideOn": []
+          },
+          "children": []
+        }
+      },
+      "settings": {
+        "metaDescription": "",
+        "contentWidth": 1140,
+        "backgroundColor": null,
+        "textColor": null,
+        "fontFamily": null
+      }
+    }
+  },
+  {
+    "name": "box without unit",
+    "valid": false,
+    "errorPath": "nodes.head0001.style.padding.desktop",
+    "document": {
+      "schemaVersion": 1,
+      "rootIds": [
+        "cont0001"
+      ],
+      "nodes": {
+        "cont0001": {
+          "id": "cont0001",
+          "type": "container",
+          "props": {
+            "contentWidth": "boxed",
+            "tag": "section"
+          },
+          "style": {},
+          "advanced": {
+            "cssId": "",
+            "cssClasses": "",
+            "hideOn": []
+          },
+          "children": [
+            "head0001",
+            "vid00001"
+          ]
+        },
+        "head0001": {
+          "id": "head0001",
+          "type": "heading",
+          "props": {
+            "text": "Hello",
+            "tag": "h2",
+            "link": {
+              "url": "",
+              "newTab": false,
+              "nofollow": false
+            }
+          },
+          "style": {
+            "padding": {
+              "desktop": {
+                "top": 10
+              }
+            }
+          },
+          "advanced": {
+            "cssId": "",
+            "cssClasses": "",
+            "hideOn": []
+          },
+          "children": []
+        },
+        "vid00001": {
+          "id": "vid00001",
+          "type": "video",
+          "props": {
+            "url": "",
+            "title": "Video",
+            "autoplay": false,
+            "muted": false,
+            "loop": false,
+            "controls": true
+          },
+          "style": {},
+          "advanced": {
+            "cssId": "",
+            "cssClasses": "",
+            "hideOn": []
+          },
+          "children": []
+        }
+      },
+      "settings": {
+        "metaDescription": "",
+        "contentWidth": 1140,
+        "backgroundColor": null,
+        "textColor": null,
+        "fontFamily": null
+      }
+    }
+  },
+  {
+    "name": "negative padding",
+    "valid": false,
+    "errorPath": "nodes.head0001.style.padding.mobile",
+    "document": {
+      "schemaVersion": 1,
+      "rootIds": [
+        "cont0001"
+      ],
+      "nodes": {
+        "cont0001": {
+          "id": "cont0001",
+          "type": "container",
+          "props": {
+            "contentWidth": "boxed",
+            "tag": "section"
+          },
+          "style": {},
+          "advanced": {
+            "cssId": "",
+            "cssClasses": "",
+            "hideOn": []
+          },
+          "children": [
+            "head0001",
+            "vid00001"
+          ]
+        },
+        "head0001": {
+          "id": "head0001",
+          "type": "heading",
+          "props": {
+            "text": "Hello",
+            "tag": "h2",
+            "link": {
+              "url": "",
+              "newTab": false,
+              "nofollow": false
+            }
+          },
+          "style": {
+            "padding": {
+              "mobile": {
+                "top": -1,
+                "unit": "px"
+              }
+            }
+          },
+          "advanced": {
+            "cssId": "",
+            "cssClasses": "",
+            "hideOn": []
+          },
+          "children": []
+        },
+        "vid00001": {
+          "id": "vid00001",
+          "type": "video",
+          "props": {
+            "url": "",
+            "title": "Video",
+            "autoplay": false,
+            "muted": false,
+            "loop": false,
+            "controls": true
+          },
+          "style": {},
+          "advanced": {
+            "cssId": "",
+            "cssClasses": "",
+            "hideOn": []
+          },
+          "children": []
+        }
+      },
+      "settings": {
+        "metaDescription": "",
+        "contentWidth": 1140,
+        "backgroundColor": null,
+        "textColor": null,
+        "fontFamily": null
+      }
+    }
+  },
+  {
+    "name": "integer property with fraction",
+    "valid": false,
+    "errorPath": "nodes.head0001.style.zIndex.desktop",
+    "document": {
+      "schemaVersion": 1,
+      "rootIds": [
+        "cont0001"
+      ],
+      "nodes": {
+        "cont0001": {
+          "id": "cont0001",
+          "type": "container",
+          "props": {
+            "contentWidth": "boxed",
+            "tag": "section"
+          },
+          "style": {},
+          "advanced": {
+            "cssId": "",
+            "cssClasses": "",
+            "hideOn": []
+          },
+          "children": [
+            "head0001",
+            "vid00001"
+          ]
+        },
+        "head0001": {
+          "id": "head0001",
+          "type": "heading",
+          "props": {
+            "text": "Hello",
+            "tag": "h2",
+            "link": {
+              "url": "",
+              "newTab": false,
+              "nofollow": false
+            }
+          },
+          "style": {
+            "zIndex": {
+              "desktop": 1.5
+            }
+          },
+          "advanced": {
+            "cssId": "",
+            "cssClasses": "",
+            "hideOn": []
+          },
+          "children": []
+        },
+        "vid00001": {
+          "id": "vid00001",
+          "type": "video",
+          "props": {
+            "url": "",
+            "title": "Video",
+            "autoplay": false,
+            "muted": false,
+            "loop": false,
+            "controls": true
+          },
+          "style": {},
+          "advanced": {
+            "cssId": "",
+            "cssClasses": "",
+            "hideOn": []
+          },
+          "children": []
+        }
+      },
+      "settings": {
+        "metaDescription": "",
+        "contentWidth": 1140,
+        "backgroundColor": null,
+        "textColor": null,
+        "fontFamily": null
+      }
+    }
+  },
+  {
+    "name": "background bad type",
+    "valid": false,
+    "errorPath": "nodes.cont0001.style.background.desktop",
+    "document": {
+      "schemaVersion": 1,
+      "rootIds": [
+        "cont0001"
+      ],
+      "nodes": {
+        "cont0001": {
+          "id": "cont0001",
+          "type": "container",
+          "props": {
+            "contentWidth": "boxed",
+            "tag": "section"
+          },
+          "style": {
+            "background": {
+              "desktop": {
+                "type": "video"
+              }
+            }
+          },
+          "advanced": {
+            "cssId": "",
+            "cssClasses": "",
+            "hideOn": []
+          },
+          "children": [
+            "head0001",
+            "vid00001"
+          ]
+        },
+        "head0001": {
+          "id": "head0001",
+          "type": "heading",
+          "props": {
+            "text": "Hello",
+            "tag": "h2",
+            "link": {
+              "url": "",
+              "newTab": false,
+              "nofollow": false
+            }
+          },
+          "style": {},
+          "advanced": {
+            "cssId": "",
+            "cssClasses": "",
+            "hideOn": []
+          },
+          "children": []
+        },
+        "vid00001": {
+          "id": "vid00001",
+          "type": "video",
+          "props": {
+            "url": "",
+            "title": "Video",
+            "autoplay": false,
+            "muted": false,
+            "loop": false,
+            "controls": true
+          },
+          "style": {},
+          "advanced": {
+            "cssId": "",
+            "cssClasses": "",
+            "hideOn": []
+          },
+          "children": []
+        }
+      },
+      "settings": {
+        "metaDescription": "",
+        "contentWidth": 1140,
+        "backgroundColor": null,
+        "textColor": null,
+        "fontFamily": null
+      }
+    }
+  },
+  {
+    "name": "background image url with parenthesis",
+    "valid": false,
+    "errorPath": "nodes.cont0001.style.background.desktop",
+    "document": {
+      "schemaVersion": 1,
+      "rootIds": [
+        "cont0001"
+      ],
+      "nodes": {
+        "cont0001": {
+          "id": "cont0001",
+          "type": "container",
+          "props": {
+            "contentWidth": "boxed",
+            "tag": "section"
+          },
+          "style": {
+            "background": {
+              "desktop": {
+                "type": "image",
+                "imageUrl": "https://x.example/a).png"
+              }
+            }
+          },
+          "advanced": {
+            "cssId": "",
+            "cssClasses": "",
+            "hideOn": []
+          },
+          "children": [
+            "head0001",
+            "vid00001"
+          ]
+        },
+        "head0001": {
+          "id": "head0001",
+          "type": "heading",
+          "props": {
+            "text": "Hello",
+            "tag": "h2",
+            "link": {
+              "url": "",
+              "newTab": false,
+              "nofollow": false
+            }
+          },
+          "style": {},
+          "advanced": {
+            "cssId": "",
+            "cssClasses": "",
+            "hideOn": []
+          },
+          "children": []
+        },
+        "vid00001": {
+          "id": "vid00001",
+          "type": "video",
+          "props": {
+            "url": "",
+            "title": "Video",
+            "autoplay": false,
+            "muted": false,
+            "loop": false,
+            "controls": true
+          },
+          "style": {},
+          "advanced": {
+            "cssId": "",
+            "cssClasses": "",
+            "hideOn": []
+          },
+          "children": []
+        }
+      },
+      "settings": {
+        "metaDescription": "",
+        "contentWidth": 1140,
+        "backgroundColor": null,
+        "textColor": null,
+        "fontFamily": null
+      }
+    }
+  },
+  {
+    "name": "shadow missing key",
+    "valid": false,
+    "errorPath": "nodes.cont0001.style.boxShadow.desktop",
+    "document": {
+      "schemaVersion": 1,
+      "rootIds": [
+        "cont0001"
+      ],
+      "nodes": {
+        "cont0001": {
+          "id": "cont0001",
+          "type": "container",
+          "props": {
+            "contentWidth": "boxed",
+            "tag": "section"
+          },
+          "style": {
+            "boxShadow": {
+              "desktop": {
+                "x": 0,
+                "y": 0,
+                "blur": 4,
+                "color": "#000",
+                "inset": false
+              }
+            }
+          },
+          "advanced": {
+            "cssId": "",
+            "cssClasses": "",
+            "hideOn": []
+          },
+          "children": [
+            "head0001",
+            "vid00001"
+          ]
+        },
+        "head0001": {
+          "id": "head0001",
+          "type": "heading",
+          "props": {
+            "text": "Hello",
+            "tag": "h2",
+            "link": {
+              "url": "",
+              "newTab": false,
+              "nofollow": false
+            }
+          },
+          "style": {},
+          "advanced": {
+            "cssId": "",
+            "cssClasses": "",
+            "hideOn": []
+          },
+          "children": []
+        },
+        "vid00001": {
+          "id": "vid00001",
+          "type": "video",
+          "props": {
+            "url": "",
+            "title": "Video",
+            "autoplay": false,
+            "muted": false,
+            "loop": false,
+            "controls": true
+          },
+          "style": {},
+          "advanced": {
+            "cssId": "",
+            "cssClasses": "",
+            "hideOn": []
+          },
+          "children": []
+        }
+      },
+      "settings": {
+        "metaDescription": "",
+        "contentWidth": 1140,
+        "backgroundColor": null,
+        "textColor": null,
+        "fontFamily": null
+      }
+    }
+  },
+  {
+    "name": "border bad style",
+    "valid": false,
+    "errorPath": "nodes.cont0001.style.border.desktop",
+    "document": {
+      "schemaVersion": 1,
+      "rootIds": [
+        "cont0001"
+      ],
+      "nodes": {
+        "cont0001": {
+          "id": "cont0001",
+          "type": "container",
+          "props": {
+            "contentWidth": "boxed",
+            "tag": "section"
+          },
+          "style": {
+            "border": {
+              "desktop": {
+                "style": "wavy"
+              }
+            }
+          },
+          "advanced": {
+            "cssId": "",
+            "cssClasses": "",
+            "hideOn": []
+          },
+          "children": [
+            "head0001",
+            "vid00001"
+          ]
+        },
+        "head0001": {
+          "id": "head0001",
+          "type": "heading",
+          "props": {
+            "text": "Hello",
+            "tag": "h2",
+            "link": {
+              "url": "",
+              "newTab": false,
+              "nofollow": false
+            }
+          },
+          "style": {},
+          "advanced": {
+            "cssId": "",
+            "cssClasses": "",
+            "hideOn": []
+          },
+          "children": []
+        },
+        "vid00001": {
+          "id": "vid00001",
+          "type": "video",
+          "props": {
+            "url": "",
+            "title": "Video",
+            "autoplay": false,
+            "muted": false,
+            "loop": false,
+            "controls": true
+          },
+          "style": {},
+          "advanced": {
+            "cssId": "",
+            "cssClasses": "",
+            "hideOn": []
+          },
+          "children": []
+        }
+      },
+      "settings": {
+        "metaDescription": "",
+        "contentWidth": 1140,
+        "backgroundColor": null,
+        "textColor": null,
+        "fontFamily": null
+      }
+    }
+  },
+  {
+    "name": "font key unknown",
+    "valid": false,
+    "errorPath": "nodes.head0001.style.fontFamily.desktop",
+    "document": {
+      "schemaVersion": 1,
+      "rootIds": [
+        "cont0001"
+      ],
+      "nodes": {
+        "cont0001": {
+          "id": "cont0001",
+          "type": "container",
+          "props": {
+            "contentWidth": "boxed",
+            "tag": "section"
+          },
+          "style": {},
+          "advanced": {
+            "cssId": "",
+            "cssClasses": "",
+            "hideOn": []
+          },
+          "children": [
+            "head0001",
+            "vid00001"
+          ]
+        },
+        "head0001": {
+          "id": "head0001",
+          "type": "heading",
+          "props": {
+            "text": "Hello",
+            "tag": "h2",
+            "link": {
+              "url": "",
+              "newTab": false,
+              "nofollow": false
+            }
+          },
+          "style": {
+            "fontFamily": {
+              "desktop": "Comic Sans"
+            }
+          },
+          "advanced": {
+            "cssId": "",
+            "cssClasses": "",
+            "hideOn": []
+          },
+          "children": []
+        },
+        "vid00001": {
+          "id": "vid00001",
+          "type": "video",
+          "props": {
+            "url": "",
+            "title": "Video",
+            "autoplay": false,
+            "muted": false,
+            "loop": false,
+            "controls": true
+          },
+          "style": {},
+          "advanced": {
+            "cssId": "",
+            "cssClasses": "",
+            "hideOn": []
+          },
+          "children": []
+        }
+      },
+      "settings": {
+        "metaDescription": "",
+        "contentWidth": 1140,
+        "backgroundColor": null,
+        "textColor": null,
+        "fontFamily": null
+      }
+    }
+  },
+  {
+    "name": "css id starts with digit",
+    "valid": false,
+    "errorPath": "nodes.head0001.advanced.cssId",
+    "document": {
+      "schemaVersion": 1,
+      "rootIds": [
+        "cont0001"
+      ],
+      "nodes": {
+        "cont0001": {
+          "id": "cont0001",
+          "type": "container",
+          "props": {
+            "contentWidth": "boxed",
+            "tag": "section"
+          },
+          "style": {},
+          "advanced": {
+            "cssId": "",
+            "cssClasses": "",
+            "hideOn": []
+          },
+          "children": [
+            "head0001",
+            "vid00001"
+          ]
+        },
+        "head0001": {
+          "id": "head0001",
+          "type": "heading",
+          "props": {
+            "text": "Hello",
+            "tag": "h2",
+            "link": {
+              "url": "",
+              "newTab": false,
+              "nofollow": false
+            }
+          },
+          "style": {},
+          "advanced": {
+            "cssId": "1abc",
+            "cssClasses": "",
+            "hideOn": []
+          },
+          "children": []
+        },
+        "vid00001": {
+          "id": "vid00001",
+          "type": "video",
+          "props": {
+            "url": "",
+            "title": "Video",
+            "autoplay": false,
+            "muted": false,
+            "loop": false,
+            "controls": true
+          },
+          "style": {},
+          "advanced": {
+            "cssId": "",
+            "cssClasses": "",
+            "hideOn": []
+          },
+          "children": []
+        }
+      },
+      "settings": {
+        "metaDescription": "",
+        "contentWidth": 1140,
+        "backgroundColor": null,
+        "textColor": null,
+        "fontFamily": null
+      }
+    }
+  },
+  {
+    "name": "css classes with quote",
+    "valid": false,
+    "errorPath": "nodes.head0001.advanced.cssClasses",
+    "document": {
+      "schemaVersion": 1,
+      "rootIds": [
+        "cont0001"
+      ],
+      "nodes": {
+        "cont0001": {
+          "id": "cont0001",
+          "type": "container",
+          "props": {
+            "contentWidth": "boxed",
+            "tag": "section"
+          },
+          "style": {},
+          "advanced": {
+            "cssId": "",
+            "cssClasses": "",
+            "hideOn": []
+          },
+          "children": [
+            "head0001",
+            "vid00001"
+          ]
+        },
+        "head0001": {
+          "id": "head0001",
+          "type": "heading",
+          "props": {
+            "text": "Hello",
+            "tag": "h2",
+            "link": {
+              "url": "",
+              "newTab": false,
+              "nofollow": false
+            }
+          },
+          "style": {},
+          "advanced": {
+            "cssId": "",
+            "cssClasses": "a\"b",
+            "hideOn": []
+          },
+          "children": []
+        },
+        "vid00001": {
+          "id": "vid00001",
+          "type": "video",
+          "props": {
+            "url": "",
+            "title": "Video",
+            "autoplay": false,
+            "muted": false,
+            "loop": false,
+            "controls": true
+          },
+          "style": {},
+          "advanced": {
+            "cssId": "",
+            "cssClasses": "",
+            "hideOn": []
+          },
+          "children": []
+        }
+      },
+      "settings": {
+        "metaDescription": "",
+        "contentWidth": 1140,
+        "backgroundColor": null,
+        "textColor": null,
+        "fontFamily": null
+      }
+    }
+  },
+  {
+    "name": "hideOn duplicate",
+    "valid": false,
+    "errorPath": "nodes.head0001.advanced.hideOn",
+    "document": {
+      "schemaVersion": 1,
+      "rootIds": [
+        "cont0001"
+      ],
+      "nodes": {
+        "cont0001": {
+          "id": "cont0001",
+          "type": "container",
+          "props": {
+            "contentWidth": "boxed",
+            "tag": "section"
+          },
+          "style": {},
+          "advanced": {
+            "cssId": "",
+            "cssClasses": "",
+            "hideOn": []
+          },
+          "children": [
+            "head0001",
+            "vid00001"
+          ]
+        },
+        "head0001": {
+          "id": "head0001",
+          "type": "heading",
+          "props": {
+            "text": "Hello",
+            "tag": "h2",
+            "link": {
+              "url": "",
+              "newTab": false,
+              "nofollow": false
+            }
+          },
+          "style": {},
+          "advanced": {
+            "cssId": "",
+            "cssClasses": "",
+            "hideOn": [
+              "mobile",
+              "mobile"
+            ]
+          },
+          "children": []
+        },
+        "vid00001": {
+          "id": "vid00001",
+          "type": "video",
+          "props": {
+            "url": "",
+            "title": "Video",
+            "autoplay": false,
+            "muted": false,
+            "loop": false,
+            "controls": true
+          },
+          "style": {},
+          "advanced": {
+            "cssId": "",
+            "cssClasses": "",
+            "hideOn": []
+          },
+          "children": []
+        }
+      },
+      "settings": {
+        "metaDescription": "",
+        "contentWidth": 1140,
+        "backgroundColor": null,
+        "textColor": null,
+        "fontFamily": null
+      }
+    }
+  },
+  {
+    "name": "unknown advanced key",
+    "valid": false,
+    "errorPath": "nodes.head0001.advanced.onclick",
+    "document": {
+      "schemaVersion": 1,
+      "rootIds": [
+        "cont0001"
+      ],
+      "nodes": {
+        "cont0001": {
+          "id": "cont0001",
+          "type": "container",
+          "props": {
+            "contentWidth": "boxed",
+            "tag": "section"
+          },
+          "style": {},
+          "advanced": {
+            "cssId": "",
+            "cssClasses": "",
+            "hideOn": []
+          },
+          "children": [
+            "head0001",
+            "vid00001"
+          ]
+        },
+        "head0001": {
+          "id": "head0001",
+          "type": "heading",
+          "props": {
+            "text": "Hello",
+            "tag": "h2",
+            "link": {
+              "url": "",
+              "newTab": false,
+              "nofollow": false
+            }
+          },
+          "style": {},
+          "advanced": {
+            "cssId": "",
+            "cssClasses": "",
+            "hideOn": [],
+            "onclick": "x"
+          },
+          "children": []
+        },
+        "vid00001": {
+          "id": "vid00001",
+          "type": "video",
+          "props": {
+            "url": "",
+            "title": "Video",
+            "autoplay": false,
+            "muted": false,
+            "loop": false,
+            "controls": true
+          },
+          "style": {},
+          "advanced": {
+            "cssId": "",
+            "cssClasses": "",
+            "hideOn": []
+          },
+          "children": []
+        }
+      },
+      "settings": {
+        "metaDescription": "",
+        "contentWidth": 1140,
+        "backgroundColor": null,
+        "textColor": null,
+        "fontFamily": null
+      }
+    }
+  },
+  {
+    "name": "settings width too small",
+    "valid": false,
+    "errorPath": "settings.contentWidth",
+    "document": {
+      "schemaVersion": 1,
+      "rootIds": [
+        "cont0001"
+      ],
+      "nodes": {
+        "cont0001": {
+          "id": "cont0001",
+          "type": "container",
+          "props": {
+            "contentWidth": "boxed",
+            "tag": "section"
+          },
+          "style": {},
+          "advanced": {
+            "cssId": "",
+            "cssClasses": "",
+            "hideOn": []
+          },
+          "children": [
+            "head0001",
+            "vid00001"
+          ]
+        },
+        "head0001": {
+          "id": "head0001",
+          "type": "heading",
+          "props": {
+            "text": "Hello",
+            "tag": "h2",
+            "link": {
+              "url": "",
+              "newTab": false,
+              "nofollow": false
+            }
+          },
+          "style": {},
+          "advanced": {
+            "cssId": "",
+            "cssClasses": "",
+            "hideOn": []
+          },
+          "children": []
+        },
+        "vid00001": {
+          "id": "vid00001",
+          "type": "video",
+          "props": {
+            "url": "",
+            "title": "Video",
+            "autoplay": false,
+            "muted": false,
+            "loop": false,
+            "controls": true
+          },
+          "style": {},
+          "advanced": {
+            "cssId": "",
+            "cssClasses": "",
+            "hideOn": []
+          },
+          "children": []
+        }
+      },
+      "settings": {
+        "metaDescription": "",
+        "contentWidth": 100,
+        "backgroundColor": null,
+        "textColor": null,
+        "fontFamily": null
+      }
+    }
+  },
+  {
+    "name": "settings unknown key",
+    "valid": false,
+    "errorPath": "settings.favicon",
+    "document": {
+      "schemaVersion": 1,
+      "rootIds": [
+        "cont0001"
+      ],
+      "nodes": {
+        "cont0001": {
+          "id": "cont0001",
+          "type": "container",
+          "props": {
+            "contentWidth": "boxed",
+            "tag": "section"
+          },
+          "style": {},
+          "advanced": {
+            "cssId": "",
+            "cssClasses": "",
+            "hideOn": []
+          },
+          "children": [
+            "head0001",
+            "vid00001"
+          ]
+        },
+        "head0001": {
+          "id": "head0001",
+          "type": "heading",
+          "props": {
+            "text": "Hello",
+            "tag": "h2",
+            "link": {
+              "url": "",
+              "newTab": false,
+              "nofollow": false
+            }
+          },
+          "style": {},
+          "advanced": {
+            "cssId": "",
+            "cssClasses": "",
+            "hideOn": []
+          },
+          "children": []
+        },
+        "vid00001": {
+          "id": "vid00001",
+          "type": "video",
+          "props": {
+            "url": "",
+            "title": "Video",
+            "autoplay": false,
+            "muted": false,
+            "loop": false,
+            "controls": true
+          },
+          "style": {},
+          "advanced": {
+            "cssId": "",
+            "cssClasses": "",
+            "hideOn": []
+          },
+          "children": []
+        }
+      },
+      "settings": {
+        "metaDescription": "",
+        "contentWidth": 1140,
+        "backgroundColor": null,
+        "textColor": null,
+        "fontFamily": null,
+        "favicon": "/x.ico"
+      }
+    }
+  },
+  {
+    "name": "custom css: declarations",
+    "valid": true,
+    "document": {
+      "schemaVersion": 1,
+      "rootIds": [
+        "cont0001"
+      ],
+      "nodes": {
+        "cont0001": {
+          "id": "cont0001",
+          "type": "container",
+          "props": {
+            "contentWidth": "boxed",
+            "tag": "section"
+          },
+          "style": {},
+          "advanced": {
+            "cssId": "",
+            "cssClasses": "",
+            "hideOn": []
+          },
+          "children": [
+            "head0001",
+            "vid00001"
+          ]
+        },
+        "head0001": {
+          "id": "head0001",
+          "type": "heading",
+          "props": {
+            "text": "Hello",
+            "tag": "h2",
+            "link": {
+              "url": "",
+              "newTab": false,
+              "nofollow": false
+            }
+          },
+          "style": {},
+          "advanced": {
+            "cssId": "",
+            "cssClasses": "",
+            "hideOn": [],
+            "customCss": "color: red;"
+          },
+          "children": []
+        },
+        "vid00001": {
+          "id": "vid00001",
+          "type": "video",
+          "props": {
+            "url": "",
+            "title": "Video",
+            "autoplay": false,
+            "muted": false,
+            "loop": false,
+            "controls": true
+          },
+          "style": {},
+          "advanced": {
+            "cssId": "",
+            "cssClasses": "",
+            "hideOn": []
+          },
+          "children": []
+        }
+      },
+      "settings": {
+        "metaDescription": "",
+        "contentWidth": 1140,
+        "backgroundColor": null,
+        "textColor": null,
+        "fontFamily": null
+      }
+    }
+  },
+  {
+    "name": "custom css: nested rules",
+    "valid": true,
+    "document": {
+      "schemaVersion": 1,
+      "rootIds": [
+        "cont0001"
+      ],
+      "nodes": {
+        "cont0001": {
+          "id": "cont0001",
+          "type": "container",
+          "props": {
+            "contentWidth": "boxed",
+            "tag": "section"
+          },
+          "style": {},
+          "advanced": {
+            "cssId": "",
+            "cssClasses": "",
+            "hideOn": []
+          },
+          "children": [
+            "head0001",
+            "vid00001"
+          ]
+        },
+        "head0001": {
+          "id": "head0001",
+          "type": "heading",
+          "props": {
+            "text": "Hello",
+            "tag": "h2",
+            "link": {
+              "url": "",
+              "newTab": false,
+              "nofollow": false
+            }
+          },
+          "style": {},
+          "advanced": {
+            "cssId": "",
+            "cssClasses": "",
+            "hideOn": [],
+            "customCss": "&:hover { opacity: .8 } a { color: #f00 }"
+          },
+          "children": []
+        },
+        "vid00001": {
+          "id": "vid00001",
+          "type": "video",
+          "props": {
+            "url": "",
+            "title": "Video",
+            "autoplay": false,
+            "muted": false,
+            "loop": false,
+            "controls": true
+          },
+          "style": {},
+          "advanced": {
+            "cssId": "",
+            "cssClasses": "",
+            "hideOn": []
+          },
+          "children": []
+        }
+      },
+      "settings": {
+        "metaDescription": "",
+        "contentWidth": 1140,
+        "backgroundColor": null,
+        "textColor": null,
+        "fontFamily": null
+      }
+    }
+  },
+  {
+    "name": "custom css: nested media query",
+    "valid": true,
+    "document": {
+      "schemaVersion": 1,
+      "rootIds": [
+        "cont0001"
+      ],
+      "nodes": {
+        "cont0001": {
+          "id": "cont0001",
+          "type": "container",
+          "props": {
+            "contentWidth": "boxed",
+            "tag": "section"
+          },
+          "style": {},
+          "advanced": {
+            "cssId": "",
+            "cssClasses": "",
+            "hideOn": []
+          },
+          "children": [
+            "head0001",
+            "vid00001"
+          ]
+        },
+        "head0001": {
+          "id": "head0001",
+          "type": "heading",
+          "props": {
+            "text": "Hello",
+            "tag": "h2",
+            "link": {
+              "url": "",
+              "newTab": false,
+              "nofollow": false
+            }
+          },
+          "style": {},
+          "advanced": {
+            "cssId": "",
+            "cssClasses": "",
+            "hideOn": [],
+            "customCss": "@media (max-width: 767px) { & { display: none } }"
+          },
+          "children": []
+        },
+        "vid00001": {
+          "id": "vid00001",
+          "type": "video",
+          "props": {
+            "url": "",
+            "title": "Video",
+            "autoplay": false,
+            "muted": false,
+            "loop": false,
+            "controls": true
+          },
+          "style": {},
+          "advanced": {
+            "cssId": "",
+            "cssClasses": "",
+            "hideOn": []
+          },
+          "children": []
+        }
+      },
+      "settings": {
+        "metaDescription": "",
+        "contentWidth": 1140,
+        "backgroundColor": null,
+        "textColor": null,
+        "fontFamily": null
+      }
+    }
+  },
+  {
+    "name": "custom css: brace inside string",
+    "valid": true,
+    "document": {
+      "schemaVersion": 1,
+      "rootIds": [
+        "cont0001"
+      ],
+      "nodes": {
+        "cont0001": {
+          "id": "cont0001",
+          "type": "container",
+          "props": {
+            "contentWidth": "boxed",
+            "tag": "section"
+          },
+          "style": {},
+          "advanced": {
+            "cssId": "",
+            "cssClasses": "",
+            "hideOn": []
+          },
+          "children": [
+            "head0001",
+            "vid00001"
+          ]
+        },
+        "head0001": {
+          "id": "head0001",
+          "type": "heading",
+          "props": {
+            "text": "Hello",
+            "tag": "h2",
+            "link": {
+              "url": "",
+              "newTab": false,
+              "nofollow": false
+            }
+          },
+          "style": {},
+          "advanced": {
+            "cssId": "",
+            "cssClasses": "",
+            "hideOn": [],
+            "customCss": "content: \"}\";"
+          },
+          "children": []
+        },
+        "vid00001": {
+          "id": "vid00001",
+          "type": "video",
+          "props": {
+            "url": "",
+            "title": "Video",
+            "autoplay": false,
+            "muted": false,
+            "loop": false,
+            "controls": true
+          },
+          "style": {},
+          "advanced": {
+            "cssId": "",
+            "cssClasses": "",
+            "hideOn": []
+          },
+          "children": []
+        }
+      },
+      "settings": {
+        "metaDescription": "",
+        "contentWidth": 1140,
+        "backgroundColor": null,
+        "textColor": null,
+        "fontFamily": null
+      }
+    }
+  },
+  {
+    "name": "custom css: escaped quote inside string",
+    "valid": true,
+    "document": {
+      "schemaVersion": 1,
+      "rootIds": [
+        "cont0001"
+      ],
+      "nodes": {
+        "cont0001": {
+          "id": "cont0001",
+          "type": "container",
+          "props": {
+            "contentWidth": "boxed",
+            "tag": "section"
+          },
+          "style": {},
+          "advanced": {
+            "cssId": "",
+            "cssClasses": "",
+            "hideOn": []
+          },
+          "children": [
+            "head0001",
+            "vid00001"
+          ]
+        },
+        "head0001": {
+          "id": "head0001",
+          "type": "heading",
+          "props": {
+            "text": "Hello",
+            "tag": "h2",
+            "link": {
+              "url": "",
+              "newTab": false,
+              "nofollow": false
+            }
+          },
+          "style": {},
+          "advanced": {
+            "cssId": "",
+            "cssClasses": "",
+            "hideOn": [],
+            "customCss": "content: '\\'';"
+          },
+          "children": []
+        },
+        "vid00001": {
+          "id": "vid00001",
+          "type": "video",
+          "props": {
+            "url": "",
+            "title": "Video",
+            "autoplay": false,
+            "muted": false,
+            "loop": false,
+            "controls": true
+          },
+          "style": {},
+          "advanced": {
+            "cssId": "",
+            "cssClasses": "",
+            "hideOn": []
+          },
+          "children": []
+        }
+      },
+      "settings": {
+        "metaDescription": "",
+        "contentWidth": 1140,
+        "backgroundColor": null,
+        "textColor": null,
+        "fontFamily": null
+      }
+    }
+  },
+  {
+    "name": "custom css: escaped newline inside string",
+    "valid": true,
+    "document": {
+      "schemaVersion": 1,
+      "rootIds": [
+        "cont0001"
+      ],
+      "nodes": {
+        "cont0001": {
+          "id": "cont0001",
+          "type": "container",
+          "props": {
+            "contentWidth": "boxed",
+            "tag": "section"
+          },
+          "style": {},
+          "advanced": {
+            "cssId": "",
+            "cssClasses": "",
+            "hideOn": []
+          },
+          "children": [
+            "head0001",
+            "vid00001"
+          ]
+        },
+        "head0001": {
+          "id": "head0001",
+          "type": "heading",
+          "props": {
+            "text": "Hello",
+            "tag": "h2",
+            "link": {
+              "url": "",
+              "newTab": false,
+              "nofollow": false
+            }
+          },
+          "style": {},
+          "advanced": {
+            "cssId": "",
+            "cssClasses": "",
+            "hideOn": [],
+            "customCss": "content: \"a\\\nb\";"
+          },
+          "children": []
+        },
+        "vid00001": {
+          "id": "vid00001",
+          "type": "video",
+          "props": {
+            "url": "",
+            "title": "Video",
+            "autoplay": false,
+            "muted": false,
+            "loop": false,
+            "controls": true
+          },
+          "style": {},
+          "advanced": {
+            "cssId": "",
+            "cssClasses": "",
+            "hideOn": []
+          },
+          "children": []
+        }
+      },
+      "settings": {
+        "metaDescription": "",
+        "contentWidth": 1140,
+        "backgroundColor": null,
+        "textColor": null,
+        "fontFamily": null
+      }
+    }
+  },
+  {
+    "name": "custom css: unquoted url",
+    "valid": true,
+    "document": {
+      "schemaVersion": 1,
+      "rootIds": [
+        "cont0001"
+      ],
+      "nodes": {
+        "cont0001": {
+          "id": "cont0001",
+          "type": "container",
+          "props": {
+            "contentWidth": "boxed",
+            "tag": "section"
+          },
+          "style": {},
+          "advanced": {
+            "cssId": "",
+            "cssClasses": "",
+            "hideOn": []
+          },
+          "children": [
+            "head0001",
+            "vid00001"
+          ]
+        },
+        "head0001": {
+          "id": "head0001",
+          "type": "heading",
+          "props": {
+            "text": "Hello",
+            "tag": "h2",
+            "link": {
+              "url": "",
+              "newTab": false,
+              "nofollow": false
+            }
+          },
+          "style": {},
+          "advanced": {
+            "cssId": "",
+            "cssClasses": "",
+            "hideOn": [],
+            "customCss": "background: url(/img/a.png) no-repeat"
+          },
+          "children": []
+        },
+        "vid00001": {
+          "id": "vid00001",
+          "type": "video",
+          "props": {
+            "url": "",
+            "title": "Video",
+            "autoplay": false,
+            "muted": false,
+            "loop": false,
+            "controls": true
+          },
+          "style": {},
+          "advanced": {
+            "cssId": "",
+            "cssClasses": "",
+            "hideOn": []
+          },
+          "children": []
+        }
+      },
+      "settings": {
+        "metaDescription": "",
+        "contentWidth": 1140,
+        "backgroundColor": null,
+        "textColor": null,
+        "fontFamily": null
+      }
+    }
+  },
+  {
+    "name": "custom css: quoted url with space",
+    "valid": true,
+    "document": {
+      "schemaVersion": 1,
+      "rootIds": [
+        "cont0001"
+      ],
+      "nodes": {
+        "cont0001": {
+          "id": "cont0001",
+          "type": "container",
+          "props": {
+            "contentWidth": "boxed",
+            "tag": "section"
+          },
+          "style": {},
+          "advanced": {
+            "cssId": "",
+            "cssClasses": "",
+            "hideOn": []
+          },
+          "children": [
+            "head0001",
+            "vid00001"
+          ]
+        },
+        "head0001": {
+          "id": "head0001",
+          "type": "heading",
+          "props": {
+            "text": "Hello",
+            "tag": "h2",
+            "link": {
+              "url": "",
+              "newTab": false,
+              "nofollow": false
+            }
+          },
+          "style": {},
+          "advanced": {
+            "cssId": "",
+            "cssClasses": "",
+            "hideOn": [],
+            "customCss": "background: url( \"https://x.example/a b.png\" )"
+          },
+          "children": []
+        },
+        "vid00001": {
+          "id": "vid00001",
+          "type": "video",
+          "props": {
+            "url": "",
+            "title": "Video",
+            "autoplay": false,
+            "muted": false,
+            "loop": false,
+            "controls": true
+          },
+          "style": {},
+          "advanced": {
+            "cssId": "",
+            "cssClasses": "",
+            "hideOn": []
+          },
+          "children": []
+        }
+      },
+      "settings": {
+        "metaDescription": "",
+        "contentWidth": 1140,
+        "backgroundColor": null,
+        "textColor": null,
+        "fontFamily": null
+      }
+    }
+  },
+  {
+    "name": "custom css: url with trailing space",
+    "valid": true,
+    "document": {
+      "schemaVersion": 1,
+      "rootIds": [
+        "cont0001"
+      ],
+      "nodes": {
+        "cont0001": {
+          "id": "cont0001",
+          "type": "container",
+          "props": {
+            "contentWidth": "boxed",
+            "tag": "section"
+          },
+          "style": {},
+          "advanced": {
+            "cssId": "",
+            "cssClasses": "",
+            "hideOn": []
+          },
+          "children": [
+            "head0001",
+            "vid00001"
+          ]
+        },
+        "head0001": {
+          "id": "head0001",
+          "type": "heading",
+          "props": {
+            "text": "Hello",
+            "tag": "h2",
+            "link": {
+              "url": "",
+              "newTab": false,
+              "nofollow": false
+            }
+          },
+          "style": {},
+          "advanced": {
+            "cssId": "",
+            "cssClasses": "",
+            "hideOn": [],
+            "customCss": "background: url(/a.png  )"
+          },
+          "children": []
+        },
+        "vid00001": {
+          "id": "vid00001",
+          "type": "video",
+          "props": {
+            "url": "",
+            "title": "Video",
+            "autoplay": false,
+            "muted": false,
+            "loop": false,
+            "controls": true
+          },
+          "style": {},
+          "advanced": {
+            "cssId": "",
+            "cssClasses": "",
+            "hideOn": []
+          },
+          "children": []
+        }
+      },
+      "settings": {
+        "metaDescription": "",
+        "contentWidth": 1140,
+        "backgroundColor": null,
+        "textColor": null,
+        "fontFamily": null
+      }
+    }
+  },
+  {
+    "name": "custom css: brace inside comment",
+    "valid": true,
+    "document": {
+      "schemaVersion": 1,
+      "rootIds": [
+        "cont0001"
+      ],
+      "nodes": {
+        "cont0001": {
+          "id": "cont0001",
+          "type": "container",
+          "props": {
+            "contentWidth": "boxed",
+            "tag": "section"
+          },
+          "style": {},
+          "advanced": {
+            "cssId": "",
+            "cssClasses": "",
+            "hideOn": []
+          },
+          "children": [
+            "head0001",
+            "vid00001"
+          ]
+        },
+        "head0001": {
+          "id": "head0001",
+          "type": "heading",
+          "props": {
+            "text": "Hello",
+            "tag": "h2",
+            "link": {
+              "url": "",
+              "newTab": false,
+              "nofollow": false
+            }
+          },
+          "style": {},
+          "advanced": {
+            "cssId": "",
+            "cssClasses": "",
+            "hideOn": [],
+            "customCss": "/* } */ color: red"
+          },
+          "children": []
+        },
+        "vid00001": {
+          "id": "vid00001",
+          "type": "video",
+          "props": {
+            "url": "",
+            "title": "Video",
+            "autoplay": false,
+            "muted": false,
+            "loop": false,
+            "controls": true
+          },
+          "style": {},
+          "advanced": {
+            "cssId": "",
+            "cssClasses": "",
+            "hideOn": []
+          },
+          "children": []
+        }
+      },
+      "settings": {
+        "metaDescription": "",
+        "contentWidth": 1140,
+        "backgroundColor": null,
+        "textColor": null,
+        "fontFamily": null
+      }
+    }
+  },
+  {
+    "name": "custom css: attribute selector",
+    "valid": true,
+    "document": {
+      "schemaVersion": 1,
+      "rootIds": [
+        "cont0001"
+      ],
+      "nodes": {
+        "cont0001": {
+          "id": "cont0001",
+          "type": "container",
+          "props": {
+            "contentWidth": "boxed",
+            "tag": "section"
+          },
+          "style": {},
+          "advanced": {
+            "cssId": "",
+            "cssClasses": "",
+            "hideOn": []
+          },
+          "children": [
+            "head0001",
+            "vid00001"
+          ]
+        },
+        "head0001": {
+          "id": "head0001",
+          "type": "heading",
+          "props": {
+            "text": "Hello",
+            "tag": "h2",
+            "link": {
+              "url": "",
+              "newTab": false,
+              "nofollow": false
+            }
+          },
+          "style": {},
+          "advanced": {
+            "cssId": "",
+            "cssClasses": "",
+            "hideOn": [],
+            "customCss": "[data-x=\"1\"] { color: red }"
+          },
+          "children": []
+        },
+        "vid00001": {
+          "id": "vid00001",
+          "type": "video",
+          "props": {
+            "url": "",
+            "title": "Video",
+            "autoplay": false,
+            "muted": false,
+            "loop": false,
+            "controls": true
+          },
+          "style": {},
+          "advanced": {
+            "cssId": "",
+            "cssClasses": "",
+            "hideOn": []
+          },
+          "children": []
+        }
+      },
+      "settings": {
+        "metaDescription": "",
+        "contentWidth": 1140,
+        "backgroundColor": null,
+        "textColor": null,
+        "fontFamily": null
+      }
+    }
+  },
+  {
+    "name": "custom css: multi-line",
+    "valid": true,
+    "document": {
+      "schemaVersion": 1,
+      "rootIds": [
+        "cont0001"
+      ],
+      "nodes": {
+        "cont0001": {
+          "id": "cont0001",
+          "type": "container",
+          "props": {
+            "contentWidth": "boxed",
+            "tag": "section"
+          },
+          "style": {},
+          "advanced": {
+            "cssId": "",
+            "cssClasses": "",
+            "hideOn": []
+          },
+          "children": [
+            "head0001",
+            "vid00001"
+          ]
+        },
+        "head0001": {
+          "id": "head0001",
+          "type": "heading",
+          "props": {
+            "text": "Hello",
+            "tag": "h2",
+            "link": {
+              "url": "",
+              "newTab": false,
+              "nofollow": false
+            }
+          },
+          "style": {},
+          "advanced": {
+            "cssId": "",
+            "cssClasses": "",
+            "hideOn": [],
+            "customCss": "a {\n  color: red;\n}\n"
+          },
+          "children": []
+        },
+        "vid00001": {
+          "id": "vid00001",
+          "type": "video",
+          "props": {
+            "url": "",
+            "title": "Video",
+            "autoplay": false,
+            "muted": false,
+            "loop": false,
+            "controls": true
+          },
+          "style": {},
+          "advanced": {
+            "cssId": "",
+            "cssClasses": "",
+            "hideOn": []
+          },
+          "children": []
+        }
+      },
+      "settings": {
+        "metaDescription": "",
+        "contentWidth": 1140,
+        "backgroundColor": null,
+        "textColor": null,
+        "fontFamily": null
+      }
+    }
+  },
+  {
+    "name": "custom css: closes the wrapper",
+    "valid": false,
+    "errorPath": "nodes.head0001.advanced.customCss",
+    "document": {
+      "schemaVersion": 1,
+      "rootIds": [
+        "cont0001"
+      ],
+      "nodes": {
+        "cont0001": {
+          "id": "cont0001",
+          "type": "container",
+          "props": {
+            "contentWidth": "boxed",
+            "tag": "section"
+          },
+          "style": {},
+          "advanced": {
+            "cssId": "",
+            "cssClasses": "",
+            "hideOn": []
+          },
+          "children": [
+            "head0001",
+            "vid00001"
+          ]
+        },
+        "head0001": {
+          "id": "head0001",
+          "type": "heading",
+          "props": {
+            "text": "Hello",
+            "tag": "h2",
+            "link": {
+              "url": "",
+              "newTab": false,
+              "nofollow": false
+            }
+          },
+          "style": {},
+          "advanced": {
+            "cssId": "",
+            "cssClasses": "",
+            "hideOn": [],
+            "customCss": "} body { display: none } .x {"
+          },
+          "children": []
+        },
+        "vid00001": {
+          "id": "vid00001",
+          "type": "video",
+          "props": {
+            "url": "",
+            "title": "Video",
+            "autoplay": false,
+            "muted": false,
+            "loop": false,
+            "controls": true
+          },
+          "style": {},
+          "advanced": {
+            "cssId": "",
+            "cssClasses": "",
+            "hideOn": []
+          },
+          "children": []
+        }
+      },
+      "settings": {
+        "metaDescription": "",
+        "contentWidth": 1140,
+        "backgroundColor": null,
+        "textColor": null,
+        "fontFamily": null
+      }
+    }
+  },
+  {
+    "name": "custom css: stray closing brace",
+    "valid": false,
+    "errorPath": "nodes.head0001.advanced.customCss",
+    "document": {
+      "schemaVersion": 1,
+      "rootIds": [
+        "cont0001"
+      ],
+      "nodes": {
+        "cont0001": {
+          "id": "cont0001",
+          "type": "container",
+          "props": {
+            "contentWidth": "boxed",
+            "tag": "section"
+          },
+          "style": {},
+          "advanced": {
+            "cssId": "",
+            "cssClasses": "",
+            "hideOn": []
+          },
+          "children": [
+            "head0001",
+            "vid00001"
+          ]
+        },
+        "head0001": {
+          "id": "head0001",
+          "type": "heading",
+          "props": {
+            "text": "Hello",
+            "tag": "h2",
+            "link": {
+              "url": "",
+              "newTab": false,
+              "nofollow": false
+            }
+          },
+          "style": {},
+          "advanced": {
+            "cssId": "",
+            "cssClasses": "",
+            "hideOn": [],
+            "customCss": "color: red; }"
+          },
+          "children": []
+        },
+        "vid00001": {
+          "id": "vid00001",
+          "type": "video",
+          "props": {
+            "url": "",
+            "title": "Video",
+            "autoplay": false,
+            "muted": false,
+            "loop": false,
+            "controls": true
+          },
+          "style": {},
+          "advanced": {
+            "cssId": "",
+            "cssClasses": "",
+            "hideOn": []
+          },
+          "children": []
+        }
+      },
+      "settings": {
+        "metaDescription": "",
+        "contentWidth": 1140,
+        "backgroundColor": null,
+        "textColor": null,
+        "fontFamily": null
+      }
+    }
+  },
+  {
+    "name": "custom css: unclosed block",
+    "valid": false,
+    "errorPath": "nodes.head0001.advanced.customCss",
+    "document": {
+      "schemaVersion": 1,
+      "rootIds": [
+        "cont0001"
+      ],
+      "nodes": {
+        "cont0001": {
+          "id": "cont0001",
+          "type": "container",
+          "props": {
+            "contentWidth": "boxed",
+            "tag": "section"
+          },
+          "style": {},
+          "advanced": {
+            "cssId": "",
+            "cssClasses": "",
+            "hideOn": []
+          },
+          "children": [
+            "head0001",
+            "vid00001"
+          ]
+        },
+        "head0001": {
+          "id": "head0001",
+          "type": "heading",
+          "props": {
+            "text": "Hello",
+            "tag": "h2",
+            "link": {
+              "url": "",
+              "newTab": false,
+              "nofollow": false
+            }
+          },
+          "style": {},
+          "advanced": {
+            "cssId": "",
+            "cssClasses": "",
+            "hideOn": [],
+            "customCss": "a { color: red"
+          },
+          "children": []
+        },
+        "vid00001": {
+          "id": "vid00001",
+          "type": "video",
+          "props": {
+            "url": "",
+            "title": "Video",
+            "autoplay": false,
+            "muted": false,
+            "loop": false,
+            "controls": true
+          },
+          "style": {},
+          "advanced": {
+            "cssId": "",
+            "cssClasses": "",
+            "hideOn": []
+          },
+          "children": []
+        }
+      },
+      "settings": {
+        "metaDescription": "",
+        "contentWidth": 1140,
+        "backgroundColor": null,
+        "textColor": null,
+        "fontFamily": null
+      }
+    }
+  },
+  {
+    "name": "custom css: html tag",
+    "valid": false,
+    "errorPath": "nodes.head0001.advanced.customCss",
+    "document": {
+      "schemaVersion": 1,
+      "rootIds": [
+        "cont0001"
+      ],
+      "nodes": {
+        "cont0001": {
+          "id": "cont0001",
+          "type": "container",
+          "props": {
+            "contentWidth": "boxed",
+            "tag": "section"
+          },
+          "style": {},
+          "advanced": {
+            "cssId": "",
+            "cssClasses": "",
+            "hideOn": []
+          },
+          "children": [
+            "head0001",
+            "vid00001"
+          ]
+        },
+        "head0001": {
+          "id": "head0001",
+          "type": "heading",
+          "props": {
+            "text": "Hello",
+            "tag": "h2",
+            "link": {
+              "url": "",
+              "newTab": false,
+              "nofollow": false
+            }
+          },
+          "style": {},
+          "advanced": {
+            "cssId": "",
+            "cssClasses": "",
+            "hideOn": [],
+            "customCss": "</style><script>alert(1)</script>"
+          },
+          "children": []
+        },
+        "vid00001": {
+          "id": "vid00001",
+          "type": "video",
+          "props": {
+            "url": "",
+            "title": "Video",
+            "autoplay": false,
+            "muted": false,
+            "loop": false,
+            "controls": true
+          },
+          "style": {},
+          "advanced": {
+            "cssId": "",
+            "cssClasses": "",
+            "hideOn": []
+          },
+          "children": []
+        }
+      },
+      "settings": {
+        "metaDescription": "",
+        "contentWidth": 1140,
+        "backgroundColor": null,
+        "textColor": null,
+        "fontFamily": null
+      }
+    }
+  },
+  {
+    "name": "custom css: unclosed comment",
+    "valid": false,
+    "errorPath": "nodes.head0001.advanced.customCss",
+    "document": {
+      "schemaVersion": 1,
+      "rootIds": [
+        "cont0001"
+      ],
+      "nodes": {
+        "cont0001": {
+          "id": "cont0001",
+          "type": "container",
+          "props": {
+            "contentWidth": "boxed",
+            "tag": "section"
+          },
+          "style": {},
+          "advanced": {
+            "cssId": "",
+            "cssClasses": "",
+            "hideOn": []
+          },
+          "children": [
+            "head0001",
+            "vid00001"
+          ]
+        },
+        "head0001": {
+          "id": "head0001",
+          "type": "heading",
+          "props": {
+            "text": "Hello",
+            "tag": "h2",
+            "link": {
+              "url": "",
+              "newTab": false,
+              "nofollow": false
+            }
+          },
+          "style": {},
+          "advanced": {
+            "cssId": "",
+            "cssClasses": "",
+            "hideOn": [],
+            "customCss": "color: red /* open"
+          },
+          "children": []
+        },
+        "vid00001": {
+          "id": "vid00001",
+          "type": "video",
+          "props": {
+            "url": "",
+            "title": "Video",
+            "autoplay": false,
+            "muted": false,
+            "loop": false,
+            "controls": true
+          },
+          "style": {},
+          "advanced": {
+            "cssId": "",
+            "cssClasses": "",
+            "hideOn": []
+          },
+          "children": []
+        }
+      },
+      "settings": {
+        "metaDescription": "",
+        "contentWidth": 1140,
+        "backgroundColor": null,
+        "textColor": null,
+        "fontFamily": null
+      }
+    }
+  },
+  {
+    "name": "custom css: unclosed string",
+    "valid": false,
+    "errorPath": "nodes.head0001.advanced.customCss",
+    "document": {
+      "schemaVersion": 1,
+      "rootIds": [
+        "cont0001"
+      ],
+      "nodes": {
+        "cont0001": {
+          "id": "cont0001",
+          "type": "container",
+          "props": {
+            "contentWidth": "boxed",
+            "tag": "section"
+          },
+          "style": {},
+          "advanced": {
+            "cssId": "",
+            "cssClasses": "",
+            "hideOn": []
+          },
+          "children": [
+            "head0001",
+            "vid00001"
+          ]
+        },
+        "head0001": {
+          "id": "head0001",
+          "type": "heading",
+          "props": {
+            "text": "Hello",
+            "tag": "h2",
+            "link": {
+              "url": "",
+              "newTab": false,
+              "nofollow": false
+            }
+          },
+          "style": {},
+          "advanced": {
+            "cssId": "",
+            "cssClasses": "",
+            "hideOn": [],
+            "customCss": "content: \"unterminated"
+          },
+          "children": []
+        },
+        "vid00001": {
+          "id": "vid00001",
+          "type": "video",
+          "props": {
+            "url": "",
+            "title": "Video",
+            "autoplay": false,
+            "muted": false,
+            "loop": false,
+            "controls": true
+          },
+          "style": {},
+          "advanced": {
+            "cssId": "",
+            "cssClasses": "",
+            "hideOn": []
+          },
+          "children": []
+        }
+      },
+      "settings": {
+        "metaDescription": "",
+        "contentWidth": 1140,
+        "backgroundColor": null,
+        "textColor": null,
+        "fontFamily": null
+      }
+    }
+  },
+  {
+    "name": "custom css: raw newline in string",
+    "valid": false,
+    "errorPath": "nodes.head0001.advanced.customCss",
+    "document": {
+      "schemaVersion": 1,
+      "rootIds": [
+        "cont0001"
+      ],
+      "nodes": {
+        "cont0001": {
+          "id": "cont0001",
+          "type": "container",
+          "props": {
+            "contentWidth": "boxed",
+            "tag": "section"
+          },
+          "style": {},
+          "advanced": {
+            "cssId": "",
+            "cssClasses": "",
+            "hideOn": []
+          },
+          "children": [
+            "head0001",
+            "vid00001"
+          ]
+        },
+        "head0001": {
+          "id": "head0001",
+          "type": "heading",
+          "props": {
+            "text": "Hello",
+            "tag": "h2",
+            "link": {
+              "url": "",
+              "newTab": false,
+              "nofollow": false
+            }
+          },
+          "style": {},
+          "advanced": {
+            "cssId": "",
+            "cssClasses": "",
+            "hideOn": [],
+            "customCss": "content: \"line\nbreak\";"
+          },
+          "children": []
+        },
+        "vid00001": {
+          "id": "vid00001",
+          "type": "video",
+          "props": {
+            "url": "",
+            "title": "Video",
+            "autoplay": false,
+            "muted": false,
+            "loop": false,
+            "controls": true
+          },
+          "style": {},
+          "advanced": {
+            "cssId": "",
+            "cssClasses": "",
+            "hideOn": []
+          },
+          "children": []
+        }
+      },
+      "settings": {
+        "metaDescription": "",
+        "contentWidth": 1140,
+        "backgroundColor": null,
+        "textColor": null,
+        "fontFamily": null
+      }
+    }
+  },
+  {
+    "name": "custom css: escape outside string",
+    "valid": false,
+    "errorPath": "nodes.head0001.advanced.customCss",
+    "document": {
+      "schemaVersion": 1,
+      "rootIds": [
+        "cont0001"
+      ],
+      "nodes": {
+        "cont0001": {
+          "id": "cont0001",
+          "type": "container",
+          "props": {
+            "contentWidth": "boxed",
+            "tag": "section"
+          },
+          "style": {},
+          "advanced": {
+            "cssId": "",
+            "cssClasses": "",
+            "hideOn": []
+          },
+          "children": [
+            "head0001",
+            "vid00001"
+          ]
+        },
+        "head0001": {
+          "id": "head0001",
+          "type": "heading",
+          "props": {
+            "text": "Hello",
+            "tag": "h2",
+            "link": {
+              "url": "",
+              "newTab": false,
+              "nofollow": false
+            }
+          },
+          "style": {},
+          "advanced": {
+            "cssId": "",
+            "cssClasses": "",
+            "hideOn": [],
+            "customCss": "\\7d body { color: red }"
+          },
+          "children": []
+        },
+        "vid00001": {
+          "id": "vid00001",
+          "type": "video",
+          "props": {
+            "url": "",
+            "title": "Video",
+            "autoplay": false,
+            "muted": false,
+            "loop": false,
+            "controls": true
+          },
+          "style": {},
+          "advanced": {
+            "cssId": "",
+            "cssClasses": "",
+            "hideOn": []
+          },
+          "children": []
+        }
+      },
+      "settings": {
+        "metaDescription": "",
+        "contentWidth": 1140,
+        "backgroundColor": null,
+        "textColor": null,
+        "fontFamily": null
+      }
+    }
+  },
+  {
+    "name": "custom css: escaped url breakout",
+    "valid": false,
+    "errorPath": "nodes.head0001.advanced.customCss",
+    "document": {
+      "schemaVersion": 1,
+      "rootIds": [
+        "cont0001"
+      ],
+      "nodes": {
+        "cont0001": {
+          "id": "cont0001",
+          "type": "container",
+          "props": {
+            "contentWidth": "boxed",
+            "tag": "section"
+          },
+          "style": {},
+          "advanced": {
+            "cssId": "",
+            "cssClasses": "",
+            "hideOn": []
+          },
+          "children": [
+            "head0001",
+            "vid00001"
+          ]
+        },
+        "head0001": {
+          "id": "head0001",
+          "type": "heading",
+          "props": {
+            "text": "Hello",
+            "tag": "h2",
+            "link": {
+              "url": "",
+              "newTab": false,
+              "nofollow": false
+            }
+          },
+          "style": {},
+          "advanced": {
+            "cssId": "",
+            "cssClasses": "",
+            "hideOn": [],
+            "customCss": "x: \\75rl(\") } body{color:red} p{ \")"
+          },
+          "children": []
+        },
+        "vid00001": {
+          "id": "vid00001",
+          "type": "video",
+          "props": {
+            "url": "",
+            "title": "Video",
+            "autoplay": false,
+            "muted": false,
+            "loop": false,
+            "controls": true
+          },
+          "style": {},
+          "advanced": {
+            "cssId": "",
+            "cssClasses": "",
+            "hideOn": []
+          },
+          "children": []
+        }
+      },
+      "settings": {
+        "metaDescription": "",
+        "contentWidth": 1140,
+        "backgroundColor": null,
+        "textColor": null,
+        "fontFamily": null
+      }
+    }
+  },
+  {
+    "name": "custom css: brace in unquoted url",
+    "valid": false,
+    "errorPath": "nodes.head0001.advanced.customCss",
+    "document": {
+      "schemaVersion": 1,
+      "rootIds": [
+        "cont0001"
+      ],
+      "nodes": {
+        "cont0001": {
+          "id": "cont0001",
+          "type": "container",
+          "props": {
+            "contentWidth": "boxed",
+            "tag": "section"
+          },
+          "style": {},
+          "advanced": {
+            "cssId": "",
+            "cssClasses": "",
+            "hideOn": []
+          },
+          "children": [
+            "head0001",
+            "vid00001"
+          ]
+        },
+        "head0001": {
+          "id": "head0001",
+          "type": "heading",
+          "props": {
+            "text": "Hello",
+            "tag": "h2",
+            "link": {
+              "url": "",
+              "newTab": false,
+              "nofollow": false
+            }
+          },
+          "style": {},
+          "advanced": {
+            "cssId": "",
+            "cssClasses": "",
+            "hideOn": [],
+            "customCss": "background: url(a{b)"
+          },
+          "children": []
+        },
+        "vid00001": {
+          "id": "vid00001",
+          "type": "video",
+          "props": {
+            "url": "",
+            "title": "Video",
+            "autoplay": false,
+            "muted": false,
+            "loop": false,
+            "controls": true
+          },
+          "style": {},
+          "advanced": {
+            "cssId": "",
+            "cssClasses": "",
+            "hideOn": []
+          },
+          "children": []
+        }
+      },
+      "settings": {
+        "metaDescription": "",
+        "contentWidth": 1140,
+        "backgroundColor": null,
+        "textColor": null,
+        "fontFamily": null
+      }
+    }
+  },
+  {
+    "name": "custom css: space in unquoted url",
+    "valid": false,
+    "errorPath": "nodes.head0001.advanced.customCss",
+    "document": {
+      "schemaVersion": 1,
+      "rootIds": [
+        "cont0001"
+      ],
+      "nodes": {
+        "cont0001": {
+          "id": "cont0001",
+          "type": "container",
+          "props": {
+            "contentWidth": "boxed",
+            "tag": "section"
+          },
+          "style": {},
+          "advanced": {
+            "cssId": "",
+            "cssClasses": "",
+            "hideOn": []
+          },
+          "children": [
+            "head0001",
+            "vid00001"
+          ]
+        },
+        "head0001": {
+          "id": "head0001",
+          "type": "heading",
+          "props": {
+            "text": "Hello",
+            "tag": "h2",
+            "link": {
+              "url": "",
+              "newTab": false,
+              "nofollow": false
+            }
+          },
+          "style": {},
+          "advanced": {
+            "cssId": "",
+            "cssClasses": "",
+            "hideOn": [],
+            "customCss": "background: url(a b)"
+          },
+          "children": []
+        },
+        "vid00001": {
+          "id": "vid00001",
+          "type": "video",
+          "props": {
+            "url": "",
+            "title": "Video",
+            "autoplay": false,
+            "muted": false,
+            "loop": false,
+            "controls": true
+          },
+          "style": {},
+          "advanced": {
+            "cssId": "",
+            "cssClasses": "",
+            "hideOn": []
+          },
+          "children": []
+        }
+      },
+      "settings": {
+        "metaDescription": "",
+        "contentWidth": 1140,
+        "backgroundColor": null,
+        "textColor": null,
+        "fontFamily": null
+      }
+    }
+  },
+  {
+    "name": "custom css: quote in unquoted url",
+    "valid": false,
+    "errorPath": "nodes.head0001.advanced.customCss",
+    "document": {
+      "schemaVersion": 1,
+      "rootIds": [
+        "cont0001"
+      ],
+      "nodes": {
+        "cont0001": {
+          "id": "cont0001",
+          "type": "container",
+          "props": {
+            "contentWidth": "boxed",
+            "tag": "section"
+          },
+          "style": {},
+          "advanced": {
+            "cssId": "",
+            "cssClasses": "",
+            "hideOn": []
+          },
+          "children": [
+            "head0001",
+            "vid00001"
+          ]
+        },
+        "head0001": {
+          "id": "head0001",
+          "type": "heading",
+          "props": {
+            "text": "Hello",
+            "tag": "h2",
+            "link": {
+              "url": "",
+              "newTab": false,
+              "nofollow": false
+            }
+          },
+          "style": {},
+          "advanced": {
+            "cssId": "",
+            "cssClasses": "",
+            "hideOn": [],
+            "customCss": "background: url(a'b)"
+          },
+          "children": []
+        },
+        "vid00001": {
+          "id": "vid00001",
+          "type": "video",
+          "props": {
+            "url": "",
+            "title": "Video",
+            "autoplay": false,
+            "muted": false,
+            "loop": false,
+            "controls": true
+          },
+          "style": {},
+          "advanced": {
+            "cssId": "",
+            "cssClasses": "",
+            "hideOn": []
+          },
+          "children": []
+        }
+      },
+      "settings": {
+        "metaDescription": "",
+        "contentWidth": 1140,
+        "backgroundColor": null,
+        "textColor": null,
+        "fontFamily": null
+      }
+    }
+  },
+  {
+    "name": "custom css: mismatched brackets",
+    "valid": false,
+    "errorPath": "nodes.head0001.advanced.customCss",
+    "document": {
+      "schemaVersion": 1,
+      "rootIds": [
+        "cont0001"
+      ],
+      "nodes": {
+        "cont0001": {
+          "id": "cont0001",
+          "type": "container",
+          "props": {
+            "contentWidth": "boxed",
+            "tag": "section"
+          },
+          "style": {},
+          "advanced": {
+            "cssId": "",
+            "cssClasses": "",
+            "hideOn": []
+          },
+          "children": [
+            "head0001",
+            "vid00001"
+          ]
+        },
+        "head0001": {
+          "id": "head0001",
+          "type": "heading",
+          "props": {
+            "text": "Hello",
+            "tag": "h2",
+            "link": {
+              "url": "",
+              "newTab": false,
+              "nofollow": false
+            }
+          },
+          "style": {},
+          "advanced": {
+            "cssId": "",
+            "cssClasses": "",
+            "hideOn": [],
+            "customCss": "( }"
+          },
+          "children": []
+        },
+        "vid00001": {
+          "id": "vid00001",
+          "type": "video",
+          "props": {
+            "url": "",
+            "title": "Video",
+            "autoplay": false,
+            "muted": false,
+            "loop": false,
+            "controls": true
+          },
+          "style": {},
+          "advanced": {
+            "cssId": "",
+            "cssClasses": "",
+            "hideOn": []
+          },
+          "children": []
+        }
+      },
+      "settings": {
+        "metaDescription": "",
+        "contentWidth": 1140,
+        "backgroundColor": null,
+        "textColor": null,
+        "fontFamily": null
+      }
+    }
+  },
+  {
+    "name": "custom css: control character",
+    "valid": false,
+    "errorPath": "nodes.head0001.advanced.customCss",
+    "document": {
+      "schemaVersion": 1,
+      "rootIds": [
+        "cont0001"
+      ],
+      "nodes": {
+        "cont0001": {
+          "id": "cont0001",
+          "type": "container",
+          "props": {
+            "contentWidth": "boxed",
+            "tag": "section"
+          },
+          "style": {},
+          "advanced": {
+            "cssId": "",
+            "cssClasses": "",
+            "hideOn": []
+          },
+          "children": [
+            "head0001",
+            "vid00001"
+          ]
+        },
+        "head0001": {
+          "id": "head0001",
+          "type": "heading",
+          "props": {
+            "text": "Hello",
+            "tag": "h2",
+            "link": {
+              "url": "",
+              "newTab": false,
+              "nofollow": false
+            }
+          },
+          "style": {},
+          "advanced": {
+            "cssId": "",
+            "cssClasses": "",
+            "hideOn": [],
+            "customCss": "color: red;\u0000"
+          },
+          "children": []
+        },
+        "vid00001": {
+          "id": "vid00001",
+          "type": "video",
+          "props": {
+            "url": "",
+            "title": "Video",
+            "autoplay": false,
+            "muted": false,
+            "loop": false,
+            "controls": true
+          },
+          "style": {},
+          "advanced": {
+            "cssId": "",
+            "cssClasses": "",
+            "hideOn": []
+          },
+          "children": []
+        }
+      },
+      "settings": {
+        "metaDescription": "",
+        "contentWidth": 1140,
+        "backgroundColor": null,
+        "textColor": null,
+        "fontFamily": null
+      }
+    }
+  },
+  {
+    "name": "page custom css",
+    "valid": true,
+    "document": {
+      "schemaVersion": 1,
+      "rootIds": [
+        "cont0001"
+      ],
+      "nodes": {
+        "cont0001": {
+          "id": "cont0001",
+          "type": "container",
+          "props": {
+            "contentWidth": "boxed",
+            "tag": "section"
+          },
+          "style": {},
+          "advanced": {
+            "cssId": "",
+            "cssClasses": "",
+            "hideOn": []
+          },
+          "children": [
+            "head0001",
+            "vid00001"
+          ]
+        },
+        "head0001": {
+          "id": "head0001",
+          "type": "heading",
+          "props": {
+            "text": "Hello",
+            "tag": "h2",
+            "link": {
+              "url": "",
+              "newTab": false,
+              "nofollow": false
+            }
+          },
+          "style": {},
+          "advanced": {
+            "cssId": "",
+            "cssClasses": "",
+            "hideOn": []
+          },
+          "children": []
+        },
+        "vid00001": {
+          "id": "vid00001",
+          "type": "video",
+          "props": {
+            "url": "",
+            "title": "Video",
+            "autoplay": false,
+            "muted": false,
+            "loop": false,
+            "controls": true
+          },
+          "style": {},
+          "advanced": {
+            "cssId": "",
+            "cssClasses": "",
+            "hideOn": []
+          },
+          "children": []
+        }
+      },
+      "settings": {
+        "metaDescription": "",
+        "contentWidth": 1140,
+        "backgroundColor": null,
+        "textColor": null,
+        "fontFamily": null,
+        "customCss": "& h1 { margin: 0 }"
+      }
+    }
+  },
+  {
+    "name": "page custom css closes the wrapper",
+    "valid": false,
+    "errorPath": "settings.customCss",
+    "document": {
+      "schemaVersion": 1,
+      "rootIds": [
+        "cont0001"
+      ],
+      "nodes": {
+        "cont0001": {
+          "id": "cont0001",
+          "type": "container",
+          "props": {
+            "contentWidth": "boxed",
+            "tag": "section"
+          },
+          "style": {},
+          "advanced": {
+            "cssId": "",
+            "cssClasses": "",
+            "hideOn": []
+          },
+          "children": [
+            "head0001",
+            "vid00001"
+          ]
+        },
+        "head0001": {
+          "id": "head0001",
+          "type": "heading",
+          "props": {
+            "text": "Hello",
+            "tag": "h2",
+            "link": {
+              "url": "",
+              "newTab": false,
+              "nofollow": false
+            }
+          },
+          "style": {},
+          "advanced": {
+            "cssId": "",
+            "cssClasses": "",
+            "hideOn": []
+          },
+          "children": []
+        },
+        "vid00001": {
+          "id": "vid00001",
+          "type": "video",
+          "props": {
+            "url": "",
+            "title": "Video",
+            "autoplay": false,
+            "muted": false,
+            "loop": false,
+            "controls": true
+          },
+          "style": {},
+          "advanced": {
+            "cssId": "",
+            "cssClasses": "",
+            "hideOn": []
+          },
+          "children": []
+        }
+      },
+      "settings": {
+        "metaDescription": "",
+        "contentWidth": 1140,
+        "backgroundColor": null,
+        "textColor": null,
+        "fontFamily": null,
+        "customCss": "} body { color: red"
+      }
+    }
+  },
+  {
+    "name": "custom css too long",
+    "valid": false,
+    "errorPath": "nodes.head0001.advanced.customCss",
+    "document": {
+      "schemaVersion": 1,
+      "rootIds": [
+        "cont0001"
+      ],
+      "nodes": {
+        "cont0001": {
+          "id": "cont0001",
+          "type": "container",
+          "props": {
+            "contentWidth": "boxed",
+            "tag": "section"
+          },
+          "style": {},
+          "advanced": {
+            "cssId": "",
+            "cssClasses": "",
+            "hideOn": []
+          },
+          "children": [
+            "head0001",
+            "vid00001"
+          ]
+        },
+        "head0001": {
+          "id": "head0001",
+          "type": "heading",
+          "props": {
+            "text": "Hello",
+            "tag": "h2",
+            "link": {
+              "url": "",
+              "newTab": false,
+              "nofollow": false
+            }
+          },
+          "style": {},
+          "advanced": {
+            "cssId": "",
+            "cssClasses": "",
+            "hideOn": [],
+            "customCss": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+          },
+          "children": []
+        },
+        "vid00001": {
+          "id": "vid00001",
+          "type": "video",
+          "props": {
+            "url": "",
+            "title": "Video",
+            "autoplay": false,
+            "muted": false,
+            "loop": false,
+            "controls": true
+          },
+          "style": {},
+          "advanced": {
+            "cssId": "",
+            "cssClasses": "",
+            "hideOn": []
+          },
+          "children": []
+        }
+      },
+      "settings": {
+        "metaDescription": "",
+        "contentWidth": 1140,
+        "backgroundColor": null,
+        "textColor": null,
+        "fontFamily": null
+      }
+    }
+  },
+  {
+    "name": "global color reference",
+    "valid": true,
+    "document": {
+      "schemaVersion": 1,
+      "rootIds": [
+        "cont0001"
+      ],
+      "nodes": {
+        "cont0001": {
+          "id": "cont0001",
+          "type": "container",
+          "props": {
+            "contentWidth": "boxed",
+            "tag": "section"
+          },
+          "style": {},
+          "advanced": {
+            "cssId": "",
+            "cssClasses": "",
+            "hideOn": []
+          },
+          "children": [
+            "head0001",
+            "vid00001"
+          ]
+        },
+        "head0001": {
+          "id": "head0001",
+          "type": "heading",
+          "props": {
+            "text": "Hello",
+            "tag": "h2",
+            "link": {
+              "url": "",
+              "newTab": false,
+              "nofollow": false
+            }
+          },
+          "style": {
+            "color": {
+              "desktop": "global:primary",
+              "mobile": "global:gone-1"
+            }
+          },
+          "advanced": {
+            "cssId": "",
+            "cssClasses": "",
+            "hideOn": []
+          },
+          "children": []
+        },
+        "vid00001": {
+          "id": "vid00001",
+          "type": "video",
+          "props": {
+            "url": "",
+            "title": "Video",
+            "autoplay": false,
+            "muted": false,
+            "loop": false,
+            "controls": true
+          },
+          "style": {},
+          "advanced": {
+            "cssId": "",
+            "cssClasses": "",
+            "hideOn": []
+          },
+          "children": []
+        }
+      },
+      "settings": {
+        "metaDescription": "",
+        "contentWidth": 1140,
+        "backgroundColor": null,
+        "textColor": null,
+        "fontFamily": null
+      }
+    }
+  },
+  {
+    "name": "global color in page settings",
+    "valid": true,
+    "document": {
+      "schemaVersion": 1,
+      "rootIds": [
+        "cont0001"
+      ],
+      "nodes": {
+        "cont0001": {
+          "id": "cont0001",
+          "type": "container",
+          "props": {
+            "contentWidth": "boxed",
+            "tag": "section"
+          },
+          "style": {},
+          "advanced": {
+            "cssId": "",
+            "cssClasses": "",
+            "hideOn": []
+          },
+          "children": [
+            "head0001",
+            "vid00001"
+          ]
+        },
+        "head0001": {
+          "id": "head0001",
+          "type": "heading",
+          "props": {
+            "text": "Hello",
+            "tag": "h2",
+            "link": {
+              "url": "",
+              "newTab": false,
+              "nofollow": false
+            }
+          },
+          "style": {},
+          "advanced": {
+            "cssId": "",
+            "cssClasses": "",
+            "hideOn": []
+          },
+          "children": []
+        },
+        "vid00001": {
+          "id": "vid00001",
+          "type": "video",
+          "props": {
+            "url": "",
+            "title": "Video",
+            "autoplay": false,
+            "muted": false,
+            "loop": false,
+            "controls": true
+          },
+          "style": {},
+          "advanced": {
+            "cssId": "",
+            "cssClasses": "",
+            "hideOn": []
+          },
+          "children": []
+        }
+      },
+      "settings": {
+        "metaDescription": "",
+        "contentWidth": 1140,
+        "backgroundColor": null,
+        "textColor": "global:text",
+        "fontFamily": null
+      }
+    }
+  },
+  {
+    "name": "global font reference",
+    "valid": true,
+    "document": {
+      "schemaVersion": 1,
+      "rootIds": [
+        "cont0001"
+      ],
+      "nodes": {
+        "cont0001": {
+          "id": "cont0001",
+          "type": "container",
+          "props": {
+            "contentWidth": "boxed",
+            "tag": "section"
+          },
+          "style": {},
+          "advanced": {
+            "cssId": "",
+            "cssClasses": "",
+            "hideOn": []
+          },
+          "children": [
+            "head0001",
+            "vid00001"
+          ]
+        },
+        "head0001": {
+          "id": "head0001",
+          "type": "heading",
+          "props": {
+            "text": "Hello",
+            "tag": "h2",
+            "link": {
+              "url": "",
+              "newTab": false,
+              "nofollow": false
+            }
+          },
+          "style": {
+            "globalFont": {
+              "desktop": "display"
+            }
+          },
+          "advanced": {
+            "cssId": "",
+            "cssClasses": "",
+            "hideOn": []
+          },
+          "children": []
+        },
+        "vid00001": {
+          "id": "vid00001",
+          "type": "video",
+          "props": {
+            "url": "",
+            "title": "Video",
+            "autoplay": false,
+            "muted": false,
+            "loop": false,
+            "controls": true
+          },
+          "style": {},
+          "advanced": {
+            "cssId": "",
+            "cssClasses": "",
+            "hideOn": []
+          },
+          "children": []
+        }
+      },
+      "settings": {
+        "metaDescription": "",
+        "contentWidth": 1140,
+        "backgroundColor": null,
+        "textColor": null,
+        "fontFamily": null
+      }
+    }
+  },
+  {
+    "name": "global color with bad id",
+    "valid": false,
+    "errorPath": "nodes.head0001.style.color.desktop",
+    "document": {
+      "schemaVersion": 1,
+      "rootIds": [
+        "cont0001"
+      ],
+      "nodes": {
+        "cont0001": {
+          "id": "cont0001",
+          "type": "container",
+          "props": {
+            "contentWidth": "boxed",
+            "tag": "section"
+          },
+          "style": {},
+          "advanced": {
+            "cssId": "",
+            "cssClasses": "",
+            "hideOn": []
+          },
+          "children": [
+            "head0001",
+            "vid00001"
+          ]
+        },
+        "head0001": {
+          "id": "head0001",
+          "type": "heading",
+          "props": {
+            "text": "Hello",
+            "tag": "h2",
+            "link": {
+              "url": "",
+              "newTab": false,
+              "nofollow": false
+            }
+          },
+          "style": {
+            "color": {
+              "desktop": "global:Primary"
+            }
+          },
+          "advanced": {
+            "cssId": "",
+            "cssClasses": "",
+            "hideOn": []
+          },
+          "children": []
+        },
+        "vid00001": {
+          "id": "vid00001",
+          "type": "video",
+          "props": {
+            "url": "",
+            "title": "Video",
+            "autoplay": false,
+            "muted": false,
+            "loop": false,
+            "controls": true
+          },
+          "style": {},
+          "advanced": {
+            "cssId": "",
+            "cssClasses": "",
+            "hideOn": []
+          },
+          "children": []
+        }
+      },
+      "settings": {
+        "metaDescription": "",
+        "contentWidth": 1140,
+        "backgroundColor": null,
+        "textColor": null,
+        "fontFamily": null
+      }
+    }
+  },
+  {
+    "name": "global font with bad id",
+    "valid": false,
+    "errorPath": "nodes.head0001.style.globalFont.desktop",
+    "document": {
+      "schemaVersion": 1,
+      "rootIds": [
+        "cont0001"
+      ],
+      "nodes": {
+        "cont0001": {
+          "id": "cont0001",
+          "type": "container",
+          "props": {
+            "contentWidth": "boxed",
+            "tag": "section"
+          },
+          "style": {},
+          "advanced": {
+            "cssId": "",
+            "cssClasses": "",
+            "hideOn": []
+          },
+          "children": [
+            "head0001",
+            "vid00001"
+          ]
+        },
+        "head0001": {
+          "id": "head0001",
+          "type": "heading",
+          "props": {
+            "text": "Hello",
+            "tag": "h2",
+            "link": {
+              "url": "",
+              "newTab": false,
+              "nofollow": false
+            }
+          },
+          "style": {
+            "globalFont": {
+              "desktop": "1st"
+            }
+          },
+          "advanced": {
+            "cssId": "",
+            "cssClasses": "",
+            "hideOn": []
+          },
+          "children": []
+        },
+        "vid00001": {
+          "id": "vid00001",
+          "type": "video",
+          "props": {
+            "url": "",
+            "title": "Video",
+            "autoplay": false,
+            "muted": false,
+            "loop": false,
+            "controls": true
+          },
+          "style": {},
+          "advanced": {
+            "cssId": "",
+            "cssClasses": "",
+            "hideOn": []
+          },
+          "children": []
+        }
+      },
+      "settings": {
+        "metaDescription": "",
+        "contentWidth": 1140,
+        "backgroundColor": null,
+        "textColor": null,
+        "fontFamily": null
+      }
+    }
+  },
+  {
+    "name": "global font not allowed on widget",
+    "valid": false,
+    "errorPath": "nodes.vid00001.style.globalFont",
+    "document": {
+      "schemaVersion": 1,
+      "rootIds": [
+        "cont0001"
+      ],
+      "nodes": {
+        "cont0001": {
+          "id": "cont0001",
+          "type": "container",
+          "props": {
+            "contentWidth": "boxed",
+            "tag": "section"
+          },
+          "style": {},
+          "advanced": {
+            "cssId": "",
+            "cssClasses": "",
+            "hideOn": []
+          },
+          "children": [
+            "head0001",
+            "vid00001"
+          ]
+        },
+        "head0001": {
+          "id": "head0001",
+          "type": "heading",
+          "props": {
+            "text": "Hello",
+            "tag": "h2",
+            "link": {
+              "url": "",
+              "newTab": false,
+              "nofollow": false
+            }
+          },
+          "style": {},
+          "advanced": {
+            "cssId": "",
+            "cssClasses": "",
+            "hideOn": []
+          },
+          "children": []
+        },
+        "vid00001": {
+          "id": "vid00001",
+          "type": "video",
+          "props": {
+            "url": "",
+            "title": "Video",
+            "autoplay": false,
+            "muted": false,
+            "loop": false,
+            "controls": true
+          },
+          "style": {
+            "globalFont": {
+              "desktop": "display"
+            }
+          },
+          "advanced": {
+            "cssId": "",
+            "cssClasses": "",
+            "hideOn": []
+          },
+          "children": []
+        }
+      },
+      "settings": {
+        "metaDescription": "",
+        "contentWidth": 1140,
+        "backgroundColor": null,
+        "textColor": null,
+        "fontFamily": null
+      }
+    }
+  }
+]

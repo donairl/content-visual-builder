@@ -1,0 +1,13 @@
+.cvb-root{--cvb-content-width:1140px}
+.cvb-el-wrap0001 > .cvb-container__inner{justify-content:space-between;align-items:stretch}
+.cvb-el-wrap0001{margin-top:-20px;margin-bottom:0px;background-color:#000000;background-image:url("https://cdn.example.com/bg.jpg");background-size:contain;background-position:top center;background-repeat:repeat-x;border-style:dashed;border-width:2px;border-color:#ff000080;box-shadow:0px 10px 30px -5px #00000033;opacity:0.95;z-index:5}
+.cvb-el-btn00002{padding-top:10px;padding-right:20px;padding-bottom:10px;padding-left:20px;font-family:ui-monospace, SFMono-Regular, Menlo, Consolas, "Liberation Mono", monospace;text-transform:uppercase;font-style:italic;text-decoration:underline;background:none;border-style:solid;border-width:1.5px;border-color:#333;box-shadow:inset 1px 2px 3px 0px #000}
+.cvb-el-btn00002:hover{color:#fff;border-color:#123456}
+.cvb-el-divi0001{width:50%;align-self:center;border-top-style:dashed;border-top-width:3px;border-top-color:#e5e7eb}
+.cvb-el-spac0001{height:5vh}
+.cvb-el-text0002{font-size:1.125rem;line-height:1.75;letter-spacing:0.05em;background-image:linear-gradient(180deg,#fff,#000)}
+@media (max-width:767px){
+.cvb-el-btn00002{padding-right:12px;padding-left:12px}
+.cvb-el-divi0001{width:100%}
+.cvb-el-spac0001{height:24.125px}
+}

@@ -1,0 +1,209 @@
+{
+  "name": "Call to action",
+  "kind": "section",
+  "description": "Dark band with a short pitch and one button.",
+  "document": {
+    "schemaVersion": 1,
+    "rootIds": [
+      "ctaasec1"
+    ],
+    "nodes": {
+      "ctaasec1": {
+        "id": "ctaasec1",
+        "type": "container",
+        "props": {
+          "contentWidth": "boxed",
+          "tag": "section"
+        },
+        "style": {
+          "padding": {
+            "desktop": {
+              "top": 80,
+              "right": 24,
+              "bottom": 80,
+              "left": 24,
+              "unit": "px"
+            },
+            "mobile": {
+              "top": 56,
+              "right": 20,
+              "bottom": 56,
+              "left": 20,
+              "unit": "px"
+            }
+          },
+          "background": {
+            "desktop": {
+              "type": "color",
+              "color": "global:secondary"
+            }
+          },
+          "flexDirection": {
+            "desktop": "row",
+            "mobile": "column"
+          },
+          "justifyContent": {
+            "desktop": "space-between"
+          },
+          "alignItems": {
+            "desktop": "center"
+          },
+          "gap": {
+            "desktop": {
+              "value": 24,
+              "unit": "px"
+            }
+          }
+        },
+        "advanced": {
+          "cssId": "",
+          "cssClasses": "",
+          "hideOn": []
+        },
+        "children": [
+          "ctaacopy",
+          "ctaabutt"
+        ]
+      },
+      "ctaacopy": {
+        "id": "ctaacopy",
+        "type": "container",
+        "props": {
+          "contentWidth": "full",
+          "tag": "div"
+        },
+        "style": {
+          "gap": {
+            "desktop": {
+              "value": 8,
+              "unit": "px"
+            }
+          },
+          "padding": {
+            "desktop": {
+              "top": 0,
+              "right": 0,
+              "bottom": 0,
+              "left": 0,
+              "unit": "px"
+            }
+          }
+        },
+        "advanced": {
+          "cssId": "",
+          "cssClasses": "",
+          "hideOn": []
+        },
+        "children": [
+          "ctaahead",
+          "ctaatext"
+        ]
+      },
+      "ctaahead": {
+        "id": "ctaahead",
+        "type": "heading",
+        "props": {
+          "text": "Ready to build your next page?",
+          "tag": "h2",
+          "link": {
+            "url": "",
+            "newTab": false,
+            "nofollow": false
+          }
+        },
+        "style": {
+          "globalFont": {
+            "desktop": "primary"
+          },
+          "color": {
+            "desktop": "#ffffff"
+          },
+          "fontSize": {
+            "desktop": {
+              "value": 34,
+              "unit": "px"
+            },
+            "mobile": {
+              "value": 28,
+              "unit": "px"
+            }
+          }
+        },
+        "advanced": {
+          "cssId": "",
+          "cssClasses": "",
+          "hideOn": []
+        },
+        "children": []
+      },
+      "ctaatext": {
+        "id": "ctaatext",
+        "type": "text",
+        "props": {
+          "html": "<p>Start from this template and make it yours in minutes.</p>"
+        },
+        "style": {
+          "globalFont": {
+            "desktop": "text"
+          },
+          "color": {
+            "desktop": "#ffffffcc"
+          }
+        },
+        "advanced": {
+          "cssId": "",
+          "cssClasses": "",
+          "hideOn": []
+        },
+        "children": []
+      },
+      "ctaabutt": {
+        "id": "ctaabutt",
+        "type": "button",
+        "props": {
+          "text": "Start now",
+          "link": {
+            "url": "#",
+            "newTab": false,
+            "nofollow": false
+          },
+          "size": "lg"
+        },
+        "style": {
+          "background": {
+            "desktop": {
+              "type": "color",
+              "color": "global:accent"
+            }
+          },
+          "borderRadius": {
+            "desktop": {
+              "top": 999,
+              "right": 999,
+              "bottom": 999,
+              "left": 999,
+              "unit": "px"
+            }
+          },
+          "alignSelf": {
+            "desktop": "center",
+            "mobile": "flex-start"
+          }
+        },
+        "advanced": {
+          "cssId": "",
+          "cssClasses": "",
+          "hideOn": []
+        },
+        "children": []
+      }
+    },
+    "settings": {
+      "metaDescription": "",
+      "contentWidth": 1140,
+      "backgroundColor": null,
+      "textColor": null,
+      "fontFamily": null
+    }
+  }
+}

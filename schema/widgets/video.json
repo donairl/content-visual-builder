@@ -1,0 +1,42 @@
+{
+  "type": "video",
+  "title": "Video",
+  "category": "media",
+  "icon": "video",
+  "keywords": ["youtube", "vimeo", "mp4", "embed", "movie"],
+  "acceptsChildren": false,
+  "props": {
+    "url": { "type": "videoUrl", "default": "" },
+    "title": { "type": "text", "maxLength": 200, "default": "Video" },
+    "autoplay": { "type": "bool", "default": false },
+    "muted": { "type": "bool", "default": false },
+    "loop": { "type": "bool", "default": false },
+    "controls": { "type": "bool", "default": true }
+  },
+  "styleTargets": {},
+  "defaultStyle": {},
+  "controls": {
+    "content": [
+      {
+        "section": "Video",
+        "controls": [
+          { "prop": "url", "label": "Link (YouTube, Vimeo or .mp4/.webm)" },
+          { "prop": "title", "label": "Accessible Title" },
+          { "prop": "autoplay", "label": "Autoplay" },
+          { "prop": "muted", "label": "Mute" },
+          { "prop": "loop", "label": "Loop" },
+          { "prop": "controls", "label": "Player Controls" }
+        ]
+      }
+    ],
+    "style": [
+      {
+        "section": "Video",
+        "controls": [
+          { "style": "aspectRatio", "label": "Aspect Ratio" },
+          { "style": "borderRadius", "label": "Border Radius" }
+        ]
+      }
+    ]
+  }
+}

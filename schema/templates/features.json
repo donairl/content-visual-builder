@@ -1,0 +1,608 @@
+{
+  "name": "Features \u2014 three columns",
+  "kind": "section",
+  "description": "Section title and three feature cards that stack on mobile.",
+  "document": {
+    "schemaVersion": 1,
+    "rootIds": [
+      "featsec1"
+    ],
+    "nodes": {
+      "featcol1": {
+        "id": "featcol1",
+        "type": "container",
+        "props": {
+          "contentWidth": "full",
+          "tag": "div"
+        },
+        "style": {
+          "width": {
+            "desktop": {
+              "value": 33.333,
+              "unit": "%"
+            },
+            "mobile": {
+              "value": 100,
+              "unit": "%"
+            }
+          },
+          "gap": {
+            "desktop": {
+              "value": 12,
+              "unit": "px"
+            }
+          },
+          "padding": {
+            "desktop": {
+              "top": 28,
+              "right": 24,
+              "bottom": 28,
+              "left": 24,
+              "unit": "px"
+            }
+          },
+          "background": {
+            "desktop": {
+              "type": "color",
+              "color": "#ffffff"
+            }
+          },
+          "borderRadius": {
+            "desktop": {
+              "top": 12,
+              "right": 12,
+              "bottom": 12,
+              "left": 12,
+              "unit": "px"
+            }
+          },
+          "boxShadow": {
+            "desktop": {
+              "x": 0,
+              "y": 8,
+              "blur": 24,
+              "spread": -12,
+              "color": "#1d233040",
+              "inset": false
+            }
+          }
+        },
+        "advanced": {
+          "cssId": "",
+          "cssClasses": "",
+          "hideOn": []
+        },
+        "children": [
+          "featic10",
+          "feathd10",
+          "feattx10"
+        ]
+      },
+      "featic10": {
+        "id": "featic10",
+        "type": "icon",
+        "props": {
+          "icon": "zap",
+          "label": "",
+          "link": {
+            "url": "",
+            "newTab": false,
+            "nofollow": false
+          }
+        },
+        "style": {
+          "color": {
+            "desktop": "global:primary"
+          },
+          "iconSize": {
+            "desktop": {
+              "value": 36,
+              "unit": "px"
+            }
+          }
+        },
+        "advanced": {
+          "cssId": "",
+          "cssClasses": "",
+          "hideOn": []
+        },
+        "children": []
+      },
+      "feathd10": {
+        "id": "feathd10",
+        "type": "heading",
+        "props": {
+          "text": "Fast by default",
+          "tag": "h3",
+          "link": {
+            "url": "",
+            "newTab": false,
+            "nofollow": false
+          }
+        },
+        "style": {
+          "globalFont": {
+            "desktop": "primary"
+          },
+          "fontSize": {
+            "desktop": {
+              "value": 22,
+              "unit": "px"
+            }
+          },
+          "color": {
+            "desktop": "global:secondary"
+          }
+        },
+        "advanced": {
+          "cssId": "",
+          "cssClasses": "",
+          "hideOn": []
+        },
+        "children": []
+      },
+      "feattx10": {
+        "id": "feattx10",
+        "type": "text",
+        "props": {
+          "html": "<p>Published pages are plain HTML and CSS. No scripts, no waiting.</p>"
+        },
+        "style": {
+          "globalFont": {
+            "desktop": "text"
+          },
+          "color": {
+            "desktop": "global:text"
+          }
+        },
+        "advanced": {
+          "cssId": "",
+          "cssClasses": "",
+          "hideOn": []
+        },
+        "children": []
+      },
+      "featcol2": {
+        "id": "featcol2",
+        "type": "container",
+        "props": {
+          "contentWidth": "full",
+          "tag": "div"
+        },
+        "style": {
+          "width": {
+            "desktop": {
+              "value": 33.333,
+              "unit": "%"
+            },
+            "mobile": {
+              "value": 100,
+              "unit": "%"
+            }
+          },
+          "gap": {
+            "desktop": {
+              "value": 12,
+              "unit": "px"
+            }
+          },
+          "padding": {
+            "desktop": {
+              "top": 28,
+              "right": 24,
+              "bottom": 28,
+              "left": 24,
+              "unit": "px"
+            }
+          },
+          "background": {
+            "desktop": {
+              "type": "color",
+              "color": "#ffffff"
+            }
+          },
+          "borderRadius": {
+            "desktop": {
+              "top": 12,
+              "right": 12,
+              "bottom": 12,
+              "left": 12,
+              "unit": "px"
+            }
+          },
+          "boxShadow": {
+            "desktop": {
+              "x": 0,
+              "y": 8,
+              "blur": 24,
+              "spread": -12,
+              "color": "#1d233040",
+              "inset": false
+            }
+          }
+        },
+        "advanced": {
+          "cssId": "",
+          "cssClasses": "",
+          "hideOn": []
+        },
+        "children": [
+          "featic20",
+          "feathd20",
+          "feattx20"
+        ]
+      },
+      "featic20": {
+        "id": "featic20",
+        "type": "icon",
+        "props": {
+          "icon": "shield",
+          "label": "",
+          "link": {
+            "url": "",
+            "newTab": false,
+            "nofollow": false
+          }
+        },
+        "style": {
+          "color": {
+            "desktop": "global:primary"
+          },
+          "iconSize": {
+            "desktop": {
+              "value": 36,
+              "unit": "px"
+            }
+          }
+        },
+        "advanced": {
+          "cssId": "",
+          "cssClasses": "",
+          "hideOn": []
+        },
+        "children": []
+      },
+      "feathd20": {
+        "id": "feathd20",
+        "type": "heading",
+        "props": {
+          "text": "Safe to share",
+          "tag": "h3",
+          "link": {
+            "url": "",
+            "newTab": false,
+            "nofollow": false
+          }
+        },
+        "style": {
+          "globalFont": {
+            "desktop": "primary"
+          },
+          "fontSize": {
+            "desktop": {
+              "value": 22,
+              "unit": "px"
+            }
+          },
+          "color": {
+            "desktop": "global:secondary"
+          }
+        },
+        "advanced": {
+          "cssId": "",
+          "cssClasses": "",
+          "hideOn": []
+        },
+        "children": []
+      },
+      "feattx20": {
+        "id": "feattx20",
+        "type": "text",
+        "props": {
+          "html": "<p>Every value is validated and sanitized before it reaches your visitors.</p>"
+        },
+        "style": {
+          "globalFont": {
+            "desktop": "text"
+          },
+          "color": {
+            "desktop": "global:text"
+          }
+        },
+        "advanced": {
+          "cssId": "",
+          "cssClasses": "",
+          "hideOn": []
+        },
+        "children": []
+      },
+      "featcol3": {
+        "id": "featcol3",
+        "type": "container",
+        "props": {
+          "contentWidth": "full",
+          "tag": "div"
+        },
+        "style": {
+          "width": {
+            "desktop": {
+              "value": 33.333,
+              "unit": "%"
+            },
+            "mobile": {
+              "value": 100,
+              "unit": "%"
+            }
+          },
+          "gap": {
+            "desktop": {
+              "value": 12,
+              "unit": "px"
+            }
+          },
+          "padding": {
+            "desktop": {
+              "top": 28,
+              "right": 24,
+              "bottom": 28,
+              "left": 24,
+              "unit": "px"
+            }
+          },
+          "background": {
+            "desktop": {
+              "type": "color",
+              "color": "#ffffff"
+            }
+          },
+          "borderRadius": {
+            "desktop": {
+              "top": 12,
+              "right": 12,
+              "bottom": 12,
+              "left": 12,
+              "unit": "px"
+            }
+          },
+          "boxShadow": {
+            "desktop": {
+              "x": 0,
+              "y": 8,
+              "blur": 24,
+              "spread": -12,
+              "color": "#1d233040",
+              "inset": false
+            }
+          }
+        },
+        "advanced": {
+          "cssId": "",
+          "cssClasses": "",
+          "hideOn": []
+        },
+        "children": [
+          "featic30",
+          "feathd30",
+          "feattx30"
+        ]
+      },
+      "featic30": {
+        "id": "featic30",
+        "type": "icon",
+        "props": {
+          "icon": "star",
+          "label": "",
+          "link": {
+            "url": "",
+            "newTab": false,
+            "nofollow": false
+          }
+        },
+        "style": {
+          "color": {
+            "desktop": "global:primary"
+          },
+          "iconSize": {
+            "desktop": {
+              "value": 36,
+              "unit": "px"
+            }
+          }
+        },
+        "advanced": {
+          "cssId": "",
+          "cssClasses": "",
+          "hideOn": []
+        },
+        "children": []
+      },
+      "feathd30": {
+        "id": "feathd30",
+        "type": "heading",
+        "props": {
+          "text": "Looks right everywhere",
+          "tag": "h3",
+          "link": {
+            "url": "",
+            "newTab": false,
+            "nofollow": false
+          }
+        },
+        "style": {
+          "globalFont": {
+            "desktop": "primary"
+          },
+          "fontSize": {
+            "desktop": {
+              "value": 22,
+              "unit": "px"
+            }
+          },
+          "color": {
+            "desktop": "global:secondary"
+          }
+        },
+        "advanced": {
+          "cssId": "",
+          "cssClasses": "",
+          "hideOn": []
+        },
+        "children": []
+      },
+      "feattx30": {
+        "id": "feattx30",
+        "type": "text",
+        "props": {
+          "html": "<p>Fine-tune spacing and type per device with responsive controls.</p>"
+        },
+        "style": {
+          "globalFont": {
+            "desktop": "text"
+          },
+          "color": {
+            "desktop": "global:text"
+          }
+        },
+        "advanced": {
+          "cssId": "",
+          "cssClasses": "",
+          "hideOn": []
+        },
+        "children": []
+      },
+      "featsec1": {
+        "id": "featsec1",
+        "type": "container",
+        "props": {
+          "contentWidth": "boxed",
+          "tag": "section"
+        },
+        "style": {
+          "padding": {
+            "desktop": {
+              "top": 96,
+              "right": 24,
+              "bottom": 96,
+              "left": 24,
+              "unit": "px"
+            },
+            "mobile": {
+              "top": 56,
+              "right": 20,
+              "bottom": 56,
+              "left": 20,
+              "unit": "px"
+            }
+          },
+          "background": {
+            "desktop": {
+              "type": "color",
+              "color": "#f6f7f9"
+            }
+          },
+          "gap": {
+            "desktop": {
+              "value": 40,
+              "unit": "px"
+            }
+          }
+        },
+        "advanced": {
+          "cssId": "",
+          "cssClasses": "",
+          "hideOn": []
+        },
+        "children": [
+          "feattitl",
+          "featrow1"
+        ]
+      },
+      "feattitl": {
+        "id": "feattitl",
+        "type": "heading",
+        "props": {
+          "text": "Everything you need to launch",
+          "tag": "h2",
+          "link": {
+            "url": "",
+            "newTab": false,
+            "nofollow": false
+          }
+        },
+        "style": {
+          "globalFont": {
+            "desktop": "primary"
+          },
+          "textAlign": {
+            "desktop": "center"
+          },
+          "fontSize": {
+            "desktop": {
+              "value": 40,
+              "unit": "px"
+            },
+            "mobile": {
+              "value": 30,
+              "unit": "px"
+            }
+          },
+          "color": {
+            "desktop": "global:secondary"
+          }
+        },
+        "advanced": {
+          "cssId": "",
+          "cssClasses": "",
+          "hideOn": []
+        },
+        "children": []
+      },
+      "featrow1": {
+        "id": "featrow1",
+        "type": "container",
+        "props": {
+          "contentWidth": "full",
+          "tag": "div"
+        },
+        "style": {
+          "flexDirection": {
+            "desktop": "row",
+            "mobile": "column"
+          },
+          "gap": {
+            "desktop": {
+              "value": 24,
+              "unit": "px"
+            }
+          },
+          "padding": {
+            "desktop": {
+              "top": 0,
+              "right": 0,
+              "bottom": 0,
+              "left": 0,
+              "unit": "px"
+            }
+          }
+        },
+        "advanced": {
+          "cssId": "",
+          "cssClasses": "",
+          "hideOn": []
+        },
+        "children": [
+          "featcol1",
+          "featcol2",
+          "featcol3"
+        ]
+      }
+    },
+    "settings": {
+      "metaDescription": "",
+      "contentWidth": 1140,
+      "backgroundColor": null,
+      "textColor": null,
+      "fontFamily": null
+    }
+  }
+}

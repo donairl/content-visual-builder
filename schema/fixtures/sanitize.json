@@ -1,0 +1,23 @@
+[
+  { "name": "allowed markup kept", "input": "<p>Hello <strong>world</strong></p>", "expected": "<p>Hello <strong>world</strong></p>" },
+  { "name": "event and style attributes stripped", "input": "<p onclick=\"alert(1)\" style=\"color:red\" class=\"x\">Hi</p>", "expected": "<p>Hi</p>" },
+  { "name": "script removed with content", "input": "<script>alert(1)</script><p>ok</p>", "expected": "<p>ok</p>" },
+  { "name": "javascript href dropped", "input": "<a href=\"javascript:alert(1)\">x</a>", "expected": "<a>x</a>" },
+  { "name": "href with leading space dropped", "input": "<a href=\" javascript:alert(1)\">x</a>", "expected": "<a>x</a>" },
+  { "name": "uppercase scheme dropped (patterns are lowercase-only)", "input": "<a href=\"HTTPS://EXAMPLE.COM\">x</a>", "expected": "<a>x</a>" },
+  { "name": "target blank forces rel", "input": "<a href=\"https://example.com\" target=\"_blank\">x</a>", "expected": "<a href=\"https://example.com\" target=\"_blank\" rel=\"noopener noreferrer\">x</a>" },
+  { "name": "other target and rel removed", "input": "<a href=\"https://example.com\" target=\"_self\" rel=\"opener\">x</a>", "expected": "<a href=\"https://example.com\">x</a>" },
+  { "name": "relative and mailto links kept", "input": "<a href=\"/relative/path\">r</a> <a href=\"mailto:x@example.com\">m</a>", "expected": "<a href=\"/relative/path\">r</a> <a href=\"mailto:x@example.com\">m</a>" },
+  { "name": "unknown elements unwrapped", "input": "<div><span>text</span></div>", "expected": "text" },
+  { "name": "heading unwrapped", "input": "<h1>Title</h1>", "expected": "Title" },
+  { "name": "img removed", "input": "<img src=x onerror=alert(1)>", "expected": "" },
+  { "name": "iframe removed with content", "input": "<iframe src=\"https://evil.example\"></iframe><p>a</p>", "expected": "<p>a</p>" },
+  { "name": "svg removed with content", "input": "<svg><script>alert(1)</script></svg>", "expected": "" },
+  { "name": "style removed with content", "input": "<style>p{color:red}</style><p>x</p>", "expected": "<p>x</p>" },
+  { "name": "form controls removed", "input": "<form><input value=\"x\"><button>go</button></form>text", "expected": "text" },
+  { "name": "comments removed", "input": "<!-- c --><p>a</p>", "expected": "<p>a</p>" },
+  { "name": "line breaks kept", "input": "<p>a<br>b</p>", "expected": "<p>a<br>b</p>" },
+  { "name": "lists kept", "input": "<ul><li>one</li><li><em>two</em></li></ul><ol><li>x</li></ol>", "expected": "<ul><li>one</li><li><em>two</em></li></ul><ol><li>x</li></ol>" },
+  { "name": "inline formatting kept", "input": "<b>bold</b><i>it</i><u>u</u><s>s</s><code>c</code><blockquote>q</blockquote>", "expected": "<b>bold</b><i>it</i><u>u</u><s>s</s><code>c</code><blockquote>q</blockquote>" },
+  { "name": "entities preserved", "input": "<p>5 &lt; 6 &amp; 7</p>", "expected": "<p>5 &lt; 6 &amp; 7</p>" }
+]

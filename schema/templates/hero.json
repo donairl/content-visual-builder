@@ -1,0 +1,295 @@
+{
+  "name": "Hero",
+  "kind": "section",
+  "description": "Big headline over the primary gradient, with two buttons.",
+  "document": {
+    "schemaVersion": 1,
+    "rootIds": [
+      "herosec1"
+    ],
+    "nodes": {
+      "herosec1": {
+        "id": "herosec1",
+        "type": "container",
+        "props": {
+          "contentWidth": "boxed",
+          "tag": "section"
+        },
+        "style": {
+          "padding": {
+            "desktop": {
+              "top": 120,
+              "right": 24,
+              "bottom": 120,
+              "left": 24,
+              "unit": "px"
+            },
+            "mobile": {
+              "top": 72,
+              "right": 20,
+              "bottom": 72,
+              "left": 20,
+              "unit": "px"
+            }
+          },
+          "background": {
+            "desktop": {
+              "type": "gradient",
+              "gradientFrom": "global:primary",
+              "gradientTo": "global:secondary",
+              "gradientAngle": 135
+            }
+          },
+          "alignItems": {
+            "desktop": "center"
+          },
+          "gap": {
+            "desktop": {
+              "value": 24,
+              "unit": "px"
+            }
+          }
+        },
+        "advanced": {
+          "cssId": "",
+          "cssClasses": "",
+          "hideOn": []
+        },
+        "children": [
+          "herohead",
+          "herotext",
+          "herobtns"
+        ]
+      },
+      "herohead": {
+        "id": "herohead",
+        "type": "heading",
+        "props": {
+          "text": "Build beautiful pages without code",
+          "tag": "h1",
+          "link": {
+            "url": "",
+            "newTab": false,
+            "nofollow": false
+          }
+        },
+        "style": {
+          "globalFont": {
+            "desktop": "primary"
+          },
+          "color": {
+            "desktop": "#ffffff"
+          },
+          "textAlign": {
+            "desktop": "center"
+          },
+          "fontSize": {
+            "desktop": {
+              "value": 56,
+              "unit": "px"
+            },
+            "tablet": {
+              "value": 44,
+              "unit": "px"
+            },
+            "mobile": {
+              "value": 34,
+              "unit": "px"
+            }
+          },
+          "lineHeight": {
+            "desktop": 1.1
+          },
+          "maxWidth": {
+            "desktop": {
+              "value": 820,
+              "unit": "px"
+            }
+          }
+        },
+        "advanced": {
+          "cssId": "",
+          "cssClasses": "",
+          "hideOn": []
+        },
+        "children": []
+      },
+      "herotext": {
+        "id": "herotext",
+        "type": "text",
+        "props": {
+          "html": "<p>Drag, drop and publish fast, responsive landing pages. Every block adapts to desktop, tablet and mobile.</p>"
+        },
+        "style": {
+          "globalFont": {
+            "desktop": "text"
+          },
+          "color": {
+            "desktop": "#ffffffd9"
+          },
+          "textAlign": {
+            "desktop": "center"
+          },
+          "fontSize": {
+            "desktop": {
+              "value": 20,
+              "unit": "px"
+            },
+            "mobile": {
+              "value": 17,
+              "unit": "px"
+            }
+          },
+          "maxWidth": {
+            "desktop": {
+              "value": 640,
+              "unit": "px"
+            }
+          }
+        },
+        "advanced": {
+          "cssId": "",
+          "cssClasses": "",
+          "hideOn": []
+        },
+        "children": []
+      },
+      "herobtns": {
+        "id": "herobtns",
+        "type": "container",
+        "props": {
+          "contentWidth": "full",
+          "tag": "div"
+        },
+        "style": {
+          "flexDirection": {
+            "desktop": "row",
+            "mobile": "column"
+          },
+          "justifyContent": {
+            "desktop": "center"
+          },
+          "alignItems": {
+            "desktop": "center"
+          },
+          "gap": {
+            "desktop": {
+              "value": 12,
+              "unit": "px"
+            }
+          },
+          "padding": {
+            "desktop": {
+              "top": 8,
+              "right": 0,
+              "bottom": 0,
+              "left": 0,
+              "unit": "px"
+            }
+          }
+        },
+        "advanced": {
+          "cssId": "",
+          "cssClasses": "",
+          "hideOn": []
+        },
+        "children": [
+          "herobt01",
+          "herobt02"
+        ]
+      },
+      "herobt01": {
+        "id": "herobt01",
+        "type": "button",
+        "props": {
+          "text": "Get started",
+          "link": {
+            "url": "#",
+            "newTab": false,
+            "nofollow": false
+          },
+          "size": "lg"
+        },
+        "style": {
+          "background": {
+            "desktop": {
+              "type": "color",
+              "color": "#ffffff"
+            }
+          },
+          "color": {
+            "desktop": "global:primary"
+          },
+          "borderRadius": {
+            "desktop": {
+              "top": 999,
+              "right": 999,
+              "bottom": 999,
+              "left": 999,
+              "unit": "px"
+            }
+          }
+        },
+        "advanced": {
+          "cssId": "",
+          "cssClasses": "",
+          "hideOn": []
+        },
+        "children": []
+      },
+      "herobt02": {
+        "id": "herobt02",
+        "type": "button",
+        "props": {
+          "text": "Learn more",
+          "link": {
+            "url": "#",
+            "newTab": false,
+            "nofollow": false
+          },
+          "size": "lg"
+        },
+        "style": {
+          "background": {
+            "desktop": {
+              "type": "color",
+              "color": "transparent"
+            }
+          },
+          "border": {
+            "desktop": {
+              "style": "solid",
+              "width": 2,
+              "color": "#ffffff"
+            }
+          },
+          "color": {
+            "desktop": "#ffffff"
+          },
+          "borderRadius": {
+            "desktop": {
+              "top": 999,
+              "right": 999,
+              "bottom": 999,
+              "left": 999,
+              "unit": "px"
+            }
+          }
+        },
+        "advanced": {
+          "cssId": "",
+          "cssClasses": "",
+          "hideOn": []
+        },
+        "children": []
+      }
+    },
+    "settings": {
+      "metaDescription": "",
+      "contentWidth": 1140,
+      "backgroundColor": null,
+      "textColor": null,
+      "fontFamily": null
+    }
+  }
+}

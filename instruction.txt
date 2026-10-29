@@ -1,0 +1,85 @@
+buat elementor wordpress clone
+page builder visual berbasis drag-and-drop yang memungkinkan pengguna membuat halaman website tanpa menulis kode.
+
+- Product vision :
+
+Membuat page builder visual yang intuitif, extensible, dan cukup ringan untuk membangun landing page serta halaman website WordPress tanpa coding.
+
+
+- Target users :
+
+Developers, freelancer, web designer, digital agency, dan pemilik bisnis kecil.
+
+
+- Core value :
+
+Drag-and-drop editing, live preview, reusable components, responsive controls, dan hasil halaman yang dapat dipublikasika
+
+- Product goals:
+1. Membuat landing page tanpa menulis kode.
+2. Memberikan preview yang mendekati tampilan halaman sebenarnya.
+3. Memungkinkan pengguna mengatur layout untuk desktop, tablet, dan mobile.
+4. Menyimpan halaman sebagai struktur data yang dapat diedit kembali.
+5. Menghasilkan halaman publik yang cepat, aman, dan kompatibel dengan html5.
+
+Product Scope :
+1. Editor canvas, drag-and-drop, widget dasar, panel properties, responsive preview, undo/redo, autosave, publish, dan rendering halaman
+2. Reusable components, global styles, navigator/tree view, template library, form widget, custom CSS, copy-paste style, dan revision history.
+
+
+Editor utama terdiri dari tiga area.
+
+A. Left panel — Widget & settings
+- Tab Elements dan Settings.
+- Search widget.
+- Kategori Basic, Layout, Media, dan Advanced.
+- Content, Style, dan Advanced properties.
+- Kontrol typography, warna, spacing, border, shadow, dan background.
+
+
+
+B. Center canvas — Visual editing
+- Live page preview.
+- Drag-and-drop widget dan container.
+- Selection outline dan contextual toolbar.
+- Add-element placeholder.
+- Inline text editing.
+- Device preview: desktop, tablet, mobile.
+- Zoom dan canvas width control.
+
+
+
+C. Top toolbar & navigator
+- Undo/redo.
+- Page settings.
+- Navigator untuk melihat tree halaman.
+- Preview.
+- Save draft dan Publish.
+- Status penyimpanan dan validasi.
+
+
+
+Catatan implementasi: panel properties sebaiknya berada di sisi kiri seperti Elementor, bukan harus menggunakan tiga panel permanen. Navigator dapat berupa panel overlay agar canvas tetap luas.
+4. Functional requirements
+ID Requirement Acceptance criteria
+FR-01 Page management Pengguna dapat membuat, membuka, mengganti nama, dan menghapus halaman sesuai izin.
+FR-02 Drag-and-drop Widget dapat ditambahkan, dipindahkan, dan diurutkan ulang dengan indikator posisi yang jelas.
+FR-03 Widget system Widget memiliki schema konfigurasi, renderer, default value, dan validasi.
+FR-04 Property editor Perubahan properti tampil pada canvas tanpa reload seluruh editor.
+FR-05 Layout system Mendukung container, Flexbox, gap, padding, margin, width, dan alignment.
+FR-06 Responsive Pengaturan dapat berbeda pada desktop, tablet, dan mobile.
+FR-07 Undo/redo Operasi editing dapat dibatalkan dan diulang dengan history yang konsisten.
+FR-08 Persistence Draft tersimpan dan dapat dibuka kembali tanpa kehilangan struktur maupun style.
+FR-09 Publishing Pengguna berwenang dapat menerbitkan halaman ke URL publik WordPress.
+FR-10 Frontend rendering Halaman publik tidak membutuhkan editor untuk merender kontennya.
+FR-11 Security Input divalidasi, izin diperiksa di server, dan output di-escape atau disanitasi sesuai konteks.
+FR-12 Recovery Kegagalan penyimpanan tidak boleh diam-diam menghilangkan perubahan pengguna.
+
+Technical architecture:
+1. Frontend editor: Nextjs typescript.
+2. UI state: Local Stete
+3. Drag-and-drop: dnd-kit.
+4. Backend: PHP Yii3
+5. REST API: REST API dengan capability checks dan nonce.
+6. Supported database : sqlite, postgresql, mariadb
+7. Dependency semininal mungkin

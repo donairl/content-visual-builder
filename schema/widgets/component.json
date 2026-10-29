@@ -1,0 +1,24 @@
+{
+  "type": "component",
+  "title": "Component",
+  "category": "advanced",
+  "icon": "box",
+  "keywords": ["component", "global", "reusable", "symbol"],
+  "acceptsChildren": false,
+  "props": {
+    "componentId": { "type": "number", "min": 0, "max": 2147483647, "integer": true, "default": 0 }
+  },
+  "styleTargets": {},
+  "defaultStyle": {},
+  "controls": {
+    "content": [
+      {
+        "section": "Component",
+        "controls": [
+          { "prop": "componentId", "label": "Component", "control": "component" }
+        ]
+      }
+    ],
+    "style": []
+  }
+}

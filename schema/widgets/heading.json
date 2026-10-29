@@ -1,0 +1,38 @@
+{
+  "type": "heading",
+  "title": "Heading",
+  "category": "basic",
+  "icon": "type",
+  "keywords": ["title", "headline", "h1", "h2", "text"],
+  "acceptsChildren": false,
+  "inlineEditable": "text",
+  "props": {
+    "text": { "type": "text", "maxLength": 1000, "default": "Add Your Heading Text Here" },
+    "link": { "type": "link", "default": { "url": "", "newTab": false, "nofollow": false } },
+    "tag": { "type": "enum", "options": ["h1", "h2", "h3", "h4", "h5", "h6", "p", "div"], "default": "h2" }
+  },
+  "styleTargets": {},
+  "defaultStyle": {},
+  "controls": {
+    "content": [
+      {
+        "section": "Title",
+        "controls": [
+          { "prop": "text", "label": "Title", "control": "textarea" },
+          { "prop": "link", "label": "Link" },
+          { "prop": "tag", "label": "HTML Tag" }
+        ]
+      }
+    ],
+    "style": [
+      {
+        "section": "Title",
+        "controls": [
+          { "style": "textAlign", "label": "Alignment", "control": "choose" },
+          { "style": "color", "label": "Text Color" },
+          { "group": "typography", "label": "Typography" }
+        ]
+      }
+    ]
+  }
+}

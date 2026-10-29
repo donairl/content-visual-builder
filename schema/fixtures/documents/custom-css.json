@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "rootIds": ["cont0c01"],
+  "nodes": {
+    "cont0c01": {
+      "id": "cont0c01",
+      "type": "container",
+      "props": { "contentWidth": "boxed", "tag": "section" },
+      "style": { "padding": { "desktop": { "top": 20, "bottom": 20, "unit": "px" } } },
+      "advanced": { "cssId": "", "cssClasses": "", "hideOn": ["mobile"], "customCss": "&:hover { outline: 1px solid #000 }" },
+      "children": ["head0c01", "butt0c01"]
+    },
+    "head0c01": {
+      "id": "head0c01",
+      "type": "heading",
+      "props": { "text": "Custom", "tag": "h2", "link": { "url": "", "newTab": false, "nofollow": false } },
+      "style": { "color": { "desktop": "#112233" } },
+      "advanced": { "cssId": "", "cssClasses": "", "hideOn": [], "customCss": "letter-spacing: .1em;\n@media (max-width: 767px) {\n  font-size: 20px;\n}\n" },
+      "children": []
+    },
+    "butt0c01": {
+      "id": "butt0c01",
+      "type": "button",
+      "props": { "text": "Go", "link": { "url": "/go", "newTab": false, "nofollow": false }, "size": "md" },
+      "style": {},
+      "advanced": { "cssId": "", "cssClasses": "", "hideOn": [], "customCss": "" },
+      "children": []
+    }
+  },
+  "settings": {
+    "metaDescription": "",
+    "contentWidth": 1140,
+    "backgroundColor": null,
+    "textColor": null,
+    "fontFamily": null,
+    "customCss": "& h2 { margin: 0 } a[href^=\"/\"] { content: \"}\"; background: url(/x.png) }"
+  }
+}

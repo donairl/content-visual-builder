@@ -1,0 +1,132 @@
+{
+  "globals": {
+    "colors": [
+      {
+        "id": "brand",
+        "name": "Brand",
+        "value": "#5b50e6"
+      }
+    ],
+    "fonts": []
+  },
+  "components": {
+    "7": {
+      "schemaVersion": 1,
+      "rootIds": [
+        "cardc001"
+      ],
+      "nodes": {
+        "cardc001": {
+          "id": "cardc001",
+          "type": "container",
+          "props": {
+            "contentWidth": "full",
+            "tag": "div"
+          },
+          "style": {
+            "padding": {
+              "desktop": {
+                "top": 16,
+                "right": 16,
+                "bottom": 16,
+                "left": 16,
+                "unit": "px"
+              }
+            },
+            "background": {
+              "desktop": {
+                "type": "color",
+                "color": "global:brand"
+              }
+            }
+          },
+          "advanced": {
+            "cssId": "card",
+            "cssClasses": "",
+            "hideOn": [],
+            "customCss": "&:hover { opacity: .9 }"
+          },
+          "children": [
+            "headc001",
+            "butc0001",
+            "nest0001"
+          ]
+        },
+        "headc001": {
+          "id": "headc001",
+          "type": "heading",
+          "props": {
+            "text": "Card <title>",
+            "tag": "h3",
+            "link": {
+              "url": "",
+              "newTab": false,
+              "nofollow": false
+            }
+          },
+          "style": {
+            "color": {
+              "mobile": "#ffffff"
+            }
+          },
+          "advanced": {
+            "cssId": "",
+            "cssClasses": "",
+            "hideOn": [
+              "tablet"
+            ]
+          },
+          "children": []
+        },
+        "butc0001": {
+          "id": "butc0001",
+          "type": "button",
+          "props": {
+            "text": "More",
+            "link": {
+              "url": "/more",
+              "newTab": true,
+              "nofollow": false
+            },
+            "size": "sm"
+          },
+          "style": {},
+          "advanced": {
+            "cssId": "",
+            "cssClasses": "",
+            "hideOn": []
+          },
+          "children": []
+        },
+        "nest0001": {
+          "id": "nest0001",
+          "type": "component",
+          "props": {
+            "componentId": 7
+          },
+          "style": {
+            "margin": {
+              "desktop": {
+                "top": 1,
+                "unit": "px"
+              }
+            }
+          },
+          "advanced": {
+            "cssId": "",
+            "cssClasses": "",
+            "hideOn": []
+          },
+          "children": []
+        }
+      },
+      "settings": {
+        "metaDescription": "",
+        "contentWidth": 1140,
+        "backgroundColor": null,
+        "textColor": null,
+        "fontFamily": null
+      }
+    }
+  }
+}

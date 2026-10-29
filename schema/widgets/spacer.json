@@ -1,0 +1,24 @@
+{
+  "type": "spacer",
+  "title": "Spacer",
+  "category": "basic",
+  "icon": "spacer",
+  "keywords": ["space", "gap", "blank", "empty"],
+  "acceptsChildren": false,
+  "props": {},
+  "styleTargets": {},
+  "defaultStyle": {
+    "height": { "desktop": { "value": 50, "unit": "px" } }
+  },
+  "controls": {
+    "content": [
+      {
+        "section": "Spacer",
+        "controls": [
+          { "style": "height", "label": "Space" }
+        ]
+      }
+    ],
+    "style": []
+  }
+}

@@ -1,0 +1,13 @@
+.cvb-root{--cvb-content-width:1140px}
+.cvb-el-inst0001{margin-top:20px}
+.cvb-el-cardc001{padding-top:16px;padding-right:16px;padding-bottom:16px;padding-left:16px;background-color:#5b50e6}
+@media (max-width:767px){
+.cvb-el-headc001{color:#ffffff}
+}
+@media (min-width:768px) and (max-width:1024px){
+.cvb-el-headc001{display:none}
+}
+@media (max-width:767px){
+.cvb-el-inst0002{display:none}
+}
+.cvb-el-cardc001{&:hover { opacity: .9 }}

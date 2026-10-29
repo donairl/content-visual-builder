@@ -1,0 +1,41 @@
+{
+  "type": "text",
+  "title": "Text Editor",
+  "category": "basic",
+  "icon": "align-left",
+  "keywords": ["paragraph", "rich text", "content", "copy"],
+  "acceptsChildren": false,
+  "inlineEditable": "html",
+  "props": {
+    "html": {
+      "type": "richtext",
+      "maxLength": 50000,
+      "default": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.</p>"
+    }
+  },
+  "styleTargets": {
+    "linkColor": " a"
+  },
+  "defaultStyle": {},
+  "controls": {
+    "content": [
+      {
+        "section": "Text Editor",
+        "controls": [
+          { "prop": "html", "label": "Content", "control": "richtext" }
+        ]
+      }
+    ],
+    "style": [
+      {
+        "section": "Text",
+        "controls": [
+          { "style": "textAlign", "label": "Alignment", "control": "choose" },
+          { "style": "color", "label": "Text Color" },
+          { "style": "linkColor", "label": "Link Color" },
+          { "group": "typography", "label": "Typography" }
+        ]
+      }
+    ]
+  }
+}

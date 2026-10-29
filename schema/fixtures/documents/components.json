@@ -1,0 +1,106 @@
+{
+  "schemaVersion": 1,
+  "rootIds": [
+    "contp001",
+    "inst0003"
+  ],
+  "nodes": {
+    "contp001": {
+      "id": "contp001",
+      "type": "container",
+      "props": {
+        "contentWidth": "boxed",
+        "tag": "section"
+      },
+      "style": {},
+      "advanced": {
+        "cssId": "",
+        "cssClasses": "",
+        "hideOn": []
+      },
+      "children": [
+        "headp001",
+        "inst0001",
+        "inst0002"
+      ]
+    },
+    "headp001": {
+      "id": "headp001",
+      "type": "heading",
+      "props": {
+        "text": "Page heading",
+        "tag": "h1",
+        "link": {
+          "url": "",
+          "newTab": false,
+          "nofollow": false
+        }
+      },
+      "style": {},
+      "advanced": {
+        "cssId": "",
+        "cssClasses": "",
+        "hideOn": []
+      },
+      "children": []
+    },
+    "inst0001": {
+      "id": "inst0001",
+      "type": "component",
+      "props": {
+        "componentId": 7
+      },
+      "style": {
+        "margin": {
+          "desktop": {
+            "top": 20,
+            "unit": "px"
+          }
+        }
+      },
+      "advanced": {
+        "cssId": "first-card",
+        "cssClasses": "card-slot",
+        "hideOn": []
+      },
+      "children": []
+    },
+    "inst0002": {
+      "id": "inst0002",
+      "type": "component",
+      "props": {
+        "componentId": 7
+      },
+      "style": {},
+      "advanced": {
+        "cssId": "",
+        "cssClasses": "",
+        "hideOn": [
+          "mobile"
+        ]
+      },
+      "children": []
+    },
+    "inst0003": {
+      "id": "inst0003",
+      "type": "component",
+      "props": {
+        "componentId": 99
+      },
+      "style": {},
+      "advanced": {
+        "cssId": "",
+        "cssClasses": "",
+        "hideOn": []
+      },
+      "children": []
+    }
+  },
+  "settings": {
+    "metaDescription": "",
+    "contentWidth": 1140,
+    "backgroundColor": null,
+    "textColor": null,
+    "fontFamily": null
+  }
+}

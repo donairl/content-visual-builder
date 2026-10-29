@@ -1,0 +1,17 @@
+.cvb-root{--cvb-content-width:1140px;color:#333}
+.cvb-el-contg001{background-image:linear-gradient(90deg,#5b50e6,#ffffff);border-style:solid;border-width:1px;border-color:#16a34a80;box-shadow:0px 2px 8px 0px #333}
+.cvb-el-headg001{font-family:Georgia, Cambria, "Times New Roman", Times, serif;font-size:56px;font-weight:700;line-height:1.1;color:#5b50e6}
+.cvb-el-headg002{font-weight:300}
+.cvb-el-textg001{font-family:system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;line-height:1.6}
+.cvb-el-textg001 a{color:#16a34a80}
+.cvb-el-buttg001{font-family:Georgia, Cambria, "Times New Roman", Times, serif;font-size:56px;font-weight:700;line-height:1.1;background-color:#5b50e6}
+.cvb-el-buttg001:hover{background-color:#16a34a80}
+@media (max-width:1024px){
+.cvb-el-headg001{font-size:40px}
+}
+@media (max-width:767px){
+.cvb-el-contg001{border-style:dashed}
+.cvb-el-headg001{font-size:32px;color:#000}
+.cvb-el-textg001{letter-spacing:0.2px}
+.cvb-el-buttg001{font-family:ui-monospace, SFMono-Regular, Menlo, Consolas, "Liberation Mono", monospace;font-size:32px}
+}

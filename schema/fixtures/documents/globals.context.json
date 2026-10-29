@@ -1,0 +1,89 @@
+{
+  "globals": {
+    "colors": [
+      {
+        "id": "primary",
+        "name": "Primary",
+        "value": "#5b50e6"
+      },
+      {
+        "id": "text",
+        "name": "Text",
+        "value": "#333"
+      },
+      {
+        "id": "accent",
+        "name": "Accent",
+        "value": "#16a34a80"
+      },
+      {
+        "id": "primary",
+        "name": "Duplicate is ignored",
+        "value": "#000000"
+      },
+      {
+        "id": "bad",
+        "name": "Named colors are invalid",
+        "value": "red"
+      },
+      {
+        "id": "gone2",
+        "name": "Missing value"
+      }
+    ],
+    "fonts": [
+      {
+        "id": "display",
+        "name": "Display",
+        "style": {
+          "fontFamily": {
+            "desktop": "serif"
+          },
+          "fontSize": {
+            "desktop": {
+              "value": 56,
+              "unit": "px"
+            },
+            "mobile": {
+              "value": 32,
+              "unit": "px"
+            }
+          },
+          "fontWeight": {
+            "desktop": "700"
+          },
+          "lineHeight": {
+            "desktop": 1.1
+          }
+        }
+      },
+      {
+        "id": "body",
+        "name": "Body",
+        "style": {
+          "fontFamily": {
+            "desktop": "system"
+          },
+          "lineHeight": {
+            "desktop": 1.6
+          },
+          "letterSpacing": {
+            "mobile": {
+              "value": 0.2,
+              "unit": "px"
+            }
+          }
+        }
+      },
+      {
+        "id": "broken",
+        "name": "Unknown key makes it invalid",
+        "style": {
+          "color": {
+            "desktop": "#000"
+          }
+        }
+      }
+    ]
+  }
+}

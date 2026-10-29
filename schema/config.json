@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "devices": ["desktop", "tablet", "mobile"],
+  "breakpoints": {
+    "tablet": 1024,
+    "mobile": 767
+  },
+  "previewWidths": {
+    "desktop": null,
+    "tablet": 768,
+    "mobile": 360
+  },
+  "limits": {
+    "maxDocumentBytes": 2097152,
+    "maxNodes": 2000,
+    "maxDepth": 12,
+    "maxUrlLength": 2048,
+    "maxDecimals": 3,
+    "maxCustomCssLength": 10000,
+    "maxGlobalColors": 50,
+    "maxGlobalFonts": 20,
+    "maxGlobalNameLength": 60,
+    "maxFormFields": 20,
+    "maxFormOptions": 20
+  },
+  "patterns": {
+    "nodeId": "^[a-z0-9]{8}$",
+    "cssId": "^[A-Za-z][A-Za-z0-9_-]{0,63}$",
+    "cssClasses": "^[A-Za-z_][A-Za-z0-9_-]{0,63}( [A-Za-z_][A-Za-z0-9_-]{0,63}){0,9}$",
+    "color": "^(#[0-9A-Fa-f]{3,4}|#[0-9A-Fa-f]{6}|#[0-9A-Fa-f]{8}|transparent)$",
+    "linkUrl": "^(https?://[^\\x00-\\x20\\x7f\"'<>\\\\`]+|mailto:[^\\x00-\\x20\\x7f\"'<>\\\\`]+|tel:[0-9+()./ -]+|/(?!/)[^\\x00-\\x20\\x7f\"'<>\\\\`]*|#[A-Za-z0-9_-]*)$",
+    "mediaUrl": "^(https?://[^\\x00-\\x20\\x7f\"'<>\\\\`(){}]+|/(?!/)[^\\x00-\\x20\\x7f\"'<>\\\\`(){}]*)$",
+    "videoUrl": "^https?://[^\\x00-\\x20\\x7f\"'<>\\\\`]+$",
+    "globalId": "^[a-z][a-z0-9-]{0,31}$",
+    "globalColor": "^global:[a-z][a-z0-9-]{0,31}$",
+    "formFieldId": "^[a-z][a-z0-9_]{0,31}$"
+  },
+  "settings": {
+    "metaDescription": { "type": "text", "maxLength": 300, "default": "" },
+    "contentWidth": { "type": "number", "min": 320, "max": 3000, "integer": true, "default": 1140 },
+    "backgroundColor": { "type": "color", "default": null },
+    "textColor": { "type": "color", "default": null },
+    "fontFamily": { "type": "fontFamily", "default": null },
+    "customCss": { "type": "css", "maxLength": 50000, "default": "" }
+  }
+}

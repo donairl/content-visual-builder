@@ -1,0 +1,75 @@
+{
+  "schemaVersion": 1,
+  "rootIds": ["wrap0001"],
+  "nodes": {
+    "wrap0001": {
+      "id": "wrap0001", "type": "container",
+      "props": { "contentWidth": "full", "tag": "main" },
+      "style": {
+        "justifyContent": { "desktop": "space-between" },
+        "alignItems": { "desktop": "stretch", "tablet": null },
+        "margin": { "desktop": { "top": -20, "right": null, "bottom": 0, "left": null, "unit": "px" } },
+        "background": { "desktop": { "type": "image", "color": "#000000", "imageUrl": "https://cdn.example.com/bg.jpg", "imageSize": "contain", "imagePosition": "top center", "imageRepeat": "repeat-x", "gradientFrom": "#ffffff" } },
+        "border": { "desktop": { "style": "dashed", "width": 2, "color": "#ff000080" } },
+        "boxShadow": { "desktop": { "x": 0, "y": 10, "blur": 30, "spread": -5, "color": "#00000033", "inset": false } },
+        "opacity": { "desktop": 0.95 },
+        "zIndex": { "desktop": 5 }
+      },
+      "advanced": { "cssId": "", "cssClasses": "", "hideOn": [] },
+      "children": ["btn00002", "divi0001", "spac0001", "text0002"]
+    },
+    "btn00002": {
+      "id": "btn00002", "type": "button",
+      "props": { "text": "No link", "link": { "url": "", "newTab": false, "nofollow": false }, "size": "sm" },
+      "style": {
+        "padding": { "desktop": { "top": 10, "right": 20, "bottom": 10, "left": 20, "unit": "px" }, "mobile": { "right": 12, "left": 12, "unit": "px" } },
+        "fontFamily": { "desktop": "mono" },
+        "textTransform": { "desktop": "uppercase" },
+        "fontStyle": { "desktop": "italic" },
+        "textDecoration": { "desktop": "underline" },
+        "background": { "desktop": { "type": "none" } },
+        "border": { "desktop": { "style": "solid", "width": 1.5, "color": "#333" } },
+        "boxShadow": { "desktop": { "x": 1, "y": 2, "blur": 3, "spread": 0, "color": "#000", "inset": true } },
+        "hoverColor": { "desktop": "#fff" },
+        "hoverBorderColor": { "desktop": "#123456" }
+      },
+      "advanced": { "cssId": "", "cssClasses": "", "hideOn": [] },
+      "children": []
+    },
+    "divi0001": {
+      "id": "divi0001", "type": "divider",
+      "props": {},
+      "style": {
+        "width": { "desktop": { "value": 50, "unit": "%" }, "mobile": { "value": 100, "unit": "%" } },
+        "alignSelf": { "desktop": "center" },
+        "dividerStyle": { "desktop": "dashed" },
+        "dividerWeight": { "desktop": { "value": 3, "unit": "px" } },
+        "dividerColor": { "desktop": "#e5e7eb" }
+      },
+      "advanced": { "cssId": "", "cssClasses": "", "hideOn": [] },
+      "children": []
+    },
+    "spac0001": {
+      "id": "spac0001", "type": "spacer",
+      "props": {},
+      "style": {
+        "height": { "desktop": { "value": 5, "unit": "vh" }, "tablet": null, "mobile": { "value": 24.125, "unit": "px" } }
+      },
+      "advanced": { "cssId": "", "cssClasses": "", "hideOn": [] },
+      "children": []
+    },
+    "text0002": {
+      "id": "text0002", "type": "text",
+      "props": { "html": "<p>Plain paragraph.</p>" },
+      "style": {
+        "fontSize": { "desktop": { "value": 1.125, "unit": "rem" } },
+        "lineHeight": { "desktop": 1.75 },
+        "letterSpacing": { "desktop": { "value": 0.05, "unit": "em" } },
+        "background": { "desktop": { "type": "gradient", "gradientFrom": "#fff", "gradientTo": "#000" } }
+      },
+      "advanced": { "cssId": "", "cssClasses": "", "hideOn": [] },
+      "children": []
+    }
+  },
+  "settings": { "metaDescription": "", "contentWidth": 1140, "backgroundColor": null, "textColor": null, "fontFamily": null }
+}

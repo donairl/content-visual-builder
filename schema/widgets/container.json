@@ -1,0 +1,60 @@
+{
+  "type": "container",
+  "title": "Container",
+  "category": "layout",
+  "icon": "square",
+  "keywords": ["section", "flex", "row", "column", "box", "layout"],
+  "acceptsChildren": true,
+  "props": {
+    "contentWidth": { "type": "enum", "options": ["boxed", "full"], "default": "boxed" },
+    "tag": { "type": "enum", "options": ["div", "section", "header", "footer", "main", "article", "aside", "nav"], "default": "div" }
+  },
+  "styleTargets": {
+    "flexDirection": " > .cvb-container__inner",
+    "flexWrap": " > .cvb-container__inner",
+    "justifyContent": " > .cvb-container__inner",
+    "alignItems": " > .cvb-container__inner",
+    "gap": " > .cvb-container__inner",
+    "boxedWidth": " > .cvb-container__inner"
+  },
+  "defaultStyle": {},
+  "controls": {
+    "content": [
+      {
+        "section": "Container",
+        "controls": [
+          { "prop": "contentWidth", "label": "Content Width", "control": "choose" },
+          { "style": "boxedWidth", "label": "Boxed Width", "showIf": { "prop": "contentWidth", "equals": "boxed" } },
+          { "style": "minHeight", "label": "Min Height" },
+          { "prop": "tag", "label": "HTML Tag" }
+        ]
+      },
+      {
+        "section": "Items",
+        "controls": [
+          { "style": "flexDirection", "label": "Direction", "control": "choose" },
+          { "style": "justifyContent", "label": "Justify Content", "control": "choose" },
+          { "style": "alignItems", "label": "Align Items", "control": "choose" },
+          { "style": "gap", "label": "Gap" },
+          { "style": "flexWrap", "label": "Wrap", "control": "choose" }
+        ]
+      }
+    ],
+    "style": [
+      {
+        "section": "Background",
+        "controls": [
+          { "style": "background", "label": "Background" }
+        ]
+      },
+      {
+        "section": "Border",
+        "controls": [
+          { "style": "border", "label": "Border" },
+          { "style": "borderRadius", "label": "Border Radius" },
+          { "style": "boxShadow", "label": "Box Shadow" }
+        ]
+      }
+    ]
+  }
+}

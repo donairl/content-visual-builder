@@ -1,0 +1,61 @@
+{
+  "categories": [
+    { "id": "layout", "label": "Layout" },
+    { "id": "basic", "label": "Basic" },
+    { "id": "media", "label": "Media" },
+    { "id": "advanced", "label": "Advanced" }
+  ],
+  "widgets": ["container", "heading", "text", "button", "divider", "spacer", "image", "video", "icon", "form"],
+  "groups": {
+    "typography": ["globalFont", "fontFamily", "fontSize", "fontWeight", "lineHeight", "letterSpacing", "textTransform", "fontStyle", "textDecoration"]
+  },
+  "responsiveByDefault": ["size", "box", "number", "enum"],
+  "commonAdvanced": [
+    {
+      "section": "Layout",
+      "controls": [
+        { "style": "margin", "label": "Margin" },
+        { "style": "padding", "label": "Padding" },
+        { "style": "width", "label": "Width" },
+        { "style": "maxWidth", "label": "Max Width" },
+        { "style": "alignSelf", "label": "Align Self", "control": "choose" },
+        { "style": "flexGrow", "label": "Flex Grow" },
+        { "style": "zIndex", "label": "Z-Index" },
+        { "style": "opacity", "label": "Opacity", "responsive": false }
+      ]
+    },
+    {
+      "section": "Background",
+      "controls": [
+        { "style": "background", "label": "Background" }
+      ]
+    },
+    {
+      "section": "Border",
+      "controls": [
+        { "style": "border", "label": "Border" },
+        { "style": "borderRadius", "label": "Border Radius" },
+        { "style": "boxShadow", "label": "Box Shadow" }
+      ]
+    },
+    {
+      "section": "Responsive",
+      "controls": [
+        { "advanced": "hideOn", "label": "Hide On" }
+      ]
+    },
+    {
+      "section": "Attributes",
+      "controls": [
+        { "advanced": "cssId", "label": "CSS ID" },
+        { "advanced": "cssClasses", "label": "CSS Classes" }
+      ]
+    },
+    {
+      "section": "Custom CSS",
+      "controls": [
+        { "advanced": "customCss", "label": "Custom CSS" }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,79 @@
+{
+  "type": "form",
+  "title": "Form",
+  "category": "advanced",
+  "icon": "mail",
+  "keywords": ["form", "contact", "input", "email", "newsletter", "submit"],
+  "acceptsChildren": false,
+  "props": {
+    "formName": { "type": "text", "maxLength": 80, "default": "Contact form" },
+    "fields": {
+      "type": "formFields",
+      "default": [
+        { "id": "name", "type": "text", "label": "Name", "placeholder": "", "required": true },
+        { "id": "email", "type": "email", "label": "Email", "placeholder": "", "required": true },
+        { "id": "message", "type": "textarea", "label": "Message", "placeholder": "", "required": true }
+      ]
+    },
+    "submitText": { "type": "text", "maxLength": 80, "default": "Send" },
+    "buttonSize": { "type": "enum", "options": ["sm", "md", "lg"], "default": "md" },
+    "successMessage": { "type": "text", "maxLength": 300, "default": "Thanks! Your message has been sent." },
+    "errorMessage": { "type": "text", "maxLength": 300, "default": "Sorry, the message could not be sent. Please check the form and try again." }
+  },
+  "styleTargets": {
+    "fieldBackgroundColor": " .cvb-form__input",
+    "fieldBorderColor": " .cvb-form__input",
+    "buttonBackgroundColor": " .cvb-form__submit",
+    "buttonTextColor": " .cvb-form__submit"
+  },
+  "defaultStyle": {},
+  "controls": {
+    "content": [
+      {
+        "section": "Form",
+        "controls": [
+          { "prop": "formName", "label": "Form name" },
+          { "prop": "fields", "label": "Fields" }
+        ]
+      },
+      {
+        "section": "Submit button",
+        "controls": [
+          { "prop": "submitText", "label": "Button text" },
+          { "prop": "buttonSize", "label": "Size", "control": "choose" }
+        ]
+      },
+      {
+        "section": "Messages",
+        "controls": [
+          { "prop": "successMessage", "label": "After sending", "control": "textarea" },
+          { "prop": "errorMessage", "label": "On error", "control": "textarea" }
+        ]
+      }
+    ],
+    "style": [
+      {
+        "section": "Form",
+        "controls": [
+          { "style": "gap", "label": "Space between fields" },
+          { "style": "color", "label": "Label color" },
+          { "group": "typography", "label": "Typography" }
+        ]
+      },
+      {
+        "section": "Fields",
+        "controls": [
+          { "style": "fieldBackgroundColor", "label": "Background" },
+          { "style": "fieldBorderColor", "label": "Border color" }
+        ]
+      },
+      {
+        "section": "Button",
+        "controls": [
+          { "style": "buttonBackgroundColor", "label": "Background" },
+          { "style": "buttonTextColor", "label": "Text color" }
+        ]
+      }
+    ]
+  }
+}

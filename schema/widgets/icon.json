@@ -1,0 +1,39 @@
+{
+  "type": "icon",
+  "title": "Icon",
+  "category": "media",
+  "icon": "star",
+  "keywords": ["symbol", "glyph", "svg"],
+  "acceptsChildren": false,
+  "props": {
+    "icon": { "type": "icon", "default": "star" },
+    "label": { "type": "text", "maxLength": 200, "default": "" },
+    "link": { "type": "link", "default": { "url": "", "newTab": false, "nofollow": false } }
+  },
+  "styleTargets": {
+    "iconSize": " svg"
+  },
+  "defaultStyle": {},
+  "controls": {
+    "content": [
+      {
+        "section": "Icon",
+        "controls": [
+          { "prop": "icon", "label": "Icon" },
+          { "prop": "label", "label": "Accessible Label" },
+          { "prop": "link", "label": "Link" }
+        ]
+      }
+    ],
+    "style": [
+      {
+        "section": "Icon",
+        "controls": [
+          { "style": "color", "label": "Color" },
+          { "style": "hoverColor", "label": "Hover Color" },
+          { "style": "iconSize", "label": "Size" }
+        ]
+      }
+    ]
+  }
+}

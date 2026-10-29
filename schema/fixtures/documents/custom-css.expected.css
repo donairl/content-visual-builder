@@ -1,0 +1,13 @@
+.cvb-root{--cvb-content-width:1140px}
+.cvb-el-cont0c01{padding-top:20px;padding-bottom:20px}
+.cvb-el-head0c01{color:#112233}
+@media (max-width:767px){
+.cvb-el-cont0c01{display:none}
+}
+.cvb-root{& h2 { margin: 0 } a[href^="/"] { content: "}"; background: url(/x.png) }}
+.cvb-el-cont0c01{&:hover { outline: 1px solid #000 }}
+.cvb-el-head0c01{letter-spacing: .1em;
+@media (max-width: 767px) {
+  font-size: 20px;
+}
+}

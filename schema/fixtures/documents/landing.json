@@ -1,0 +1,106 @@
+{
+  "schemaVersion": 1,
+  "rootIds": ["hero0001", "feat0001"],
+  "nodes": {
+    "hero0001": {
+      "id": "hero0001", "type": "container",
+      "props": { "contentWidth": "boxed", "tag": "section" },
+      "style": {
+        "minHeight": { "desktop": { "value": 480, "unit": "px" }, "mobile": { "value": 320, "unit": "px" } },
+        "justifyContent": { "desktop": "center" },
+        "alignItems": { "desktop": "center" },
+        "padding": { "desktop": { "top": 80, "right": 20, "bottom": 80, "left": 20, "unit": "px" }, "mobile": { "top": 40, "bottom": 40, "unit": "px" } },
+        "background": { "desktop": { "type": "gradient", "gradientFrom": "#1e3a8a", "gradientTo": "#2563eb", "gradientAngle": 135 } }
+      },
+      "advanced": { "cssId": "hero", "cssClasses": "hero dark-section", "hideOn": [] },
+      "children": ["head0001", "text0001", "btn00001"]
+    },
+    "head0001": {
+      "id": "head0001", "type": "heading",
+      "props": { "text": "Build pages <fast> & \"easy\"", "tag": "h1", "link": { "url": "", "newTab": false, "nofollow": false } },
+      "style": {
+        "color": { "desktop": "#ffffff" },
+        "fontSize": { "desktop": { "value": 56, "unit": "px" }, "tablet": { "value": 40, "unit": "px" }, "mobile": { "value": 32, "unit": "px" } },
+        "textAlign": { "desktop": "center" },
+        "fontFamily": { "desktop": "geometric" },
+        "fontWeight": { "desktop": "800" },
+        "lineHeight": { "desktop": 1.1 },
+        "letterSpacing": { "desktop": { "value": -0.5, "unit": "px" } }
+      },
+      "advanced": { "cssId": "", "cssClasses": "", "hideOn": [] },
+      "children": []
+    },
+    "text0001": {
+      "id": "text0001", "type": "text",
+      "props": { "html": "<p>Drag, drop and <strong>publish</strong>. <a href=\"https://example.com/docs\" target=\"_blank\">Read the docs</a>.</p><ul><li>Fast</li><li>Responsive</li></ul>" },
+      "style": {
+        "color": { "desktop": "#dbeafe" },
+        "linkColor": { "desktop": "#fde68a" },
+        "textAlign": { "desktop": "center", "mobile": "left" },
+        "maxWidth": { "desktop": { "value": 640, "unit": "px" } }
+      },
+      "advanced": { "cssId": "", "cssClasses": "", "hideOn": [] },
+      "children": []
+    },
+    "btn00001": {
+      "id": "btn00001", "type": "button",
+      "props": { "text": "Get started", "link": { "url": "/signup", "newTab": false, "nofollow": false }, "size": "lg" },
+      "style": {
+        "background": { "desktop": { "type": "color", "color": "#f59e0b" } },
+        "color": { "desktop": "#111827" },
+        "hoverBackgroundColor": { "desktop": "#fbbf24" },
+        "borderRadius": { "desktop": { "top": 999, "right": 999, "bottom": 999, "left": 999, "unit": "px" } },
+        "alignSelf": { "desktop": "center" }
+      },
+      "advanced": { "cssId": "", "cssClasses": "", "hideOn": [] },
+      "children": []
+    },
+    "feat0001": {
+      "id": "feat0001", "type": "container",
+      "props": { "contentWidth": "boxed", "tag": "div" },
+      "style": {
+        "flexDirection": { "desktop": "row", "mobile": "column" },
+        "gap": { "desktop": { "value": 32, "unit": "px" } },
+        "flexWrap": { "desktop": "wrap" }
+      },
+      "advanced": { "cssId": "", "cssClasses": "", "hideOn": [] },
+      "children": ["img00001", "vid00001", "icon0001"]
+    },
+    "img00001": {
+      "id": "img00001", "type": "image",
+      "props": {
+        "image": { "url": "/uploads/2026/10/abc.jpg", "width": 800, "height": 600, "id": 7 },
+        "alt": "Team at work", "caption": "Our team",
+        "link": { "url": "https://example.com/team", "newTab": true, "nofollow": true }
+      },
+      "style": {
+        "width": { "desktop": { "value": 100, "unit": "%" } },
+        "borderRadius": { "desktop": { "top": 12, "right": 12, "bottom": 12, "left": 12, "unit": "px" } },
+        "flexGrow": { "desktop": 1 }
+      },
+      "advanced": { "cssId": "", "cssClasses": "", "hideOn": [] },
+      "children": []
+    },
+    "vid00001": {
+      "id": "vid00001", "type": "video",
+      "props": { "url": "https://www.youtube.com/watch?v=dQw4w9WgXcQ&t=10s", "title": "Product tour", "autoplay": false, "muted": false, "loop": true, "controls": true },
+      "style": {
+        "aspectRatio": { "desktop": "16 / 9", "mobile": "1 / 1" },
+        "flexGrow": { "desktop": 1 }
+      },
+      "advanced": { "cssId": "", "cssClasses": "", "hideOn": ["mobile"] },
+      "children": []
+    },
+    "icon0001": {
+      "id": "icon0001", "type": "icon",
+      "props": { "icon": "zap", "label": "Fast", "link": { "url": "", "newTab": false, "nofollow": false } },
+      "style": {
+        "color": { "desktop": "#f59e0b" },
+        "iconSize": { "desktop": { "value": 64, "unit": "px" }, "mobile": { "value": 40, "unit": "px" } }
+      },
+      "advanced": { "cssId": "", "cssClasses": "", "hideOn": ["desktop", "tablet"] },
+      "children": []
+    }
+  },
+  "settings": { "metaDescription": "Landing page fixture", "contentWidth": 1200, "backgroundColor": "#f8fafc", "textColor": "#0f172a", "fontFamily": "system" }
+}

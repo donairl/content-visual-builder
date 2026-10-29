@@ -1,0 +1,26 @@
+{
+  "type": "divider",
+  "title": "Divider",
+  "category": "basic",
+  "icon": "minus",
+  "keywords": ["line", "separator", "hr", "rule"],
+  "acceptsChildren": false,
+  "props": {},
+  "styleTargets": {},
+  "defaultStyle": {},
+  "controls": {
+    "content": [],
+    "style": [
+      {
+        "section": "Divider",
+        "controls": [
+          { "style": "dividerStyle", "label": "Style", "responsive": false },
+          { "style": "dividerWeight", "label": "Weight" },
+          { "style": "dividerColor", "label": "Color" },
+          { "style": "width", "label": "Width" },
+          { "style": "alignSelf", "label": "Alignment", "control": "choose" }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "type": "button",
+  "title": "Button",
+  "category": "basic",
+  "icon": "button",
+  "keywords": ["cta", "link", "action"],
+  "acceptsChildren": false,
+  "inlineEditable": "text",
+  "props": {
+    "text": { "type": "text", "maxLength": 200, "default": "Click here" },
+    "link": { "type": "link", "default": { "url": "#", "newTab": false, "nofollow": false } },
+    "size": { "type": "enum", "options": ["sm", "md", "lg"], "default": "md" }
+  },
+  "styleTargets": {},
+  "defaultStyle": {},
+  "controls": {
+    "content": [
+      {
+        "section": "Button",
+        "controls": [
+          { "prop": "text", "label": "Text" },
+          { "prop": "link", "label": "Link" },
+          { "prop": "size", "label": "Size", "control": "choose" },
+          { "style": "alignSelf", "label": "Alignment", "control": "choose" }
+        ]
+      }
+    ],
+    "style": [
+      {
+        "section": "Button",
+        "controls": [
+          { "group": "typography", "label": "Typography" },
+          { "style": "color", "label": "Text Color" },
+          { "style": "background", "label": "Background" },
+          { "style": "padding", "label": "Padding" }
+        ]
+      },
+      {
+        "section": "Hover",
+        "controls": [
+          { "style": "hoverColor", "label": "Text Color" },
+          { "style": "hoverBackgroundColor", "label": "Background Color" },
+          { "style": "hoverBorderColor", "label": "Border Color" }
+        ]
+      },
+      {
+        "section": "Border",
+        "controls": [
+          { "style": "border", "label": "Border" },
+          { "style": "borderRadius", "label": "Border Radius" },
+          { "style": "boxShadow", "label": "Box Shadow" }
+        ]
+      }
+    ]
+  }
+}

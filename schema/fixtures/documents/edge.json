@@ -1,0 +1,61 @@
+{
+  "schemaVersion": 1,
+  "rootIds": ["edge0001"],
+  "nodes": {
+    "edge0001": {
+      "id": "edge0001", "type": "container",
+      "props": { "contentWidth": "full", "tag": "aside" },
+      "style": {},
+      "advanced": { "cssId": "", "cssClasses": "", "hideOn": [] },
+      "children": ["head0003", "head0004", "img00002", "img00003", "vid00002", "vid00003", "vid00004", "vid00005", "icon0002", "icon0003", "spac0002"]
+    },
+    "head0003": { "id": "head0003", "type": "heading", "props": {}, "style": {}, "advanced": { "cssId": "", "cssClasses": "", "hideOn": [] }, "children": [] },
+    "head0004": {
+      "id": "head0004", "type": "heading",
+      "props": { "text": "Mail us", "tag": "h4", "link": { "url": "mailto:hi@example.com", "newTab": true, "nofollow": false } },
+      "style": {}, "advanced": { "cssId": "", "cssClasses": "", "hideOn": [] }, "children": []
+    },
+    "img00002": {
+      "id": "img00002", "type": "image",
+      "props": { "image": { "url": "", "width": null, "height": null, "id": null }, "alt": "", "caption": "Caption only", "link": { "url": "", "newTab": false, "nofollow": false } },
+      "style": {}, "advanced": { "cssId": "", "cssClasses": "", "hideOn": [] }, "children": []
+    },
+    "img00003": {
+      "id": "img00003", "type": "image",
+      "props": { "image": { "url": "https://images.example.com/a.png", "width": 640, "height": null, "id": null }, "alt": "", "caption": "", "link": { "url": "https://example.com", "newTab": false, "nofollow": false } },
+      "style": {}, "advanced": { "cssId": "", "cssClasses": "", "hideOn": [] }, "children": []
+    },
+    "vid00002": {
+      "id": "vid00002", "type": "video",
+      "props": { "url": "https://vimeo.com/76979871", "title": "Vimeo clip", "autoplay": true, "muted": false, "loop": false, "controls": false },
+      "style": {}, "advanced": { "cssId": "", "cssClasses": "", "hideOn": [] }, "children": []
+    },
+    "vid00003": {
+      "id": "vid00003", "type": "video",
+      "props": { "url": "https://cdn.example.com/clip.MP4?v=2", "title": "Clip", "autoplay": true, "muted": false, "loop": true, "controls": true },
+      "style": {}, "advanced": { "cssId": "", "cssClasses": "", "hideOn": [] }, "children": []
+    },
+    "vid00004": {
+      "id": "vid00004", "type": "video",
+      "props": { "url": "", "title": "Video", "autoplay": false, "muted": false, "loop": false, "controls": true },
+      "style": {}, "advanced": { "cssId": "", "cssClasses": "", "hideOn": [] }, "children": []
+    },
+    "vid00005": {
+      "id": "vid00005", "type": "video",
+      "props": { "url": "https://example.com/watch", "title": "Video", "autoplay": false, "muted": false, "loop": false, "controls": true },
+      "style": {}, "advanced": { "cssId": "", "cssClasses": "", "hideOn": [] }, "children": []
+    },
+    "icon0002": {
+      "id": "icon0002", "type": "icon",
+      "props": { "icon": "heart", "label": "Favourite", "link": { "url": "#favs", "newTab": false, "nofollow": false } },
+      "style": {}, "advanced": { "cssId": "", "cssClasses": "", "hideOn": [] }, "children": []
+    },
+    "icon0003": {
+      "id": "icon0003", "type": "icon",
+      "props": { "icon": "check", "label": "", "link": { "url": "", "newTab": false, "nofollow": false } },
+      "style": {}, "advanced": { "cssId": "", "cssClasses": "", "hideOn": [] }, "children": []
+    },
+    "spac0002": { "id": "spac0002", "type": "spacer", "props": {}, "style": {}, "advanced": { "cssId": "", "cssClasses": "", "hideOn": [] }, "children": [] }
+  },
+  "settings": { "metaDescription": "", "contentWidth": 1140, "backgroundColor": null, "textColor": null, "fontFamily": null }
+}

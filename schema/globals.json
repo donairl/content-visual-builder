@@ -1,0 +1,30 @@
+{
+  "colors": [
+    { "id": "primary", "name": "Primary", "value": "#5b50e6" },
+    { "id": "secondary", "name": "Secondary", "value": "#1d2330" },
+    { "id": "text", "name": "Text", "value": "#4b5563" },
+    { "id": "accent", "name": "Accent", "value": "#16a34a" }
+  ],
+  "fonts": [
+    {
+      "id": "primary",
+      "name": "Primary",
+      "style": { "fontFamily": { "desktop": "geometric" }, "fontWeight": { "desktop": "700" } }
+    },
+    {
+      "id": "secondary",
+      "name": "Secondary",
+      "style": { "fontFamily": { "desktop": "serif" }, "fontWeight": { "desktop": "400" } }
+    },
+    {
+      "id": "text",
+      "name": "Text",
+      "style": { "fontFamily": { "desktop": "system" }, "fontWeight": { "desktop": "400" }, "lineHeight": { "desktop": 1.6 } }
+    },
+    {
+      "id": "accent",
+      "name": "Accent",
+      "style": { "fontFamily": { "desktop": "system" }, "fontWeight": { "desktop": "600" }, "textTransform": { "desktop": "uppercase" }, "letterSpacing": { "desktop": { "value": 0.05, "unit": "em" } } }
+    }
+  ]
+}

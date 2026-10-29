@@ -1,0 +1,919 @@
+[
+  {
+    "name": "base globals",
+    "valid": true,
+    "globals": {
+      "colors": [
+        {
+          "id": "primary",
+          "name": "Primary",
+          "value": "#5b50e6"
+        }
+      ],
+      "fonts": [
+        {
+          "id": "display",
+          "name": "Display",
+          "style": {
+            "fontFamily": {
+              "desktop": "serif"
+            },
+            "fontSize": {
+              "desktop": {
+                "value": 48,
+                "unit": "px"
+              },
+              "mobile": null
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "name": "empty lists",
+    "valid": true,
+    "globals": {
+      "colors": [],
+      "fonts": []
+    }
+  },
+  {
+    "name": "transparent and 8-digit hex",
+    "valid": true,
+    "globals": {
+      "colors": [
+        {
+          "id": "primary",
+          "name": "Primary",
+          "value": "#5b50e6"
+        },
+        {
+          "id": "glass",
+          "name": "Glass",
+          "value": "transparent"
+        },
+        {
+          "id": "tint-2",
+          "name": "Tint 2",
+          "value": "#11223344"
+        }
+      ],
+      "fonts": [
+        {
+          "id": "display",
+          "name": "Display",
+          "style": {
+            "fontFamily": {
+              "desktop": "serif"
+            },
+            "fontSize": {
+              "desktop": {
+                "value": 48,
+                "unit": "px"
+              },
+              "mobile": null
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "name": "font preset with every typography key",
+    "valid": true,
+    "globals": {
+      "colors": [
+        {
+          "id": "primary",
+          "name": "Primary",
+          "value": "#5b50e6"
+        }
+      ],
+      "fonts": [
+        {
+          "id": "display",
+          "name": "Display",
+          "style": {
+            "fontFamily": {
+              "desktop": "mono"
+            },
+            "fontSize": {
+              "tablet": {
+                "value": 2,
+                "unit": "rem"
+              }
+            },
+            "fontWeight": {
+              "desktop": "900"
+            },
+            "lineHeight": {
+              "desktop": 1.25
+            },
+            "letterSpacing": {
+              "mobile": {
+                "value": -1,
+                "unit": "px"
+              }
+            },
+            "textTransform": {
+              "desktop": "capitalize"
+            },
+            "fontStyle": {
+              "desktop": "italic"
+            },
+            "textDecoration": {
+              "desktop": "underline"
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "name": "not an object",
+    "valid": false,
+    "errorPath": "globals",
+    "globals": "colors"
+  },
+  {
+    "name": "unknown top-level key",
+    "valid": false,
+    "errorPath": "gradients",
+    "globals": {
+      "colors": [
+        {
+          "id": "primary",
+          "name": "Primary",
+          "value": "#5b50e6"
+        }
+      ],
+      "fonts": [
+        {
+          "id": "display",
+          "name": "Display",
+          "style": {
+            "fontFamily": {
+              "desktop": "serif"
+            },
+            "fontSize": {
+              "desktop": {
+                "value": 48,
+                "unit": "px"
+              },
+              "mobile": null
+            }
+          }
+        }
+      ],
+      "gradients": []
+    }
+  },
+  {
+    "name": "missing list",
+    "valid": false,
+    "errorPath": "fonts",
+    "globals": {
+      "colors": [
+        {
+          "id": "primary",
+          "name": "Primary",
+          "value": "#5b50e6"
+        }
+      ]
+    }
+  },
+  {
+    "name": "list is not a list",
+    "valid": false,
+    "errorPath": "colors",
+    "globals": {
+      "colors": "red",
+      "fonts": [
+        {
+          "id": "display",
+          "name": "Display",
+          "style": {
+            "fontFamily": {
+              "desktop": "serif"
+            },
+            "fontSize": {
+              "desktop": {
+                "value": 48,
+                "unit": "px"
+              },
+              "mobile": null
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "name": "too many colors",
+    "valid": false,
+    "errorPath": "colors",
+    "globals": {
+      "colors": [
+        {
+          "id": "c0",
+          "name": "C0",
+          "value": "#000"
+        },
+        {
+          "id": "c1",
+          "name": "C1",
+          "value": "#000"
+        },
+        {
+          "id": "c2",
+          "name": "C2",
+          "value": "#000"
+        },
+        {
+          "id": "c3",
+          "name": "C3",
+          "value": "#000"
+        },
+        {
+          "id": "c4",
+          "name": "C4",
+          "value": "#000"
+        },
+        {
+          "id": "c5",
+          "name": "C5",
+          "value": "#000"
+        },
+        {
+          "id": "c6",
+          "name": "C6",
+          "value": "#000"
+        },
+        {
+          "id": "c7",
+          "name": "C7",
+          "value": "#000"
+        },
+        {
+          "id": "c8",
+          "name": "C8",
+          "value": "#000"
+        },
+        {
+          "id": "c9",
+          "name": "C9",
+          "value": "#000"
+        },
+        {
+          "id": "c10",
+          "name": "C10",
+          "value": "#000"
+        },
+        {
+          "id": "c11",
+          "name": "C11",
+          "value": "#000"
+        },
+        {
+          "id": "c12",
+          "name": "C12",
+          "value": "#000"
+        },
+        {
+          "id": "c13",
+          "name": "C13",
+          "value": "#000"
+        },
+        {
+          "id": "c14",
+          "name": "C14",
+          "value": "#000"
+        },
+        {
+          "id": "c15",
+          "name": "C15",
+          "value": "#000"
+        },
+        {
+          "id": "c16",
+          "name": "C16",
+          "value": "#000"
+        },
+        {
+          "id": "c17",
+          "name": "C17",
+          "value": "#000"
+        },
+        {
+          "id": "c18",
+          "name": "C18",
+          "value": "#000"
+        },
+        {
+          "id": "c19",
+          "name": "C19",
+          "value": "#000"
+        },
+        {
+          "id": "c20",
+          "name": "C20",
+          "value": "#000"
+        },
+        {
+          "id": "c21",
+          "name": "C21",
+          "value": "#000"
+        },
+        {
+          "id": "c22",
+          "name": "C22",
+          "value": "#000"
+        },
+        {
+          "id": "c23",
+          "name": "C23",
+          "value": "#000"
+        },
+        {
+          "id": "c24",
+          "name": "C24",
+          "value": "#000"
+        },
+        {
+          "id": "c25",
+          "name": "C25",
+          "value": "#000"
+        },
+        {
+          "id": "c26",
+          "name": "C26",
+          "value": "#000"
+        },
+        {
+          "id": "c27",
+          "name": "C27",
+          "value": "#000"
+        },
+        {
+          "id": "c28",
+          "name": "C28",
+          "value": "#000"
+        },
+        {
+          "id": "c29",
+          "name": "C29",
+          "value": "#000"
+        },
+        {
+          "id": "c30",
+          "name": "C30",
+          "value": "#000"
+        },
+        {
+          "id": "c31",
+          "name": "C31",
+          "value": "#000"
+        },
+        {
+          "id": "c32",
+          "name": "C32",
+          "value": "#000"
+        },
+        {
+          "id": "c33",
+          "name": "C33",
+          "value": "#000"
+        },
+        {
+          "id": "c34",
+          "name": "C34",
+          "value": "#000"
+        },
+        {
+          "id": "c35",
+          "name": "C35",
+          "value": "#000"
+        },
+        {
+          "id": "c36",
+          "name": "C36",
+          "value": "#000"
+        },
+        {
+          "id": "c37",
+          "name": "C37",
+          "value": "#000"
+        },
+        {
+          "id": "c38",
+          "name": "C38",
+          "value": "#000"
+        },
+        {
+          "id": "c39",
+          "name": "C39",
+          "value": "#000"
+        },
+        {
+          "id": "c40",
+          "name": "C40",
+          "value": "#000"
+        },
+        {
+          "id": "c41",
+          "name": "C41",
+          "value": "#000"
+        },
+        {
+          "id": "c42",
+          "name": "C42",
+          "value": "#000"
+        },
+        {
+          "id": "c43",
+          "name": "C43",
+          "value": "#000"
+        },
+        {
+          "id": "c44",
+          "name": "C44",
+          "value": "#000"
+        },
+        {
+          "id": "c45",
+          "name": "C45",
+          "value": "#000"
+        },
+        {
+          "id": "c46",
+          "name": "C46",
+          "value": "#000"
+        },
+        {
+          "id": "c47",
+          "name": "C47",
+          "value": "#000"
+        },
+        {
+          "id": "c48",
+          "name": "C48",
+          "value": "#000"
+        },
+        {
+          "id": "c49",
+          "name": "C49",
+          "value": "#000"
+        },
+        {
+          "id": "c50",
+          "name": "C50",
+          "value": "#000"
+        }
+      ],
+      "fonts": [
+        {
+          "id": "display",
+          "name": "Display",
+          "style": {
+            "fontFamily": {
+              "desktop": "serif"
+            },
+            "fontSize": {
+              "desktop": {
+                "value": 48,
+                "unit": "px"
+              },
+              "mobile": null
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "name": "entry not an object",
+    "valid": false,
+    "errorPath": "colors.0",
+    "globals": {
+      "colors": [
+        "#000"
+      ],
+      "fonts": [
+        {
+          "id": "display",
+          "name": "Display",
+          "style": {
+            "fontFamily": {
+              "desktop": "serif"
+            },
+            "fontSize": {
+              "desktop": {
+                "value": 48,
+                "unit": "px"
+              },
+              "mobile": null
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "name": "unknown entry key",
+    "valid": false,
+    "errorPath": "colors.0.label",
+    "globals": {
+      "colors": [
+        {
+          "id": "primary",
+          "name": "Primary",
+          "value": "#5b50e6",
+          "label": "x"
+        }
+      ],
+      "fonts": [
+        {
+          "id": "display",
+          "name": "Display",
+          "style": {
+            "fontFamily": {
+              "desktop": "serif"
+            },
+            "fontSize": {
+              "desktop": {
+                "value": 48,
+                "unit": "px"
+              },
+              "mobile": null
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "name": "missing entry key",
+    "valid": false,
+    "errorPath": "colors.0.value",
+    "globals": {
+      "colors": [
+        {
+          "id": "primary",
+          "name": "Primary"
+        }
+      ],
+      "fonts": [
+        {
+          "id": "display",
+          "name": "Display",
+          "style": {
+            "fontFamily": {
+              "desktop": "serif"
+            },
+            "fontSize": {
+              "desktop": {
+                "value": 48,
+                "unit": "px"
+              },
+              "mobile": null
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "name": "bad id",
+    "valid": false,
+    "errorPath": "colors.0.id",
+    "globals": {
+      "colors": [
+        {
+          "id": "Primary",
+          "name": "Primary",
+          "value": "#5b50e6"
+        }
+      ],
+      "fonts": [
+        {
+          "id": "display",
+          "name": "Display",
+          "style": {
+            "fontFamily": {
+              "desktop": "serif"
+            },
+            "fontSize": {
+              "desktop": {
+                "value": 48,
+                "unit": "px"
+              },
+              "mobile": null
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "name": "duplicate id",
+    "valid": false,
+    "errorPath": "colors.1.id",
+    "globals": {
+      "colors": [
+        {
+          "id": "primary",
+          "name": "Primary",
+          "value": "#5b50e6"
+        },
+        {
+          "id": "primary",
+          "name": "Again",
+          "value": "#5b50e6"
+        }
+      ],
+      "fonts": [
+        {
+          "id": "display",
+          "name": "Display",
+          "style": {
+            "fontFamily": {
+              "desktop": "serif"
+            },
+            "fontSize": {
+              "desktop": {
+                "value": 48,
+                "unit": "px"
+              },
+              "mobile": null
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "name": "blank name",
+    "valid": false,
+    "errorPath": "colors.0.name",
+    "globals": {
+      "colors": [
+        {
+          "id": "primary",
+          "name": "   ",
+          "value": "#5b50e6"
+        }
+      ],
+      "fonts": [
+        {
+          "id": "display",
+          "name": "Display",
+          "style": {
+            "fontFamily": {
+              "desktop": "serif"
+            },
+            "fontSize": {
+              "desktop": {
+                "value": 48,
+                "unit": "px"
+              },
+              "mobile": null
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "name": "name too long",
+    "valid": false,
+    "errorPath": "fonts.0.name",
+    "globals": {
+      "colors": [
+        {
+          "id": "primary",
+          "name": "Primary",
+          "value": "#5b50e6"
+        }
+      ],
+      "fonts": [
+        {
+          "id": "display",
+          "name": "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+          "style": {
+            "fontFamily": {
+              "desktop": "serif"
+            },
+            "fontSize": {
+              "desktop": {
+                "value": 48,
+                "unit": "px"
+              },
+              "mobile": null
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "name": "named color",
+    "valid": false,
+    "errorPath": "colors.0.value",
+    "globals": {
+      "colors": [
+        {
+          "id": "primary",
+          "name": "Primary",
+          "value": "red"
+        }
+      ],
+      "fonts": [
+        {
+          "id": "display",
+          "name": "Display",
+          "style": {
+            "fontFamily": {
+              "desktop": "serif"
+            },
+            "fontSize": {
+              "desktop": {
+                "value": 48,
+                "unit": "px"
+              },
+              "mobile": null
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "name": "color referencing a global",
+    "valid": false,
+    "errorPath": "colors.0.value",
+    "globals": {
+      "colors": [
+        {
+          "id": "primary",
+          "name": "Primary",
+          "value": "global:primary"
+        }
+      ],
+      "fonts": [
+        {
+          "id": "display",
+          "name": "Display",
+          "style": {
+            "fontFamily": {
+              "desktop": "serif"
+            },
+            "fontSize": {
+              "desktop": {
+                "value": 48,
+                "unit": "px"
+              },
+              "mobile": null
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "name": "non-typography key in font",
+    "valid": false,
+    "errorPath": "fonts.0.style.color",
+    "globals": {
+      "colors": [
+        {
+          "id": "primary",
+          "name": "Primary",
+          "value": "#5b50e6"
+        }
+      ],
+      "fonts": [
+        {
+          "id": "display",
+          "name": "Display",
+          "style": {
+            "fontFamily": {
+              "desktop": "serif"
+            },
+            "fontSize": {
+              "desktop": {
+                "value": 48,
+                "unit": "px"
+              },
+              "mobile": null
+            },
+            "color": {
+              "desktop": "#000"
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "name": "globalFont inside a font",
+    "valid": false,
+    "errorPath": "fonts.0.style.globalFont",
+    "globals": {
+      "colors": [
+        {
+          "id": "primary",
+          "name": "Primary",
+          "value": "#5b50e6"
+        }
+      ],
+      "fonts": [
+        {
+          "id": "display",
+          "name": "Display",
+          "style": {
+            "fontFamily": {
+              "desktop": "serif"
+            },
+            "fontSize": {
+              "desktop": {
+                "value": 48,
+                "unit": "px"
+              },
+              "mobile": null
+            },
+            "globalFont": {
+              "desktop": "display"
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "name": "bad device in font",
+    "valid": false,
+    "errorPath": "fonts.0.style.fontSize",
+    "globals": {
+      "colors": [
+        {
+          "id": "primary",
+          "name": "Primary",
+          "value": "#5b50e6"
+        }
+      ],
+      "fonts": [
+        {
+          "id": "display",
+          "name": "Display",
+          "style": {
+            "fontFamily": {
+              "desktop": "serif"
+            },
+            "fontSize": {
+              "watch": {
+                "value": 1,
+                "unit": "px"
+              }
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "name": "bad value in font",
+    "valid": false,
+    "errorPath": "fonts.0.style.fontWeight.desktop",
+    "globals": {
+      "colors": [
+        {
+          "id": "primary",
+          "name": "Primary",
+          "value": "#5b50e6"
+        }
+      ],
+      "fonts": [
+        {
+          "id": "display",
+          "name": "Display",
+          "style": {
+            "fontFamily": {
+              "desktop": "serif"
+            },
+            "fontSize": {
+              "desktop": {
+                "value": 48,
+                "unit": "px"
+              },
+              "mobile": null
+            },
+            "fontWeight": {
+              "desktop": "bold"
+            }
+          }
+        }
+      ]
+    }
+  }
+]
